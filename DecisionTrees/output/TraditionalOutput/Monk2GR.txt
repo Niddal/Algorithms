@@ -1,0 +1,107 @@
+java -ea -cp ../bin code.DecisionTreeLearnerTraditionalDriver 1 1 2
+
+
+Running data set: monks-2.train
+File opened successfully...
+169
+Successfully read 169 examples from file...
+File opened successfully...
+432
+Successfully read 432 examples from file...
+sum: -1.0969189353756557
+ - importance 0.009898296488765985 found for attribute 3
+sum: -0.692989614775622
+ - importance 0.0010563878533190062 found for attribute 2
+sum: -1.0947275893645347
+ - importance 0.0015566442605096215 found for attribute 1
+sum: -1.0984716751542887
+ - importance 0.0023701874320425837 found for attribute 0
+sum: -0.6931296740679538
+ - importance 0.006247780034120148 found for attribute 5
+sum: -1.3808458124695964
+ - importance 0.00867267465665491 found for attribute 4
+ 
+ ** attribute to split on is 3 ** 
+
+sum: -0.6930128020601277
+ - importance 0.023410334425812855 found for attribute 2
+sum: -1.05731799169284
+ - importance 0.0062635890232847465 found for attribute 1
+sum: -1.095060801743708
+ - importance 0.0014715961735912643 found for attribute 0
+sum: -0.6865484015656658
+ - importance 0.0035385282021578824 found for attribute 5
+sum: -1.3858955263792794
+ - importance 0.013914925870961992 found for attribute 4
+ 
+ ** attribute to split on is 2 ** 
+
+sum: -1.0680981499312996
+ - importance 0.0030897088884426454 found for attribute 1
+sum: -1.0914145617941
+ - importance 0.05446038284790111 found for attribute 0
+sum: -0.667431707658747
+ - importance 0.10794292879375968 found for attribute 5
+sum: -1.3760309890570277
+ - importance 0.08025531709200581 found for attribute 4
+ 
+ ** attribute to split on is 5 ** 
+
+sum: -1.0132690262497301
+ - importance 0.0612383945809965 found for attribute 1
+sum: -1.0795295733255186
+ - importance 0.033924292583079343 found for attribute 0
+sum: -1.351970380386131
+ - importance 0.20553739711256674 found for attribute 4
+ 
+ ** attribute to split on is 4 ** 
+
+sum: -0.5623351446188083
+ - importance 0.15106563978903306 found for attribute 1
+sum: -1.0397207708399179
+ - importance 0.5408520829727552 found for attribute 0
+ 
+ ** attribute to split on is 0 ** 
+
+sum: -0.5623351446188083
+ - importance 0.15106563978903306 found for attribute 1
+ 
+ ** attribute to split on is 1 ** 
+
+DONE! Decision tree has been built...
+digraph {
+    "3" -> "2" [label="3 internal depth 1 "];
+    "3" -> "0" [label="2 leaf depth 1 "];
+    "3" -> "0" [label="1 leaf depth 1 "];
+    "2" -> "5" [label="2 internal depth 2 "];
+    "2" -> "1" [label="1 leaf depth 2 "];
+    "5" -> "4" [label="2 internal depth 3 "];
+    "5" -> "1" [label="1 leaf depth 3 "];
+    "4" -> "0" [label="3 leaf depth 4 "];
+    "4" -> "0" [label="2 internal depth 4 "];
+    "4" -> "1" [label="1 internal depth 4 "];
+    "4" -> "0" [label="4 leaf depth 4 "];
+    "0" -> "0" [label="3 leaf depth 5 "];
+    "0" -> "0" [label="2 leaf depth 5 "];
+    "0" -> "1" [label="1 leaf depth 5 "];
+    "1" -> "1" [label="3 leaf depth 5 "];
+    "1" -> "1" [label="2 leaf depth 5 "];
+    "1" -> "1" [label="1 leaf depth 5 "];
+}
+
+Testing the tree on the test examples...
+-------------Results---------------
+Number of tested examples:      432
+Number of classified positives: 120
+Number of classified negatives: 312
+-----------------------------------
+Number of true positives:       49
+Number of false positives:      71
+Number of true negatives:       219
+Number of false negatives:      93
+-----------------------------------
+Recall:                         0.4083333333333333
+Precision:                      0.34507042253521125
+Accuracy:                       0.6203703703703703
+
+Successful completion of program

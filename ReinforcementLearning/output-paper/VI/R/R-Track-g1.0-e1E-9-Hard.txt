@@ -1,0 +1,26 @@
+after 20 iterations, delta is 1.000000000000007 convergence tolerance is: 1.0E-10
+after 40 iterations, delta is 0.37147464936153085 convergence tolerance is: 1.0E-10
+after 60 iterations, delta is 0.12116424049174412 convergence tolerance is: 1.0E-10
+after 80 iterations, delta is 0.025098190179704716 convergence tolerance is: 1.0E-10
+after 100 iterations, delta is 0.009770099484086359 convergence tolerance is: 1.0E-10
+after 120 iterations, delta is 0.0025566932479321736 convergence tolerance is: 1.0E-10
+after 140 iterations, delta is 7.748588529992162E-4 convergence tolerance is: 1.0E-10
+after 160 iterations, delta is 2.4063253037098775E-4 convergence tolerance is: 1.0E-10
+after 180 iterations, delta is 6.15852746506107E-5 convergence tolerance is: 1.0E-10
+after 200 iterations, delta is 1.998340066933224E-5 convergence tolerance is: 1.0E-10
+after 220 iterations, delta is 5.608505340148895E-6 convergence tolerance is: 1.0E-10
+after 240 iterations, delta is 1.634945867579063E-6 convergence tolerance is: 1.0E-10
+after 260 iterations, delta is 4.960957795674403E-7 convergence tolerance is: 1.0E-10
+after 280 iterations, delta is 1.3769182771738997E-7 convergence tolerance is: 1.0E-10
+after 300 iterations, delta is 4.188240154689993E-8 convergence tolerance is: 1.0E-10
+after 320 iterations, delta is 1.206984734380967E-8 convergence tolerance is: 1.0E-10
+after 340 iterations, delta is 3.503025425288797E-9 convergence tolerance is: 1.0E-10
+after 360 iterations, delta is 1.0438583331051632E-9 convergence tolerance is: 1.0E-10
+after 380 iterations, delta is 2.9893243436163175E-10 convergence tolerance is: 1.0E-10
+Detected convergence at agent iteration 399.
+Simulation scores: -34.00 -30.00 -31.00 -39.00 -30.00 -29.00 -31.00 -60.00
+-30.00 -33.00 -31.00 -31.00 -33.00 -33.00 -31.00 -29.00 -30.00 -32.00 -32.00
+-31.00 -40.00 -44.00 -34.00 -32.00 -29.00 -32.00 -31.00 -30.00 -29.00 -32.00
+-30.00 -30.00 -30.00 -36.00 -32.00 -31.00 -31.00 -31.00 -30.00 -33.00 -34.00
+-31.00 -30.00 -34.00 -30.00 -31.00 -31.00 -80.00 -32.00 -33.00
+Average simulation score: -33.46

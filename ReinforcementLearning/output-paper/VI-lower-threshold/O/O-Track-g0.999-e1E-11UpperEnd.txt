@@ -1,0 +1,30 @@
+after 20 iterations, delta is 0.9811700348644052 convergence tolerance is: 1.0E-12
+after 40 iterations, delta is 0.2982251799908937 convergence tolerance is: 1.0E-12
+after 60 iterations, delta is 0.09557181947148763 convergence tolerance is: 1.0E-12
+after 80 iterations, delta is 0.02527365385898861 convergence tolerance is: 1.0E-12
+after 100 iterations, delta is 0.007120754105528704 convergence tolerance is: 1.0E-12
+after 120 iterations, delta is 0.002096907390779279 convergence tolerance is: 1.0E-12
+after 140 iterations, delta is 5.912838930797193E-4 convergence tolerance is: 1.0E-12
+after 160 iterations, delta is 1.6798549507512917E-4 convergence tolerance is: 1.0E-12
+after 180 iterations, delta is 4.822922665681517E-5 convergence tolerance is: 1.0E-12
+after 200 iterations, delta is 1.3737877154085254E-5 convergence tolerance is: 1.0E-12
+after 220 iterations, delta is 3.914882093170036E-6 convergence tolerance is: 1.0E-12
+after 240 iterations, delta is 1.1182927153186029E-6 convergence tolerance is: 1.0E-12
+after 260 iterations, delta is 3.190110291484416E-7 convergence tolerance is: 1.0E-12
+after 280 iterations, delta is 9.099251485622517E-8 convergence tolerance is: 1.0E-12
+after 300 iterations, delta is 2.5967160866002814E-8 convergence tolerance is: 1.0E-12
+after 320 iterations, delta is 7.4088504220526374E-9 convergence tolerance is: 1.0E-12
+after 340 iterations, delta is 2.1137367411938612E-9 convergence tolerance is: 1.0E-12
+after 360 iterations, delta is 6.031228849678882E-10 convergence tolerance is: 1.0E-12
+after 380 iterations, delta is 1.7208634517373866E-10 convergence tolerance is: 1.0E-12
+after 400 iterations, delta is 4.9105608468380524E-11 convergence tolerance is: 1.0E-12
+after 420 iterations, delta is 1.4004797321831575E-11 convergence tolerance is: 1.0E-12
+after 440 iterations, delta is 4.000355602329364E-12 convergence tolerance is: 1.0E-12
+after 460 iterations, delta is 1.1439738045737613E-12 convergence tolerance is: 1.0E-12
+Detected convergence at agent iteration 463.
+Simulation scores: -27.00 -28.00 -43.00 -29.00 -26.00 -36.00 -58.00 -31.00
+-29.00 -33.00 -39.00 -33.00 -26.00 -34.00 -63.00 -33.00 -32.00 -28.00 -29.00
+-28.00 -31.00 -27.00 -26.00 -27.00 -27.00 -28.00 -27.00 -29.00 -65.00 -44.00
+-36.00 -26.00 -32.00 -26.00 -34.00 -29.00 -28.00 -35.00 -28.00 -26.00 -33.00
+-26.00 -28.00 -25.00 -32.00 -25.00 -27.00 -27.00 -28.00 -26.00
+Average simulation score: -31.86

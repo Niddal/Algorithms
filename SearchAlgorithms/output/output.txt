@@ -1,0 +1,255 @@
+please wait
+Building Search...
+javac -d ../bin -Xlint:all AStarSearch.java BreadthFirstSearch.java DepthFirstSearch.java Graph.java GraphProblem.java Node.java NodeComparator.java Search.java SearchAlgorithm.java 
+**************** running map1.txt ****************
+java -cp ../bin Search  ../data/map1.txt 1
+======== Beginning Breadth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 7
+number of nodes expanded: 7
+java -cp ../bin Search  ../data/map1.txt 2
+======== Beginning Depth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 7
+number of nodes expanded: 7
+java -cp ../bin Search  ../data/map1.txt 3
+======== Beginning A* Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 7
+number of nodes expanded: 7
+**************** running map2.txt ****************
+java -cp ../bin Search  ../data/map2.txt 1
+======== Beginning Breadth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 14
+number of nodes expanded: 14
+java -cp ../bin Search  ../data/map2.txt 2
+======== Beginning Depth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 14
+number of nodes expanded: 14
+java -cp ../bin Search  ../data/map2.txt 3
+======== Beginning A* Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 14
+number of nodes expanded: 14
+**************** running map3.txt ****************
+java -cp ../bin Search  ../data/map3.txt 1
+======== Beginning Breadth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 14
+number of nodes expanded: 30
+java -cp ../bin Search  ../data/map3.txt 2
+======== Beginning Depth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 14
+number of nodes expanded: 24
+java -cp ../bin Search  ../data/map3.txt 3
+======== Beginning A* Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 14
+number of nodes expanded: 27
+**************** running map4.txt ****************
+java -cp ../bin Search  ../data/map4.txt 1
+======== Beginning Breadth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 22
+number of nodes expanded: 42
+java -cp ../bin Search  ../data/map4.txt 2
+======== Beginning Depth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 26
+number of nodes expanded: 27
+java -cp ../bin Search  ../data/map4.txt 3
+======== Beginning A* Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 22
+number of nodes expanded: 42
+**************** running map5.txt ****************
+java -cp ../bin Search  ../data/map5.txt 1
+======== Beginning Breadth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 15
+number of nodes expanded: 44
+java -cp ../bin Search  ../data/map5.txt 2
+======== Beginning Depth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 24
+number of nodes expanded: 20
+java -cp ../bin Search  ../data/map5.txt 3
+======== Beginning A* Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 15
+number of nodes expanded: 33
+**************** running map6.txt ****************
+java -cp ../bin Search  ../data/map6.txt 1
+======== Beginning Breadth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 9499
+number of nodes expanded: 926824
+java -cp ../bin Search  ../data/map6.txt 2
+======== Beginning Depth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 37035
+number of nodes expanded: 37035
+java -cp ../bin Search  ../data/map6.txt 3
+======== Beginning A* Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 9499
+number of nodes expanded: 29110
+**************** running map7.txt ****************
+java -cp ../bin Search  ../data/map7.txt 1
+======== Beginning Breadth First Search ==========
+
+==========================
+!!! Goal Not Reachable !!!
+==========================
+
+total cost of found path: infinity
+number of nodes expanded: 38
+java -cp ../bin Search  ../data/map7.txt 2
+======== Beginning Depth First Search ==========
+
+==========================
+!!! Goal Not Reachable !!!
+==========================
+
+total cost of found path: infinity
+number of nodes expanded: 38
+java -cp ../bin Search  ../data/map7.txt 3
+======== Beginning A* Search ==========
+
+==========================
+!!! Goal Not Reachable !!!
+==========================
+
+total cost of found path: infinity
+number of nodes expanded: 38
+**************** running map8.txt ****************
+java -cp ../bin Search  ../data/map8.txt 1
+======== Beginning Breadth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 21
+number of nodes expanded: 21
+java -cp ../bin Search  ../data/map8.txt 2
+======== Beginning Depth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 21
+number of nodes expanded: 13
+java -cp ../bin Search  ../data/map8.txt 3
+======== Beginning A* Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 15
+number of nodes expanded: 17
+**************** running map9.txt ****************
+java -cp ../bin Search  ../data/map9.txt 1
+======== Beginning Breadth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 357
+number of nodes expanded: 25444
+java -cp ../bin Search  ../data/map9.txt 2
+======== Beginning Depth First Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 581
+number of nodes expanded: 581
+java -cp ../bin Search  ../data/map9.txt 3
+======== Beginning A* Search ==========
+
+===================
+*** Goal Found! ***
+===================
+
+total cost of found path: 357
+number of nodes expanded: 1523

@@ -1,0 +1,22 @@
+after 20 iterations, delta is 0.5606127246667523 convergence tolerance is: 1.0E-12
+after 40 iterations, delta is 0.10543626683903895 convergence tolerance is: 1.0E-12
+after 60 iterations, delta is 0.017424609107187905 convergence tolerance is: 1.0E-12
+after 80 iterations, delta is 0.0025903664138304805 convergence tolerance is: 1.0E-12
+after 100 iterations, delta is 4.132931254794414E-4 convergence tolerance is: 1.0E-12
+after 120 iterations, delta is 6.687900508950406E-5 convergence tolerance is: 1.0E-12
+after 140 iterations, delta is 1.0536026472607318E-5 convergence tolerance is: 1.0E-12
+after 160 iterations, delta is 1.6728011900113415E-6 convergence tolerance is: 1.0E-12
+after 180 iterations, delta is 2.6704178424097336E-7 convergence tolerance is: 1.0E-12
+after 200 iterations, delta is 4.24121253672638E-8 convergence tolerance is: 1.0E-12
+after 220 iterations, delta is 6.740016544881655E-9 convergence tolerance is: 1.0E-12
+after 240 iterations, delta is 1.0725891286256228E-9 convergence tolerance is: 1.0E-12
+after 260 iterations, delta is 1.7055157286449685E-10 convergence tolerance is: 1.0E-12
+after 280 iterations, delta is 2.7121416223963024E-11 convergence tolerance is: 1.0E-12
+after 300 iterations, delta is 4.32365254710021E-12 convergence tolerance is: 1.0E-12
+Detected convergence at agent iteration 316.
+Simulation scores: -37.00 -28.00 -27.00 -43.00 -32.00 -28.00 -37.00 -27.00
+-34.00 -27.00 -27.00 -27.00 -34.00 -27.00 -29.00 -35.00 -26.00 -38.00 -27.00
+-28.00 -56.00 -27.00 -47.00 -34.00 -27.00 -33.00 -27.00 -24.00 -25.00 -27.00
+-27.00 -28.00 -27.00 -45.00 -28.00 -37.00 -25.00 -24.00 -27.00 -27.00 -27.00
+-26.00 -27.00 -25.00 -27.00 -30.00 -26.00 -45.00 -33.00 -37.00
+Average simulation score: -30.86

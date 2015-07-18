@@ -1,0 +1,98 @@
+*************************************l***************************************
+* Scaffolding for JHU Artificial Intelligence class, homework assignment 2. *
+*****************************************************************************
+Copyright 2014, Ben Mitchell
+All rights reserved
+
+
+--------------------------------------------------------------------------------
+1. Introduction
+--------------------------------------------------------------------------------
+
+This README provides instructions to run and use the shell scripts in the 
+top level of the rosset.corbin directory so that a user may play Konane against
+an artificial intelligence agent. There is a description of how to build and run
+the code, as well as what the source files contain and how they’re structured.
+
+
+--------------------------------------------------------------------------------
+2. Usage
+--------------------------------------------------------------------------------
+
+Please cd to the rosset.corbin directory and type
+
+./compile.sh
+
+to compile the code. Then to run the game, type
+
+./run.sh
+
+and you will be prompted to enter the output format, that is, what level of detail
+you want the program to print to standard output. typing the number 0 will mean
+no output other than who won and instructions to get moves for a human player. The 
+integer 1 means print the board after each turn essentially. 2 means print the 
+utility values for each player as well as some statistics about node expansions
+and profiling information. 
+
+Then you will be prompted to enter the board size, and select two players. If you 
+select an AI player, you will be asked for the search depth. Then game play will
+commence and run until completion. 
+
+For a 4x4 board, a search depth of about less than 12 should be sufficient to reach
+a terminal state and it should be quite fast. 
+
+For a 6x6 board, a depth of 6 is about the upper limit if you’re impatient. A depth
+of 7 is possible but not recommended. 
+
+For an 8x8 board, a depth of 5 will take many minutes, and 6 will take up to an hour
+if not more when two AI’s are playing against each other. I would recommend a depth
+of 3 if you’re impatient. 
+
+Note that the solutions write up pdf has been placed in the /docs folder under the title
+writeup_corby_rosset.pdf along with the supporting .tex files to build it from latex. 
+
+To generate documentation cd to the src/ directory and type
+
+make docs
+
+In making the docs, there are some warnings. They were generated
+
+
+
+--------------------------------------------------------------------------------
+3. Structure of the code
+--------------------------------------------------------------------------------
+
+There is a package in the src/ directory called code. There are 3 sub packages: 
+AdversarialSearch (which contains the alphabeta and minimax algorithm
+implementations, as well as their superclass, AdversarialSearch.java). 
+Then there is board package, which came with the assignment. Then there 
+is the players class, which contains the minimax, alphabeta, human, and random
+players. An alphaBeta player class will contain an alphabeta search algorithm
+intense variable on which the “getMove” function will be called. 
+
+--------------------------------------------------------------------------------
+4. Extraneous testing framework
+--------------------------------------------------------------------------------
+
+There is a commands.sh script that contains inputs to be automatically read to 
+make a game. the integers contained in it will satisfy the initial input requirements
+to initialize a game. This is to help the runTest.sh script, which will run 100 
+games of an AI player against a RandomPlayer and print the output to the output.txt
+file. This was used to test how good the AI’s heuristic was. In the writeup, the 
+process was explained more fully, but as the heuristic stands currently, it has a 
+75% win rate against a random player. This probably means that the average human can
+beat the AI if they tried hard enough. It becomes more difficult to beat the AI when
+the AI is allowed a greater depth. 
+
+command.sh contains
+
+0 6 3 5 4
+
+0 meaning no output, 6 meaning 6x6 board, 3 meaning alpha beta player, 5 meaning depth
+of 5, 4 meaning randomPlayer as white. Feel free to change these as you wish. It will
+take about a minute to run all 100 games. 
+
+
+NOTE: This framework is not fully tested and could crash or take too long. Since it’s 
+not part of the assignment I make not guarantees as to what quality it is. 

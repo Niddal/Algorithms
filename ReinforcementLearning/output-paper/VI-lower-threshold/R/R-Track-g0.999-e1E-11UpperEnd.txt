@@ -1,0 +1,30 @@
+after 20 iterations, delta is 0.9811700348644123 convergence tolerance is: 1.0E-12
+after 40 iterations, delta is 0.35739943765036486 convergence tolerance is: 1.0E-12
+after 60 iterations, delta is 0.1142511383818956 convergence tolerance is: 1.0E-12
+after 80 iterations, delta is 0.023257934852182416 convergence tolerance is: 1.0E-12
+after 100 iterations, delta is 0.008865478086562462 convergence tolerance is: 1.0E-12
+after 120 iterations, delta is 0.002275805738989334 convergence tolerance is: 1.0E-12
+after 140 iterations, delta is 6.762322390088116E-4 convergence tolerance is: 1.0E-12
+after 160 iterations, delta is 2.056926346440946E-4 convergence tolerance is: 1.0E-12
+after 180 iterations, delta is 5.160951821636672E-5 convergence tolerance is: 1.0E-12
+after 200 iterations, delta is 1.641405331298529E-5 convergence tolerance is: 1.0E-12
+after 220 iterations, delta is 4.515864240772771E-6 convergence tolerance is: 1.0E-12
+after 240 iterations, delta is 1.2906580479921104E-6 convergence tolerance is: 1.0E-12
+after 260 iterations, delta is 3.837374578097297E-7 convergence tolerance is: 1.0E-12
+after 280 iterations, delta is 1.0440927411536904E-7 convergence tolerance is: 1.0E-12
+after 300 iterations, delta is 3.112943147698388E-8 convergence tolerance is: 1.0E-12
+after 320 iterations, delta is 8.793101358151034E-9 convergence tolerance is: 1.0E-12
+after 340 iterations, delta is 2.501707285773591E-9 convergence tolerance is: 1.0E-12
+after 360 iterations, delta is 7.306297789000382E-10 convergence tolerance is: 1.0E-12
+after 380 iterations, delta is 2.0509816067715292E-10 convergence tolerance is: 1.0E-12
+after 400 iterations, delta is 5.964295723970281E-11 convergence tolerance is: 1.0E-12
+after 420 iterations, delta is 1.7038814803527202E-11 convergence tolerance is: 1.0E-12
+after 440 iterations, delta is 4.845901457883883E-12 convergence tolerance is: 1.0E-12
+after 460 iterations, delta is 1.3997691894473974E-12 convergence tolerance is: 1.0E-12
+Detected convergence at agent iteration 466.
+Simulation scores: -30.00 -31.00 -34.00 -32.00 -31.00 -32.00 -32.00 -30.00
+-34.00 -32.00 -30.00 -31.00 -30.00 -29.00 -31.00 -31.00 -30.00 -31.00 -36.00
+-30.00 -31.00 -39.00 -30.00 -32.00 -31.00 -32.00 -32.00 -31.00 -30.00 -31.00
+-59.00 -31.00 -32.00 -30.00 -30.00 -34.00 -31.00 -31.00 -33.00 -32.00 -32.00
+-40.00 -30.00 -32.00 -32.00 -29.00 -31.00 -31.00 -30.00 -30.00
+Average simulation score: -32.12

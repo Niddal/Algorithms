@@ -1,0 +1,1759 @@
+Unrecognized variable: minimumExplorations
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4e838143
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+Iteration 0 completed with delta: 0.66
+Iteration 100 completed with delta: 1.5833743322398457
+Iteration 200 completed with delta: 1.6085806808905776
+Iteration 300 completed with delta: 1.7730409691813096
+Iteration 400 completed with delta: 2.1676308300133567
+Iteration 500 completed with delta: 1.6100336855253794
+Iteration 600 completed with delta: 1.8735322109987282
+Iteration 700 completed with delta: 1.8708091269348992
+Iteration 800 completed with delta: 1.9045463912581904
+Iteration 900 completed with delta: 1.68577812420944
+Iteration 1000 completed with delta: 2.0119640611181677
+Iteration 1100 completed with delta: 1.9396359684403897
+Iteration 1200 completed with delta: 2.4318728274240873
+Iteration 1300 completed with delta: 1.722860921826916
+Iteration 1400 completed with delta: 0.723521020223669
+Iteration 1500 completed with delta: 2.487977656178025
+Iteration 1600 completed with delta: 2.0265664731749737
+Iteration 1700 completed with delta: 0.7105426466101643
+Iteration 1800 completed with delta: 1.6804470435299679
+Iteration 1900 completed with delta: 2.5094596537687215
+Iteration 2000 completed with delta: 0.9412820512820513
+Iteration 2100 completed with delta: 1.0382354923067896
+Iteration 2200 completed with delta: 0.8319100032118456
+Iteration 2300 completed with delta: 2.126181603901286
+Iteration 2400 completed with delta: 2.5721945014389087
+Iteration 2500 completed with delta: 2.060430347115926
+Iteration 2600 completed with delta: 1.67581153113438
+Iteration 2700 completed with delta: 2.0309170986543315
+Iteration 2800 completed with delta: 2.5999078538563882
+Iteration 2900 completed with delta: 1.6144876858575028
+Iteration 3000 completed with delta: 1.9741166094555194
+Iteration 3100 completed with delta: 0.8351359215746257
+Iteration 3200 completed with delta: 1.6193070063267978
+Iteration 3300 completed with delta: 0.6241025641025639
+Iteration 3400 completed with delta: 1.6374553013590623
+Iteration 3500 completed with delta: 1.2249821021605682
+Iteration 3600 completed with delta: 0.7213468582699352
+Iteration 3700 completed with delta: 0.8600325774055353
+Iteration 3800 completed with delta: 1.1188528705178937
+Iteration 3900 completed with delta: 1.575411908528194
+Iteration 4000 completed with delta: 0.8534603072442817
+Iteration 4100 completed with delta: 1.3833037359560971
+Iteration 4200 completed with delta: 0.7282022367748961
+Iteration 4300 completed with delta: 2.3178869514478904
+Iteration 4400 completed with delta: 1.0764096465521296
+Iteration 4500 completed with delta: 1.021846305287637
+Iteration 4600 completed with delta: 0.4470049573888719
+Iteration 4700 completed with delta: 0.8520267959631949
+Iteration 4800 completed with delta: 0.5944027655752508
+Iteration 4900 completed with delta: 0.8438106722005307
+Iteration 5000 completed with delta: 0.37230375818340233
+Iteration 5100 completed with delta: 0.8966245014245013
+Iteration 5200 completed with delta: 1.6417205234027206
+Iteration 5300 completed with delta: 0.4232768110907319
+Iteration 5400 completed with delta: 2.4909684778835177
+Iteration 5500 completed with delta: 0.28295365532797323
+Iteration 5600 completed with delta: 0.3796430498167658
+Iteration 5700 completed with delta: 0.37558406686245105
+Iteration 5800 completed with delta: 0.2722687476520256
+Iteration 5900 completed with delta: 0.5950033119894709
+Iteration 6000 completed with delta: 0.3742624080683963
+Iteration 6100 completed with delta: 0.47796860802697116
+Iteration 6200 completed with delta: 2.5559646315789477
+Iteration 6300 completed with delta: 0.42573366177003336
+Iteration 6400 completed with delta: 2.8066999258386485
+Iteration 6500 completed with delta: 0.5732154348255367
+Iteration 6600 completed with delta: 2.721312582946672
+Iteration 6700 completed with delta: 0.41599955849845927
+Iteration 6800 completed with delta: 1.214335298860914
+Iteration 6900 completed with delta: 1.2340215464322086
+Iteration 7000 completed with delta: 0.1812714960933195
+Iteration 7100 completed with delta: 0.1553442063583641
+Iteration 7200 completed with delta: 0.296110229386751
+Iteration 7300 completed with delta: 0.23241597782573242
+Iteration 7400 completed with delta: 0.6934407479232854
+Iteration 7500 completed with delta: 2.4716706196805838
+Iteration 7600 completed with delta: 0.5380211069665863
+Iteration 7700 completed with delta: 0.6942625275989553
+Iteration 7800 completed with delta: 0.651558714420529
+Iteration 7900 completed with delta: 2.9399495178147625
+Iteration 8000 completed with delta: 0.1692371097876446
+Iteration 8100 completed with delta: 1.4062327733667597
+Iteration 8200 completed with delta: 0.1616171417411043
+Iteration 8300 completed with delta: 0.08761347824231924
+Iteration 8400 completed with delta: 0.7000806228469099
+Iteration 8500 completed with delta: 0.04009385887836103
+Iteration 8600 completed with delta: 0.11627691526062889
+Iteration 8700 completed with delta: 0.6604432025553497
+Iteration 8800 completed with delta: 2.8969232685246515
+Iteration 8900 completed with delta: 0.05624661189272118
+Iteration 9000 completed with delta: 0.008569593215538074
+Iteration 9100 completed with delta: 0.012366121726119061
+Iteration 9200 completed with delta: 0.152451301740272
+Iteration 9300 completed with delta: 0.19790873052907898
+Iteration 9400 completed with delta: 2.7772228259979648
+Iteration 9500 completed with delta: 2.7890816055792254
+Iteration 9600 completed with delta: 0.04106086566791545
+Iteration 9700 completed with delta: 0.012093970517457642
+Iteration 9800 completed with delta: 1.2751074122462351
+Iteration 9900 completed with delta: 0.005456082427217179
+Iteration 10000 completed with delta: 0.005529723067100978
+Iteration 10100 completed with delta: 0.12318935638773887
+Iteration 10200 completed with delta: 0.09430396591005419
+Iteration 10300 completed with delta: 0.08316393438371739
+Iteration 10400 completed with delta: 0.062110004529085217
+Iteration 10500 completed with delta: 0.03212004066494151
+Iteration 10600 completed with delta: 0.020245772909238013
+Iteration 10700 completed with delta: 0.2415751460364577
+Iteration 10800 completed with delta: 0.0684034763675454
+Iteration 10900 completed with delta: 0.18032387107265624
+Iteration 11000 completed with delta: 0.17634205771276878
+Iteration 11100 completed with delta: 0.021204498306127473
+Iteration 11200 completed with delta: 0.024689329011583716
+Iteration 11300 completed with delta: 0.010801847886762861
+Iteration 11400 completed with delta: 0.002995933416599428
+Iteration 11500 completed with delta: 0.0015141178022597401
+Iteration 11600 completed with delta: 0.010786185863305597
+Iteration 11700 completed with delta: 0.007055333168503708
+Iteration 11800 completed with delta: 0.773904699950295
+Iteration 11900 completed with delta: 0.46533553280795736
+Iteration 12000 completed with delta: 0.004465769564711633
+Iteration 12100 completed with delta: 0.0958508703764469
+Iteration 12200 completed with delta: 0.0016342620880682723
+Iteration 12300 completed with delta: 0.21986723284966425
+Iteration 12400 completed with delta: 0.2297304490538017
+Iteration 12500 completed with delta: 0.062152746802866865
+Iteration 12600 completed with delta: 0.002574855539579257
+Iteration 12700 completed with delta: 0.00563626828477215
+Iteration 12800 completed with delta: 0.0037951829952524857
+Iteration 12900 completed with delta: 0.023693196464549704
+Iteration 13000 completed with delta: 0.0019533370069106937
+Iteration 13100 completed with delta: 0.009416190745205055
+Iteration 13200 completed with delta: 0.0016094969044839758
+Iteration 13300 completed with delta: 3.495313024485386E-4
+Iteration 13400 completed with delta: 0.0800030977588202
+Iteration 13500 completed with delta: 0.038724806525869404
+Iteration 13600 completed with delta: 0.007757130060148221
+Iteration 13700 completed with delta: 0.0017338563974544918
+Iteration 13800 completed with delta: 0.011473992824873047
+Iteration 13900 completed with delta: 0.015468339925965413
+Iteration 14000 completed with delta: 0.0034319199147687662
+Iteration 14100 completed with delta: 0.02230265477792548
+Iteration 14200 completed with delta: 0.25336858194415823
+Iteration 14300 completed with delta: 0.0010159987112321467
+Iteration 14400 completed with delta: 8.079169226484773E-4
+Iteration 14500 completed with delta: 0.020147456235680483
+Iteration 14600 completed with delta: 5.874292717340523E-4
+Iteration 14700 completed with delta: 0.0021468616267950047
+Iteration 14800 completed with delta: 5.515214276838876E-4
+Iteration 14900 completed with delta: 6.217903617775633E-4
+Iteration 15000 completed with delta: 0.0020816426430334545
+Iteration 15100 completed with delta: 5.842927514008167E-4
+Iteration 15200 completed with delta: 0.02612006691048485
+Iteration 15300 completed with delta: 0.0038773520599271194
+Iteration 15400 completed with delta: 0.002045278273450357
+Iteration 15500 completed with delta: 0.0020179626742025114
+Iteration 15600 completed with delta: 5.107511825466204E-4
+Iteration 15700 completed with delta: 0.1103543664176021
+Iteration 15800 completed with delta: 0.03206186804493427
+Iteration 15900 completed with delta: 3.366858192102029E-4
+Iteration 16000 completed with delta: 0.0021580104006480444
+Iteration 16100 completed with delta: 0.1653410258818746
+Iteration 16200 completed with delta: 3.6585266045596754E-4
+Iteration 16300 completed with delta: 0.003844347228866951
+Iteration 16400 completed with delta: 0.015671349364785918
+Iteration 16500 completed with delta: 0.07493484223968583
+Iteration 16600 completed with delta: 0.0020258799986088705
+Iteration 16700 completed with delta: 0.0015619924932475104
+Iteration 16800 completed with delta: 0.0042916152101208915
+Iteration 16900 completed with delta: 0.0020483419970549477
+Iteration 17000 completed with delta: 2.9763498218393636E-4
+Iteration 17100 completed with delta: 0.0017650065577744511
+Iteration 17200 completed with delta: 0.03405035509157184
+Iteration 17300 completed with delta: 0.004805424059329155
+Iteration 17400 completed with delta: 4.235127150522544E-4
+Iteration 17500 completed with delta: 0.0652726988443817
+Iteration 17600 completed with delta: 7.130050759514006E-4
+Iteration 17700 completed with delta: 2.968756823316099E-4
+Iteration 17800 completed with delta: 0.18812057014981232
+Iteration 17900 completed with delta: 2.3826634745782727E-4
+Iteration 18000 completed with delta: 0.0036030278687557704
+Iteration 18100 completed with delta: 2.7198912329939873E-4
+Iteration 18200 completed with delta: 0.0012093421484014044
+Iteration 18300 completed with delta: 1.85039006905946E-4
+Iteration 18400 completed with delta: 2.458418039652521E-4
+Iteration 18500 completed with delta: 2.8386819876224934E-4
+Iteration 18600 completed with delta: 0.001135869342049567
+Iteration 18700 completed with delta: 0.002344326330184998
+Iteration 18800 completed with delta: 0.003772475731724345
+Iteration 18900 completed with delta: 0.03968101901455423
+Iteration 19000 completed with delta: 2.82251857524507E-4
+Iteration 19100 completed with delta: 1.7259998590975212E-4
+Iteration 19200 completed with delta: 6.629281146075527E-4
+Iteration 19300 completed with delta: 0.001139885342380298
+Iteration 19400 completed with delta: 1.5606836842248228E-4
+Iteration 19500 completed with delta: 0.0016637454577875868
+Iteration 19600 completed with delta: 0.001393240070300908
+Iteration 19700 completed with delta: 1.6253751878213263E-4
+Iteration 19800 completed with delta: 9.028895658564906E-4
+Iteration 19900 completed with delta: 0.001108750254866564
+Iteration 20000 completed with delta: 0.0032238586052422136
+Iteration 20100 completed with delta: 0.0013431604627929389
+Iteration 20200 completed with delta: 0.0013276714449182575
+Iteration 20300 completed with delta: 8.91187927289927E-4
+Iteration 20400 completed with delta: 0.0013036971481032028
+Iteration 20500 completed with delta: 0.0031645803112407833
+Iteration 20600 completed with delta: 1.762036296444336E-4
+Iteration 20700 completed with delta: 4.1563943875644327E-4
+Iteration 20800 completed with delta: 4.232351295785364E-4
+Iteration 20900 completed with delta: 0.001373639751572675
+Iteration 21000 completed with delta: 2.451631793478626E-4
+Iteration 21100 completed with delta: 0.0017256680339787778
+Iteration 21200 completed with delta: 3.316570782549988E-4
+Iteration 21300 completed with delta: 0.0061280051456353846
+Iteration 21400 completed with delta: 9.294403979993593E-4
+Iteration 21500 completed with delta: 0.0018544809726726008
+Iteration 21600 completed with delta: 0.002121788207445352
+Iteration 21700 completed with delta: 1.3612498980508647E-4
+Iteration 21800 completed with delta: 0.0011517700883507814
+Iteration 21900 completed with delta: 0.005767192759066786
+Iteration 22000 completed with delta: 2.772282637417689E-4
+Iteration 22100 completed with delta: 0.03990317164155455
+Iteration 22200 completed with delta: 8.675180717157005E-4
+Iteration 22300 completed with delta: 1.1959852144667604E-4
+Iteration 22400 completed with delta: 5.243351547177255E-4
+Iteration 22500 completed with delta: 7.175079238364024E-4
+Iteration 22600 completed with delta: 8.395222250334733E-4
+Iteration 22700 completed with delta: 0.004334486837783036
+Iteration 22800 completed with delta: 1.498755472724156E-4
+Iteration 22900 completed with delta: 0.275348226174701
+Iteration 23000 completed with delta: 7.128268063221199E-4
+Iteration 23100 completed with delta: 7.933403080597756E-4
+Iteration 23200 completed with delta: 1.1590218444897105E-4
+Iteration 23300 completed with delta: 6.716426935626796E-4
+Iteration 23400 completed with delta: 0.0010744598963441376
+Iteration 23500 completed with delta: 1.1598338297078015E-4
+Iteration 23600 completed with delta: 5.458989511248902E-4
+Iteration 23700 completed with delta: 9.957196075208868E-4
+Iteration 23800 completed with delta: 0.004531162843642633
+Iteration 23900 completed with delta: 1.719740027823491E-4
+Iteration 24000 completed with delta: 2.2588570177362044E-4
+Iteration 24100 completed with delta: 0.0014946511110442984
+Iteration 24200 completed with delta: 1.824589740690996E-4
+Iteration 24300 completed with delta: 1.260736388060124E-4
+Iteration 24400 completed with delta: 9.395057392912187E-4
+Iteration 24500 completed with delta: 9.348460314217988E-4
+Iteration 24600 completed with delta: 9.812529452912777E-4
+Iteration 24700 completed with delta: 1.0555697300987377E-4
+Iteration 24800 completed with delta: 0.0019951049454975944
+Iteration 24900 completed with delta: 5.745556095373416E-4
+Iteration 25000 completed with delta: 6.153274993145885E-4
+Iteration 25100 completed with delta: 8.960216946224536E-4
+Iteration 25200 completed with delta: 0.051630267515174744
+Iteration 25300 completed with delta: 6.657353317462977E-4
+Iteration 25400 completed with delta: 1.9679327901034327E-4
+Iteration 25500 completed with delta: 2.859647625648165E-4
+Iteration 25600 completed with delta: 6.755439607717406E-4
+Iteration 25700 completed with delta: 8.671565133772097E-4
+Iteration 25800 completed with delta: 1.5094503601664755E-4
+Iteration 25900 completed with delta: 1.0376525653432722E-4
+Iteration 26000 completed with delta: 1.4158938324415615E-4
+Iteration 26100 completed with delta: 0.0067719613593615335
+Iteration 26200 completed with delta: 0.004711909924028035
+Iteration 26300 completed with delta: 5.522760092961931E-4
+Iteration 26400 completed with delta: 1.613373318427591E-4
+Iteration 26500 completed with delta: 0.004698661972168949
+Iteration 26600 completed with delta: 0.007552028546042422
+Iteration 26700 completed with delta: 8.349513871984404E-5
+Iteration 26800 completed with delta: 4.953848472342148E-4
+Iteration 26900 completed with delta: 9.029015376020855E-4
+Iteration 27000 completed with delta: 0.0034060691923483155
+Iteration 27100 completed with delta: 0.02049729205615769
+Iteration 27200 completed with delta: 1.5617599353001665E-4
+Iteration 27300 completed with delta: 6.073003699083035E-4
+Iteration 27400 completed with delta: 6.245589721327605E-4
+Iteration 27500 completed with delta: 1.4562303766885165E-4
+Iteration 27600 completed with delta: 5.971701960347797E-4
+Iteration 27700 completed with delta: 1.3340749459933576E-4
+Iteration 27800 completed with delta: 1.1410149676249759E-4
+Iteration 27900 completed with delta: 0.0012498602040653672
+Iteration 28000 completed with delta: 0.004099302755992532
+Iteration 28100 completed with delta: 0.029842976204133898
+Iteration 28200 completed with delta: 7.359064058367615E-4
+Iteration 28300 completed with delta: 2.024238954128066E-4
+Iteration 28400 completed with delta: 7.627942961369039E-5
+Iteration 28500 completed with delta: 7.502320257116168E-5
+Iteration 28600 completed with delta: 8.127624859564087E-4
+Iteration 28700 completed with delta: 9.60391743160649E-4
+Iteration 28800 completed with delta: 0.0020492703113887956
+Iteration 28900 completed with delta: 9.282145922417939E-5
+Iteration 29000 completed with delta: 5.510705935736215E-4
+Iteration 29100 completed with delta: 1.095625031588554E-4
+Iteration 29200 completed with delta: 7.107019324929936E-4
+Iteration 29300 completed with delta: 2.0404842434196269E-4
+Iteration 29400 completed with delta: 7.298963499383082E-5
+Iteration 29500 completed with delta: 0.006184026812440013
+Iteration 29600 completed with delta: 7.422538906431964E-5
+Iteration 29700 completed with delta: 6.857151293566538E-4
+Iteration 29800 completed with delta: 6.804641360877023E-4
+Iteration 29900 completed with delta: 0.008362789816278582
+Iteration 30000 completed with delta: 7.75936047725384E-5
+Iteration 30100 completed with delta: 2.946965501937626E-4
+Iteration 30200 completed with delta: 9.174493998794775E-4
+Iteration 30300 completed with delta: 5.585379797605761E-4
+Iteration 30400 completed with delta: 0.01153001052989211
+Iteration 30500 completed with delta: 1.0223027915845506E-4
+Iteration 30600 completed with delta: 7.197034669245705E-5
+Iteration 30700 completed with delta: 0.02064376864246542
+Iteration 30800 completed with delta: 5.002878223012708E-4
+Iteration 30900 completed with delta: 0.006880204884421648
+Iteration 31000 completed with delta: 1.0469413755664903E-4
+Iteration 31100 completed with delta: 1.0122492211595002E-4
+Iteration 31200 completed with delta: 7.335904575462154E-4
+Iteration 31300 completed with delta: 1.1724995842543606E-4
+Iteration 31400 completed with delta: 9.986920498361584E-5
+Iteration 31500 completed with delta: 6.302332308206343E-4
+Iteration 31600 completed with delta: 5.698002845924144E-4
+Iteration 31700 completed with delta: 6.690993115118782E-5
+Iteration 31800 completed with delta: 6.640551073054668E-5
+Iteration 31900 completed with delta: 3.7056944185520635E-4
+Iteration 32000 completed with delta: 0.002713523713606225
+Iteration 32100 completed with delta: 2.0361469027641022E-4
+Iteration 32200 completed with delta: 0.007556380913332106
+Iteration 32300 completed with delta: 1.667843790071899E-4
+Iteration 32400 completed with delta: 6.616251461686318E-4
+Iteration 32500 completed with delta: 6.009200396754621E-4
+Iteration 32600 completed with delta: 9.718068092778864E-5
+Iteration 32700 completed with delta: 0.0018743406406178664
+Iteration 32800 completed with delta: 9.327106038226063E-5
+Iteration 32900 completed with delta: 0.0013323790314383466
+Iteration 33000 completed with delta: 6.050050430381204E-5
+Iteration 33100 completed with delta: 0.009037126882326163
+Iteration 33200 completed with delta: 0.003279161809624745
+Iteration 33300 completed with delta: 0.0013795439233925677
+Iteration 33400 completed with delta: 0.001840639751133466
+Iteration 33500 completed with delta: 0.00316694348114277
+Iteration 33600 completed with delta: 0.001255599768440252
+Iteration 33700 completed with delta: 2.1227659885258987E-4
+Iteration 33800 completed with delta: 0.001118953830442554
+Iteration 33900 completed with delta: 7.424096794528268E-5
+Iteration 34000 completed with delta: 8.931076855445141E-5
+Iteration 34100 completed with delta: 6.518092691494282E-4
+Iteration 34200 completed with delta: 0.03875741043034919
+Iteration 34300 completed with delta: 1.862397607919064E-4
+Iteration 34400 completed with delta: 5.527515840628716E-4
+Iteration 34500 completed with delta: 5.8827097885946755E-5
+Iteration 34600 completed with delta: 1.0073884191719173E-4
+Iteration 34700 completed with delta: 0.01887150740421495
+Iteration 34800 completed with delta: 4.1663033774397285E-4
+Iteration 34900 completed with delta: 0.0012235457817340034
+Iteration 35000 completed with delta: 6.169967048164082E-5
+Iteration 35100 completed with delta: 6.153344136272665E-5
+Iteration 35200 completed with delta: 9.610651971142109E-4
+Iteration 35300 completed with delta: 0.0034242049280663878
+Iteration 35400 completed with delta: 4.065408583282526E-4
+Iteration 35500 completed with delta: 6.136287992880574E-5
+Iteration 35600 completed with delta: 6.288215481121961E-5
+Iteration 35700 completed with delta: 9.183453210903636E-5
+Iteration 35800 completed with delta: 0.007848176093515624
+Iteration 35900 completed with delta: 6.037408113854226E-5
+Iteration 36000 completed with delta: 8.713286928330177E-5
+Iteration 36100 completed with delta: 3.946426635796918E-4
+Iteration 36200 completed with delta: 1.2475805912526283E-4
+Iteration 36300 completed with delta: 0.0015679462003657108
+Iteration 36400 completed with delta: 8.026544389503343E-4
+Iteration 36500 completed with delta: 5.740731601033833E-5
+Iteration 36600 completed with delta: 1.9135704734907222E-4
+Iteration 36700 completed with delta: 0.0020418269647635157
+Iteration 36800 completed with delta: 3.985495323943766E-4
+Iteration 36900 completed with delta: 0.00625373331685955
+Iteration 37000 completed with delta: 5.965152212654701E-4
+Iteration 37100 completed with delta: 0.0013073804988299464
+Iteration 37200 completed with delta: 8.192589469091516E-5
+Iteration 37300 completed with delta: 5.5461963773234535E-5
+Iteration 37400 completed with delta: 0.0014394810579574369
+Iteration 37500 completed with delta: 0.00277729175544493
+Iteration 37600 completed with delta: 9.557800822879159E-5
+Iteration 37700 completed with delta: 5.356124514497296E-4
+Iteration 37800 completed with delta: 3.7219753351980245E-4
+Iteration 37900 completed with delta: 0.19164838100700043
+Iteration 38000 completed with delta: 5.222769719726017E-5
+Iteration 38100 completed with delta: 0.003162139830417132
+Iteration 38200 completed with delta: 4.745588727816802E-4
+Iteration 38300 completed with delta: 2.8132754135090643E-4
+Iteration 38400 completed with delta: 9.205285833137761E-4
+Iteration 38500 completed with delta: 1.320864042755332E-4
+Iteration 38600 completed with delta: 5.135481519702445E-5
+Iteration 38700 completed with delta: 4.754494039254098E-4
+Iteration 38800 completed with delta: 0.002711299186464622
+Iteration 38900 completed with delta: 0.0011337016250831944
+Iteration 39000 completed with delta: 3.0865842032223867E-4
+Iteration 39100 completed with delta: 3.513112670414653E-4
+Iteration 39200 completed with delta: 0.0015302518480415639
+Iteration 39300 completed with delta: 4.471921531212786E-4
+Iteration 39400 completed with delta: 0.003582357738202091
+Iteration 39500 completed with delta: 4.4303442665771797E-4
+Iteration 39600 completed with delta: 4.518885241207027E-4
+Iteration 39700 completed with delta: 0.016558772321387583
+Iteration 39800 completed with delta: 4.831210776229389E-5
+Iteration 39900 completed with delta: 9.175277967488071E-4
+Iteration 40000 completed with delta: 6.672056809202687E-4
+Iteration 40100 completed with delta: 2.623578902449797E-4
+Iteration 40200 completed with delta: 4.609679654292431E-5
+Iteration 40300 completed with delta: 3.8861967658521124E-4
+Iteration 40400 completed with delta: 4.397490200982457E-4
+Iteration 40500 completed with delta: 1.7899970251367137E-4
+Iteration 40600 completed with delta: 1.0910211498593725E-4
+Iteration 40700 completed with delta: 2.5577648681895937E-4
+Iteration 40800 completed with delta: 4.911847747639253E-5
+Iteration 40900 completed with delta: 5.086727024750104E-5
+Iteration 41000 completed with delta: 5.34070928058572E-4
+Iteration 41100 completed with delta: 5.1142318671093534E-5
+Iteration 41200 completed with delta: 1.0738660558651247E-4
+Iteration 41300 completed with delta: 3.2570217919536404E-4
+Iteration 41400 completed with delta: 0.0011588896411222072
+Iteration 41500 completed with delta: 4.202223402108296E-4
+Iteration 41600 completed with delta: 0.0030668709322525523
+Iteration 41700 completed with delta: 0.0013565899100136392
+Iteration 41800 completed with delta: 6.675999554079937E-4
+Iteration 41900 completed with delta: 4.6918517408345295E-5
+Iteration 42000 completed with delta: 0.0011921457306960925
+Iteration 42100 completed with delta: 1.6783038314294174E-4
+Iteration 42200 completed with delta: 4.595730510412177E-5
+Iteration 42300 completed with delta: 5.768193741362282E-5
+Iteration 42400 completed with delta: 1.3316679086372574E-4
+Iteration 42500 completed with delta: 4.799561230508509E-4
+Iteration 42600 completed with delta: 3.697739314079129E-4
+Iteration 42700 completed with delta: 4.480941897667956E-5
+Iteration 42800 completed with delta: 2.586147152463525E-4
+Iteration 42900 completed with delta: 2.4171550539464626E-4
+Iteration 43000 completed with delta: 4.4783978776524735E-5
+Iteration 43100 completed with delta: 3.074988143700885E-4
+Iteration 43200 completed with delta: 2.3843662973521695E-4
+Iteration 43300 completed with delta: 5.543116591866237E-5
+Iteration 43400 completed with delta: 0.009674735427095488
+Iteration 43500 completed with delta: 4.4316418110521005E-5
+Iteration 43600 completed with delta: 3.9512322763371466E-4
+Iteration 43700 completed with delta: 1.2409207917052356E-4
+Iteration 43800 completed with delta: 4.4030485491383664E-5
+Iteration 43900 completed with delta: 0.0011996094673456525
+Iteration 44000 completed with delta: 3.103293046589073E-4
+Iteration 44100 completed with delta: 3.224249311974958E-4
+Iteration 44200 completed with delta: 4.702244542453826E-5
+Iteration 44300 completed with delta: 4.830358804497337E-5
+Iteration 44400 completed with delta: 3.8638929618556306E-4
+Iteration 44500 completed with delta: 2.9580819900143496E-4
+Iteration 44600 completed with delta: 6.708115188427399E-4
+Iteration 44700 completed with delta: 2.939383658897565E-4
+Iteration 44800 completed with delta: 6.687219903138697E-4
+Iteration 44900 completed with delta: 2.918851989890392E-4
+Iteration 45000 completed with delta: 6.242957625409162E-4
+Iteration 45100 completed with delta: 2.6885084138950077E-4
+Iteration 45200 completed with delta: 7.476157947916562E-5
+Iteration 45300 completed with delta: 4.101128074340821E-5
+Iteration 45400 completed with delta: 4.0660017791038783E-4
+Iteration 45500 completed with delta: 5.110717836851464E-4
+Iteration 45600 completed with delta: 2.859013817839706E-4
+Iteration 45700 completed with delta: 2.2587964158304885E-4
+Iteration 45800 completed with delta: 0.006823358360498855
+Iteration 45900 completed with delta: 2.836466819189365E-4
+Iteration 46000 completed with delta: 3.997426185994857E-5
+Iteration 46100 completed with delta: 1.445888696762765E-4
+Iteration 46200 completed with delta: 6.951600543159131E-5
+Iteration 46300 completed with delta: 6.641344431868035E-5
+Iteration 46400 completed with delta: 0.001162890844176534
+Iteration 46500 completed with delta: 0.025676197473792017
+Iteration 46600 completed with delta: 2.0940271344560557E-4
+Iteration 46700 completed with delta: 7.054636631220745E-5
+Iteration 46800 completed with delta: 7.055407629641408E-5
+Iteration 46900 completed with delta: 3.635844138245581E-4
+Iteration 47000 completed with delta: 8.929299269779256E-4
+Iteration 47100 completed with delta: 4.4700730098101715E-4
+Iteration 47200 completed with delta: 4.428246924259582E-5
+Iteration 47300 completed with delta: 3.745038811447943E-5
+Iteration 47400 completed with delta: 3.5123598750841367E-4
+Iteration 47500 completed with delta: 2.7140804008030095E-4
+Iteration 47600 completed with delta: 5.620351603541351E-4
+Iteration 47700 completed with delta: 1.2404121520859235E-4
+Iteration 47800 completed with delta: 6.418592286649982E-5
+Iteration 47900 completed with delta: 6.174662688662735E-5
+Iteration 48000 completed with delta: 4.8288215973268933E-4
+Iteration 48100 completed with delta: 3.7443156505245767E-4
+Iteration 48200 completed with delta: 0.004061524720766485
+Iteration 48300 completed with delta: 8.80344715472603E-5
+Iteration 48400 completed with delta: 3.6606948836032105E-5
+Iteration 48500 completed with delta: 4.984175029969506E-4
+Iteration 48600 completed with delta: 0.004032144543991922
+Iteration 48700 completed with delta: 4.332400654982749E-5
+Iteration 48800 completed with delta: 1.6337527666987484E-4
+Iteration 48900 completed with delta: 1.625814378067858E-4
+Iteration 49000 completed with delta: 3.608626904050283E-4
+Iteration 49100 completed with delta: 0.0026831907499014485
+Iteration 49200 completed with delta: 3.9966154764314865E-5
+Iteration 49300 completed with delta: 0.0012855340939457172
+Iteration 49400 completed with delta: 3.86253011237514E-5
+Iteration 49500 completed with delta: 0.05459262847911564
+Iteration 49600 completed with delta: 2.839909852507816E-4
+Iteration 49700 completed with delta: 2.566361403406603E-4
+Iteration 49800 completed with delta: 0.001102561043650141
+Iteration 49900 completed with delta: 0.009714811129381884
+Iteration 50000 completed with delta: 0.036560811202462476
+Iteration 50100 completed with delta: 5.930717119539963E-5
+Iteration 50200 completed with delta: 6.058242558992788E-5
+Iteration 50300 completed with delta: 0.0012462482948659148
+Iteration 50400 completed with delta: 6.473454644417842E-5
+Iteration 50500 completed with delta: 3.865048383033809E-5
+Iteration 50600 completed with delta: 1.4863356521654936E-4
+Iteration 50700 completed with delta: 3.835591335654698E-5
+Iteration 50800 completed with delta: 7.041252359485384E-5
+Iteration 50900 completed with delta: 0.07811322426825029
+Iteration 51000 completed with delta: 3.6966668657623103E-4
+Iteration 51100 completed with delta: 5.740857100522412E-4
+Iteration 51200 completed with delta: 0.0016347592056655813
+Iteration 51300 completed with delta: 6.827717090107654E-5
+Iteration 51400 completed with delta: 0.0031081415452776096
+Iteration 51500 completed with delta: 3.476692526236391E-4
+Iteration 51600 completed with delta: 6.361824283107609E-5
+Iteration 51700 completed with delta: 2.2121834931443374E-4
+Iteration 51800 completed with delta: 0.00658382247290018
+Iteration 51900 completed with delta: 1.3970015543307568E-4
+Iteration 52000 completed with delta: 3.146804538665948E-4
+Iteration 52100 completed with delta: 3.1368745420613797E-4
+Iteration 52200 completed with delta: 6.273765051645341E-5
+Iteration 52300 completed with delta: 7.876621094591307E-4
+Iteration 52400 completed with delta: 6.413205395183752E-5
+Iteration 52500 completed with delta: 3.608308123943804E-5
+Iteration 52600 completed with delta: 5.271280675520629E-4
+Iteration 52700 completed with delta: 0.007554211946454448
+Iteration 52800 completed with delta: 1.340792260400292E-4
+Iteration 52900 completed with delta: 0.018215909447301115
+Iteration 53000 completed with delta: 5.32293674946116E-4
+Iteration 53100 completed with delta: 5.9675455818197776E-5
+Iteration 53200 completed with delta: 2.751321792162642E-4
+Iteration 53300 completed with delta: 3.38337128998889E-5
+Iteration 53400 completed with delta: 3.0569677454875266E-4
+Iteration 53500 completed with delta: 1.7783710965124655E-4
+Iteration 53600 completed with delta: 5.309194276303941E-5
+Iteration 53700 completed with delta: 7.706217425162976E-5
+Iteration 53800 completed with delta: 0.0010572155199382038
+Iteration 53900 completed with delta: 7.877567882260267E-4
+Iteration 54000 completed with delta: 3.4008100806870445E-4
+Iteration 54100 completed with delta: 4.4904615329510733E-4
+Iteration 54200 completed with delta: 8.495649222751422E-4
+Iteration 54300 completed with delta: 3.2858253632417345E-5
+Iteration 54400 completed with delta: 5.981974819992963E-4
+Iteration 54500 completed with delta: 4.8521569456827507E-4
+Iteration 54600 completed with delta: 5.759588213472E-5
+Iteration 54700 completed with delta: 4.8225446612315537E-4
+Iteration 54800 completed with delta: 3.481509034175545E-5
+Iteration 54900 completed with delta: 6.125216424468505E-5
+Iteration 55000 completed with delta: 5.450286688413186E-5
+Iteration 55100 completed with delta: 0.0028877195159835445
+Iteration 55200 completed with delta: 3.449894041240853E-5
+Iteration 55300 completed with delta: 5.79572929177985E-5
+Iteration 55400 completed with delta: 1.7022443357328498E-4
+Iteration 55500 completed with delta: 2.76581449877078E-4
+Iteration 55600 completed with delta: 0.0010571367919181007
+Iteration 55700 completed with delta: 0.007584454974757765
+Iteration 55800 completed with delta: 1.1174924133605657E-4
+Iteration 55900 completed with delta: 0.0018917470974635364
+Iteration 56000 completed with delta: 3.044145695690892E-5
+Iteration 56100 completed with delta: 2.2115718521265038E-4
+Iteration 56200 completed with delta: 5.591588741760134E-5
+Iteration 56300 completed with delta: 0.011130948946037833
+Iteration 56400 completed with delta: 5.679555497772881E-5
+Iteration 56500 completed with delta: 5.5676178398744725E-5
+Iteration 56600 completed with delta: 0.001763936316784065
+Iteration 56700 completed with delta: 7.223357332630798E-5
+Iteration 56800 completed with delta: 5.554882321590071E-5
+Iteration 56900 completed with delta: 1.0928225267470282E-4
+Iteration 57000 completed with delta: 2.1680271562818376E-4
+Iteration 57100 completed with delta: 5.4409704703495265E-5
+Iteration 57200 completed with delta: 2.970468973642615E-5
+Iteration 57300 completed with delta: 5.54353711699207E-5
+Iteration 57400 completed with delta: 2.806785405060491E-4
+Iteration 57500 completed with delta: 0.004858715382185547
+Iteration 57600 completed with delta: 1.513694789352371E-4
+Iteration 57700 completed with delta: 3.8324393483923913E-4
+Iteration 57800 completed with delta: 5.336087928675681E-5
+Iteration 57900 completed with delta: 5.248718595210478E-4
+Iteration 58000 completed with delta: 1.6481884658237078E-4
+Iteration 58100 completed with delta: 5.329511886698057E-5
+Iteration 58200 completed with delta: 5.325416450974174E-5
+Iteration 58300 completed with delta: 3.5564990342074054E-5
+Iteration 58400 completed with delta: 3.074831477363482E-5
+Iteration 58500 completed with delta: 0.005446405161462664
+Iteration 58600 completed with delta: 5.039429040376575E-5
+Iteration 58700 completed with delta: 3.2919209586923515E-4
+Iteration 58800 completed with delta: 4.30786948855566E-4
+Iteration 58900 completed with delta: 3.5624592531480204E-5
+Iteration 59000 completed with delta: 9.573289555964148E-4
+Iteration 59100 completed with delta: 1.5573965533532963E-4
+Iteration 59200 completed with delta: 6.814650558764901E-4
+Iteration 59300 completed with delta: 0.0016064008172611555
+Iteration 59400 completed with delta: 4.721065689450299E-5
+Iteration 59500 completed with delta: 2.9135907255353755E-5
+Iteration 59600 completed with delta: 4.7163700298247235E-4
+Iteration 59700 completed with delta: 2.6651946508873814E-4
+Iteration 59800 completed with delta: 3.984925400333239E-4
+Iteration 59900 completed with delta: 8.990341640757182E-4
+Iteration 60000 completed with delta: 4.6510200519378486E-5
+Iteration 60100 completed with delta: 1.5233339317854977E-4
+Iteration 60200 completed with delta: 9.706468097991916E-5
+Iteration 60300 completed with delta: 4.742403695123798E-5
+Iteration 60400 completed with delta: 2.6280826397402646E-4
+Iteration 60500 completed with delta: 4.640550138246269E-5
+Iteration 60600 completed with delta: 2.8592288061984883E-5
+Iteration 60700 completed with delta: 3.207196715449001E-5
+Iteration 60800 completed with delta: 0.0019183347000275575
+Iteration 60900 completed with delta: 2.557591259195746E-4
+Iteration 61000 completed with delta: 2.8440724845021914E-5
+Iteration 61100 completed with delta: 6.317006550769222E-4
+Iteration 61200 completed with delta: 9.646895747359441E-4
+Iteration 61300 completed with delta: 1.4302283021816464E-4
+Iteration 61400 completed with delta: 2.766082293569061E-5
+Iteration 61500 completed with delta: 1.5912896755754247E-4
+Iteration 61600 completed with delta: 4.596765784770085E-5
+Iteration 61700 completed with delta: 0.008166683211319636
+Iteration 61800 completed with delta: 2.562788617242462E-4
+Iteration 61900 completed with delta: 3.308866679274658E-5
+Iteration 62000 completed with delta: 4.581297092176584E-5
+Iteration 62100 completed with delta: 0.0016976184691728236
+Iteration 62200 completed with delta: 3.26611633649776E-5
+Iteration 62300 completed with delta: 0.001790755222932372
+Iteration 62400 completed with delta: 1.4308045823674398E-4
+Iteration 62500 completed with delta: 3.231393460056964E-5
+Iteration 62600 completed with delta: 7.812277469465556E-5
+Iteration 62700 completed with delta: 7.616292765257882E-4
+Iteration 62800 completed with delta: 2.6858982053359903E-5
+Iteration 62900 completed with delta: 3.1968588340980375E-5
+Iteration 63000 completed with delta: 1.3191426631919967E-4
+Iteration 63100 completed with delta: 2.721098622146534E-5
+Iteration 63200 completed with delta: 0.004507585799123831
+Iteration 63300 completed with delta: 3.213405963231608E-5
+Iteration 63400 completed with delta: 9.277387128645564E-4
+Iteration 63500 completed with delta: 2.477822877538921E-4
+Iteration 63600 completed with delta: 8.742057004251791E-5
+Iteration 63700 completed with delta: 1.8974126119686296E-4
+Iteration 63800 completed with delta: 1.3816499068219912E-4
+Iteration 63900 completed with delta: 2.462776588065818E-4
+Iteration 64000 completed with delta: 1.8876144997892474E-4
+Iteration 64100 completed with delta: 8.633706290162024E-5
+Iteration 64200 completed with delta: 4.0487845101466746E-5
+Iteration 64300 completed with delta: 2.985359861495951E-5
+Iteration 64400 completed with delta: 0.002224462244748704
+Iteration 64500 completed with delta: 2.8874524901301157E-5
+Iteration 64600 completed with delta: 1.2774372507351472E-4
+Iteration 64700 completed with delta: 1.8626219536099775E-4
+Iteration 64800 completed with delta: 2.832402965680103E-5
+Iteration 64900 completed with delta: 4.0874003358837285E-5
+Iteration 65000 completed with delta: 2.7982102460466507E-5
+Iteration 65100 completed with delta: 3.503943000291443E-4
+Iteration 65200 completed with delta: 3.93471148227853E-5
+Iteration 65300 completed with delta: 3.728191651779511E-4
+Iteration 65400 completed with delta: 3.9909173131569275E-5
+Iteration 65500 completed with delta: 2.527677606754819E-5
+Iteration 65600 completed with delta: 3.999735737636456E-5
+Iteration 65700 completed with delta: 1.3420272524489185E-4
+Iteration 65800 completed with delta: 2.3839423416056882E-4
+Iteration 65900 completed with delta: 2.4828765894366334E-5
+Iteration 66000 completed with delta: 4.0258322688391246E-5
+Iteration 66100 completed with delta: 1.8146137218577607E-4
+Iteration 66200 completed with delta: 3.9541276343424414E-5
+Iteration 66300 completed with delta: 2.4640432830111414E-5
+Iteration 66400 completed with delta: 1.9947893647505321E-4
+Iteration 66500 completed with delta: 2.7002423293343014E-5
+Iteration 66600 completed with delta: 2.4263370490357206E-5
+Iteration 66700 completed with delta: 3.8634842039808603E-5
+Iteration 66800 completed with delta: 4.0829020144350636E-5
+Iteration 66900 completed with delta: 1.1109954442556358E-4
+Iteration 67000 completed with delta: 2.413024936367414E-4
+Iteration 67100 completed with delta: 0.001968428029994751
+Iteration 67200 completed with delta: 8.26633518062253E-4
+Iteration 67300 completed with delta: 2.8185622915177788E-5
+Iteration 67400 completed with delta: 3.305789196250686E-4
+Iteration 67500 completed with delta: 1.7703913266031712E-4
+Iteration 67600 completed with delta: 2.768902107019855E-5
+Iteration 67700 completed with delta: 3.745070330296585E-5
+Iteration 67800 completed with delta: 2.338841199608921E-5
+Iteration 67900 completed with delta: 1.7579386066968183E-4
+Iteration 68000 completed with delta: 3.6810979036516756E-5
+Iteration 68100 completed with delta: 2.6851063041455348E-5
+Iteration 68200 completed with delta: 0.001328091774742468
+Iteration 68300 completed with delta: 2.668278017115E-5
+Iteration 68400 completed with delta: 0.002484916113254923
+Iteration 68500 completed with delta: 2.4300911681285342E-4
+Iteration 68600 completed with delta: 1.0268866872120697E-4
+Iteration 68700 completed with delta: 1.7340126256426558E-4
+Iteration 68800 completed with delta: 0.008175277064591757
+Iteration 68900 completed with delta: 0.00627048501501859
+Iteration 69000 completed with delta: 3.392522006473442E-5
+Iteration 69100 completed with delta: 2.2508786843387918E-4
+Iteration 69200 completed with delta: 3.371404199725703E-5
+Iteration 69300 completed with delta: 1.7158356079716164E-4
+Iteration 69400 completed with delta: 3.473810544374345E-5
+Iteration 69500 completed with delta: 3.399340207055346E-5
+Iteration 69600 completed with delta: 0.0016356517954538852
+Iteration 69700 completed with delta: 8.435422391519509E-4
+Iteration 69800 completed with delta: 9.719496055105026E-5
+Iteration 69900 completed with delta: 3.226335628836452E-5
+Iteration 70000 completed with delta: 3.2992020357447416E-5
+Iteration 70100 completed with delta: 8.393637983892255E-4
+Iteration 70200 completed with delta: 1.4178143007725907E-4
+Iteration 70300 completed with delta: 3.1057419825231136E-5
+Iteration 70400 completed with delta: 0.0014069145790984727
+Iteration 70500 completed with delta: 2.1972293114859431E-4
+Iteration 70600 completed with delta: 8.304290339202769E-4
+Iteration 70700 completed with delta: 1.1428306236638264E-4
+Iteration 70800 completed with delta: 2.7164649629707327E-5
+Iteration 70900 completed with delta: 1.8273854770001208E-4
+Iteration 71000 completed with delta: 1.628948143537201E-4
+Iteration 71100 completed with delta: 3.1187841645241576E-5
+Iteration 71200 completed with delta: 3.1216593747274146E-5
+Iteration 71300 completed with delta: 2.674583191408786E-5
+Iteration 71400 completed with delta: 3.0377702565864695E-5
+Iteration 71500 completed with delta: 2.7467519393642448E-5
+Iteration 71600 completed with delta: 0.004767022259922538
+Iteration 71700 completed with delta: 2.421252813225583E-5
+Iteration 71800 completed with delta: 0.0025361562190573395
+Iteration 71900 completed with delta: 2.97317206632286E-5
+Iteration 72000 completed with delta: 4.3476353836680026E-4
+Iteration 72100 completed with delta: 2.951651583638082E-5
+Iteration 72200 completed with delta: 1.6334618594271433E-4
+Iteration 72300 completed with delta: 0.003735949123460758
+Iteration 72400 completed with delta: 2.6033505725386874E-5
+Iteration 72500 completed with delta: 0.1290670888398937
+Iteration 72600 completed with delta: 2.9914502025407685E-4
+Iteration 72700 completed with delta: 2.1024870637656456E-4
+Iteration 72800 completed with delta: 1.618932195717182E-4
+Iteration 72900 completed with delta: 2.8427968479238785E-5
+Iteration 73000 completed with delta: 6.589615412437855E-4
+Iteration 73100 completed with delta: 1.0309803896202396E-4
+Iteration 73200 completed with delta: 2.3533915954165874E-5
+Iteration 73300 completed with delta: 1.176070739175028E-4
+Iteration 73400 completed with delta: 2.941127896303186E-4
+Iteration 73500 completed with delta: 2.7776300854043257E-5
+Iteration 73600 completed with delta: 2.3368372893878275E-5
+Iteration 73700 completed with delta: 2.7896991703801888E-5
+Iteration 73800 completed with delta: 7.4355524333658E-4
+Iteration 73900 completed with delta: 2.3241843115417993E-5
+Iteration 74000 completed with delta: 0.002340333288622584
+Iteration 74100 completed with delta: 3.315623056820982E-5
+Iteration 74200 completed with delta: 1.1717077187167746E-4
+Iteration 74300 completed with delta: 7.828879228397589E-4
+Iteration 74400 completed with delta: 1.1401277663658504E-4
+Iteration 74500 completed with delta: 9.950616661402734E-5
+Iteration 74600 completed with delta: 2.7038222777164833E-5
+Iteration 74700 completed with delta: 0.002582718384886107
+Iteration 74800 completed with delta: 2.0342883776731935E-4
+Iteration 74900 completed with delta: 1.5635463600927046E-4
+Iteration 75000 completed with delta: 3.1404594628803295E-5
+Iteration 75100 completed with delta: 2.249700799926424E-5
+Iteration 75200 completed with delta: 0.003140863780398462
+Iteration 75300 completed with delta: 2.9479404803023357E-5
+Iteration 75400 completed with delta: 3.0821368446076747E-4
+Iteration 75500 completed with delta: 3.0806176383935124E-4
+Iteration 75600 completed with delta: 1.5478856680362085E-4
+Iteration 75700 completed with delta: 0.0017445869482795029
+Iteration 75800 completed with delta: 2.989454127755309E-5
+Iteration 75900 completed with delta: 2.9520337877730896E-5
+Iteration 76000 completed with delta: 2.000648760222823E-4
+Iteration 76100 completed with delta: 1.9960052300316278E-4
+Iteration 76200 completed with delta: 4.151734527124695E-4
+Iteration 76300 completed with delta: 2.2110619672457976E-5
+Iteration 76400 completed with delta: 2.9160784436932374E-5
+Iteration 76500 completed with delta: 2.762140453880235E-4
+Iteration 76600 completed with delta: 0.0013018331153455964
+Iteration 76700 completed with delta: 3.0184610686045943E-5
+Iteration 76800 completed with delta: 2.4669550088951553E-5
+Iteration 76900 completed with delta: 2.9740361349617217E-5
+Iteration 77000 completed with delta: 1.9625645921310386E-4
+Iteration 77100 completed with delta: 8.239744603208976E-4
+Iteration 77200 completed with delta: 3.909643660501283E-4
+Iteration 77300 completed with delta: 3.1700747941743046E-4
+Iteration 77400 completed with delta: 2.203774992806662E-5
+Iteration 77500 completed with delta: 3.741263165402131E-5
+Iteration 77600 completed with delta: 0.0021364691883412057
+Iteration 77700 completed with delta: 7.045601790256484E-4
+Iteration 77800 completed with delta: 2.8672854914812973E-5
+Iteration 77900 completed with delta: 1.7557035903781326E-4
+Iteration 78000 completed with delta: 1.7405488160981974E-4
+Iteration 78100 completed with delta: 4.0350870993743904E-4
+Iteration 78200 completed with delta: 1.0227632976711476E-4
+Iteration 78300 completed with delta: 1.9194514620475556E-4
+Iteration 78400 completed with delta: 0.0021304723304398365
+Iteration 78500 completed with delta: 3.229534781725718E-4
+Iteration 78600 completed with delta: 9.412139896984861E-4
+Iteration 78700 completed with delta: 3.99557240073678E-4
+Iteration 78800 completed with delta: 7.588062050625233E-4
+Iteration 78900 completed with delta: 2.9423632673886146E-5
+Iteration 79000 completed with delta: 5.4842953534084415E-5
+Iteration 79100 completed with delta: 0.003051936894475471
+Iteration 79200 completed with delta: 2.8624117824893602E-5
+Iteration 79300 completed with delta: 2.3660926218305178E-5
+Iteration 79400 completed with delta: 2.8679168185608006E-5
+Iteration 79500 completed with delta: 1.4575936897842645E-4
+Iteration 79600 completed with delta: 2.252933291319037E-5
+Iteration 79700 completed with delta: 3.650896568174744E-5
+Iteration 79800 completed with delta: 1.2303996968210384E-4
+Iteration 79900 completed with delta: 2.316128369894699E-5
+Iteration 80000 completed with delta: 2.8196082774378795E-5
+Iteration 80100 completed with delta: 2.794918601223273E-5
+Iteration 80200 completed with delta: 2.765766086554322E-5
+Iteration 80300 completed with delta: 2.2426220636528882E-5
+Iteration 80400 completed with delta: 1.4383452024446797E-4
+Iteration 80500 completed with delta: 1.5938398162074208E-4
+Iteration 80600 completed with delta: 0.002483976556387102
+Iteration 80700 completed with delta: 2.251466264002744E-5
+Iteration 80800 completed with delta: 1.4299133570117029E-4
+Iteration 80900 completed with delta: 4.705581464659048E-5
+Iteration 81000 completed with delta: 2.5804092189662953E-5
+Iteration 81100 completed with delta: 1.5771748629211935E-4
+Iteration 81200 completed with delta: 2.9472390712781404E-4
+Iteration 81300 completed with delta: 3.647969124997985E-5
+Iteration 81400 completed with delta: 2.1497826712180146E-5
+Iteration 81500 completed with delta: 2.590785080647251E-5
+Iteration 81600 completed with delta: 6.749829826979692E-5
+Iteration 81700 completed with delta: 1.617032673164598E-4
+Iteration 81800 completed with delta: 1.8274847581556397E-4
+Iteration 81900 completed with delta: 9.492137044198046E-5
+Iteration 82000 completed with delta: 0.004143648800818189
+Iteration 82100 completed with delta: 1.821997276351267E-4
+Iteration 82200 completed with delta: 1.0369941614674083E-4
+Iteration 82300 completed with delta: 5.056609875087048E-5
+Iteration 82400 completed with delta: 2.7316059939330728E-5
+Iteration 82500 completed with delta: 2.1102109507134537E-5
+Iteration 82600 completed with delta: 0.0016160394789483945
+Iteration 82700 completed with delta: 2.0031302988421373E-4
+Iteration 82800 completed with delta: 0.0020492925315322985
+Iteration 82900 completed with delta: 2.0924490227322567E-5
+Iteration 83000 completed with delta: 2.811062276912857E-4
+Iteration 83100 completed with delta: 2.6653104897356172E-5
+Iteration 83200 completed with delta: 1.790451805807891E-4
+Iteration 83300 completed with delta: 3.329712289001918E-5
+Iteration 83400 completed with delta: 1.379405272197154E-4
+Iteration 83500 completed with delta: 0.0012225497587022432
+Iteration 83600 completed with delta: 0.0020249164257739594
+Iteration 83700 completed with delta: 4.030881770336059E-4
+Iteration 83800 completed with delta: 1.37261752550355E-4
+Iteration 83900 completed with delta: 1.7745945107472405E-4
+Iteration 84000 completed with delta: 9.796584740673353E-5
+Iteration 84100 completed with delta: 1.3670629398032652E-4
+Iteration 84200 completed with delta: 2.8694088399561224E-4
+Iteration 84300 completed with delta: 0.0017148727865849978
+Iteration 84400 completed with delta: 2.0576973825472966E-5
+Iteration 84500 completed with delta: 4.916307627045313E-5
+Iteration 84600 completed with delta: 0.0026626440370289828
+Iteration 84700 completed with delta: 0.002100346751722021
+Iteration 84800 completed with delta: 2.0467590108000366E-5
+Iteration 84900 completed with delta: 0.0010710350181848405
+Iteration 85000 completed with delta: 3.394583806759499E-5
+Iteration 85100 completed with delta: 0.0011206828995762308
+Iteration 85200 completed with delta: 1.1211005575084698E-4
+Iteration 85300 completed with delta: 3.979266772236034E-4
+Iteration 85400 completed with delta: 9.80344465923988E-5
+Iteration 85500 completed with delta: 9.79136658669777E-5
+Iteration 85600 completed with delta: 1.7351939462117993E-4
+Iteration 85700 completed with delta: 1.9888489667940767E-5
+Iteration 85800 completed with delta: 0.004052042802840106
+Iteration 85900 completed with delta: 9.773055673711895E-5
+Iteration 86000 completed with delta: 5.272029626901542E-5
+Iteration 86100 completed with delta: 1.96229157910649E-5
+Iteration 86200 completed with delta: 1.6791026609097592E-4
+Iteration 86300 completed with delta: 1.3257881470751798E-4
+Iteration 86400 completed with delta: 1.930464535426779E-5
+Iteration 86500 completed with delta: 0.0018499493499595232
+Iteration 86600 completed with delta: 1.9520055155597404E-5
+Iteration 86700 completed with delta: 1.7139150203446252E-4
+Iteration 86800 completed with delta: 1.7109411064629432E-4
+Iteration 86900 completed with delta: 2.5153259308297038E-5
+Iteration 87000 completed with delta: 1.3143363990786305E-4
+Iteration 87100 completed with delta: 1.8599385544604274E-4
+Iteration 87200 completed with delta: 3.927182472163171E-4
+Iteration 87300 completed with delta: 4.929502309423961E-4
+Iteration 87400 completed with delta: 2.4986895919454355E-5
+Iteration 87500 completed with delta: 4.6498895387409034E-4
+Iteration 87600 completed with delta: 3.9651134058704685E-4
+Iteration 87700 completed with delta: 1.9175472020668827E-5
+Iteration 87800 completed with delta: 1.6901857667367404E-4
+Iteration 87900 completed with delta: 2.387967694064269E-4
+Iteration 88000 completed with delta: 0.0030463248148075994
+Iteration 88100 completed with delta: 0.0012016091923401362
+Iteration 88200 completed with delta: 8.782497719916904E-5
+Iteration 88300 completed with delta: 7.472671644848106E-5
+Iteration 88400 completed with delta: 1.6394459163437958E-4
+Iteration 88500 completed with delta: 1.890055807748925E-5
+Iteration 88600 completed with delta: 4.971137866864872E-4
+Iteration 88700 completed with delta: 0.001151293418163224
+Iteration 88800 completed with delta: 4.550016173139465E-4
+Iteration 88900 completed with delta: 1.894767816058851E-5
+Iteration 89000 completed with delta: 2.0953172009896548E-5
+Iteration 89100 completed with delta: 1.8982697476258026E-5
+Iteration 89200 completed with delta: 1.9001093236298283E-5
+Iteration 89300 completed with delta: 1.9063784606143663E-5
+Iteration 89400 completed with delta: 1.8870376891161333E-5
+Iteration 89500 completed with delta: 1.8904132495389803E-5
+Iteration 89600 completed with delta: 1.8739332603434633E-5
+Iteration 89700 completed with delta: 4.934621487251434E-5
+Iteration 89800 completed with delta: 1.9458296819152565E-5
+Iteration 89900 completed with delta: 4.175414977325431E-5
+Iteration 90000 completed with delta: 2.1324044189441338E-4
+Iteration 90100 completed with delta: 1.2627119972163925E-4
+Iteration 90200 completed with delta: 1.6388805687279906E-4
+Iteration 90300 completed with delta: 4.15284441164232E-5
+Iteration 90400 completed with delta: 0.0024066682612505774
+Iteration 90500 completed with delta: 1.9199457733876102E-5
+Iteration 90600 completed with delta: 1.8392350783338896E-5
+Iteration 90700 completed with delta: 1.628937419436982E-4
+Iteration 90800 completed with delta: 1.2515226456621953E-4
+Iteration 90900 completed with delta: 1.8516875936888666E-5
+Iteration 91000 completed with delta: 8.579362830918313E-5
+Iteration 91100 completed with delta: 0.0014935819323025346
+Iteration 91200 completed with delta: 3.7374135157572375E-4
+Iteration 91300 completed with delta: 0.0014668107754136628
+Iteration 91400 completed with delta: 0.0028756564646388316
+Iteration 91500 completed with delta: 3.8022103558373044E-4
+Iteration 91600 completed with delta: 0.0021301057202771645
+Iteration 91700 completed with delta: 1.848163107882883E-5
+Iteration 91800 completed with delta: 1.8494063770552183E-5
+Iteration 91900 completed with delta: 1.5207687007556814E-4
+Iteration 92000 completed with delta: 0.0031164864693646877
+Iteration 92100 completed with delta: 8.923242256053676E-5
+Iteration 92200 completed with delta: 0.001084232377007055
+Iteration 92300 completed with delta: 1.8374361348785784E-5
+Iteration 92400 completed with delta: 7.52115394906383E-5
+Iteration 92500 completed with delta: 1.8273156932355206E-5
+Iteration 92600 completed with delta: 3.499740702313514E-4
+Iteration 92700 completed with delta: 0.0011305527432070167
+Iteration 92800 completed with delta: 5.187103347514821E-4
+Iteration 92900 completed with delta: 1.8152319850528453E-5
+Iteration 93000 completed with delta: 1.8141305694358012E-5
+Iteration 93100 completed with delta: 1.814066994390573E-5
+Iteration 93200 completed with delta: 0.004538873851747088
+Iteration 93300 completed with delta: 5.753329210111957E-5
+Iteration 93400 completed with delta: 3.3530797717479244E-4
+Iteration 93500 completed with delta: 7.877964248972358E-4
+Iteration 93600 completed with delta: 2.4873232735700412E-5
+Iteration 93700 completed with delta: 1.82075863313369E-5
+Iteration 93800 completed with delta: 1.8294574341923275E-5
+Iteration 93900 completed with delta: 1.8235703483276966E-5
+Iteration 94000 completed with delta: 1.9985646068709784E-4
+Iteration 94100 completed with delta: 1.826213366101781E-5
+Iteration 94200 completed with delta: 1.8289412128724702E-5
+Iteration 94300 completed with delta: 5.8505308320633276E-5
+Iteration 94400 completed with delta: 1.820416080129672E-5
+Iteration 94500 completed with delta: 1.810144139126335E-5
+Iteration 94600 completed with delta: 3.398608194262742E-4
+Iteration 94700 completed with delta: 1.8089110128544084E-5
+Iteration 94800 completed with delta: 1.8047394036518893E-5
+Iteration 94900 completed with delta: 2.529497149783566E-5
+Iteration 95000 completed with delta: 1.7861320061124397E-5
+Iteration 95100 completed with delta: 1.541942388566947E-4
+Iteration 95200 completed with delta: 1.7725567542620224E-5
+Iteration 95300 completed with delta: 1.1862584247857022E-4
+Iteration 95400 completed with delta: 2.414736670974804E-5
+Iteration 95500 completed with delta: 6.028547805403406E-5
+Iteration 95600 completed with delta: 8.47119599278745E-5
+Iteration 95700 completed with delta: 2.9894039399210037E-4
+Iteration 95800 completed with delta: 1.781771158582135E-5
+Iteration 95900 completed with delta: 1.7716530782890816E-5
+Iteration 96000 completed with delta: 6.705605370971313E-5
+Iteration 96100 completed with delta: 0.010935355346378905
+Iteration 96200 completed with delta: 1.1735964019599088E-4
+Iteration 96300 completed with delta: 1.7772257743881026E-5
+Iteration 96400 completed with delta: 1.1710965324640554E-4
+Iteration 96500 completed with delta: 3.263999138778395E-4
+Iteration 96600 completed with delta: 2.5501041364783816E-5
+Iteration 96700 completed with delta: 1.7417612046335962E-5
+Iteration 96800 completed with delta: 1.512837214248386E-4
+Iteration 96900 completed with delta: 1.724545998539606E-5
+Iteration 97000 completed with delta: 1.717654425981152E-5
+Iteration 97100 completed with delta: 0.002149354363416095
+Iteration 97200 completed with delta: 1.7051613285107292E-5
+Iteration 97300 completed with delta: 1.6969878400385774E-5
+Iteration 97400 completed with delta: 1.6884654056115167E-4
+Iteration 97500 completed with delta: 6.431980748455857E-5
+Iteration 97600 completed with delta: 1.6842573768230396E-5
+Iteration 97700 completed with delta: 6.477703495604281E-4
+Iteration 97800 completed with delta: 0.001088988357875978
+Iteration 97900 completed with delta: 1.1513747262648089E-4
+Iteration 98000 completed with delta: 0.0014215633937433303
+Iteration 98100 completed with delta: 1.568530975601945E-4
+Iteration 98200 completed with delta: 8.296037240662635E-5
+Iteration 98300 completed with delta: 3.376515725977136E-4
+Iteration 98400 completed with delta: 5.6254145215817175E-5
+Iteration 98500 completed with delta: 1.66263069000111E-5
+Iteration 98600 completed with delta: 1.6603070546017396E-5
+Iteration 98700 completed with delta: 1.4838402016793817E-4
+Iteration 98800 completed with delta: 0.0010170252601344743
+Iteration 98900 completed with delta: 1.480709137902242E-4
+Iteration 99000 completed with delta: 8.161891199542914E-5
+Iteration 99100 completed with delta: 1.6392924368738293E-5
+Iteration 99200 completed with delta: 3.471980753942949E-4
+Iteration 99300 completed with delta: 1.6310931201038437E-5
+Iteration 99400 completed with delta: 9.991881365944977E-5
+Iteration 99500 completed with delta: 1.645445054057615E-5
+Iteration 99600 completed with delta: 1.1305366013725227E-4
+Iteration 99700 completed with delta: 7.807436470019802E-4
+Iteration 99800 completed with delta: 1.6331346788148182E-5
+Iteration 99900 completed with delta: 1.3647512326642186E-4
+Iteration 100000 completed with delta: 1.1250048183764072E-4
+Iteration 100100 completed with delta: 1.6225523203683423E-5
+Iteration 100200 completed with delta: 0.002054450702681565
+Iteration 100300 completed with delta: 1.6296406927907015E-5
+Iteration 100400 completed with delta: 0.0020343543856876506
+Iteration 100500 completed with delta: 1.6190525644860232E-5
+Iteration 100600 completed with delta: 1.6207076015337107E-5
+Iteration 100700 completed with delta: 1.6141732952043575E-5
+Iteration 100800 completed with delta: 7.715432918464771E-4
+Iteration 100900 completed with delta: 4.930426982912017E-4
+Iteration 101000 completed with delta: 1.6103989147336906E-5
+Iteration 101100 completed with delta: 0.0035094288838717347
+Iteration 101200 completed with delta: 1.8092299765370967E-4
+Iteration 101300 completed with delta: 7.973319863929795E-5
+Iteration 101400 completed with delta: 7.963795756946723E-4
+Iteration 101500 completed with delta: 3.0801253163960374E-4
+Iteration 101600 completed with delta: 1.604407760096016E-5
+Iteration 101700 completed with delta: 1.435898747109282E-4
+Iteration 101800 completed with delta: 1.433551643107711E-4
+Iteration 101900 completed with delta: 3.551176664307043E-4
+Iteration 102000 completed with delta: 0.002646218475439638
+Iteration 102100 completed with delta: 2.4154737645609714E-5
+Iteration 102200 completed with delta: 1.4240431454158597E-4
+Iteration 102300 completed with delta: 1.0969526499038373E-4
+Iteration 102400 completed with delta: 5.110918006145937E-5
+Iteration 102500 completed with delta: 7.846600465333253E-5
+Iteration 102600 completed with delta: 4.5949387514321316E-4
+Iteration 102700 completed with delta: 1.61962957252737E-5
+Iteration 102800 completed with delta: 1.4151067497440717E-4
+Iteration 102900 completed with delta: 1.6367353372598314E-5
+Iteration 103000 completed with delta: 2.7865916444179406E-4
+Iteration 103100 completed with delta: 1.61308701199514E-5
+Iteration 103200 completed with delta: 5.490183566880802E-5
+Iteration 103300 completed with delta: 3.0889612554353685E-4
+Iteration 103400 completed with delta: 1.6157850474193824E-5
+Iteration 103500 completed with delta: 1.0824815108145813E-4
+Iteration 103600 completed with delta: 7.542366267880851E-4
+Iteration 103700 completed with delta: 4.937629463341864E-5
+Iteration 103800 completed with delta: 1.3994458829601208E-4
+Iteration 103900 completed with delta: 1.077186040241429E-4
+Iteration 104000 completed with delta: 9.149536716179796E-5
+Iteration 104100 completed with delta: 1.5994989652740044E-5
+Iteration 104200 completed with delta: 4.5992545430273424E-4
+Iteration 104300 completed with delta: 3.412211257550063E-4
+Iteration 104400 completed with delta: 1.582012217234141E-5
+Iteration 104500 completed with delta: 1.391274564175593E-4
+Iteration 104600 completed with delta: 5.322368208826589E-5
+Iteration 104700 completed with delta: 0.0010185982598862608
+Iteration 104800 completed with delta: 1.5872013980733346E-5
+Iteration 104900 completed with delta: 1.5905189205273063E-5
+Iteration 105000 completed with delta: 1.382067387635938E-4
+Iteration 105100 completed with delta: 4.7852317123009414E-5
+Iteration 105200 completed with delta: 1.3787100129934726E-4
+Iteration 105300 completed with delta: 1.3777227595770936E-4
+Iteration 105400 completed with delta: 2.4771187811190032E-5
+Iteration 105500 completed with delta: 2.8561169836538447E-4
+Iteration 105600 completed with delta: 1.0578127656613034E-4
+Iteration 105700 completed with delta: 1.573241579071183E-5
+Iteration 105800 completed with delta: 1.5785512109206534E-5
+Iteration 105900 completed with delta: 1.568837251499089E-5
+Iteration 106000 completed with delta: 1.568292181841624E-5
+Iteration 106100 completed with delta: 1.5666528370442134E-5
+Iteration 106200 completed with delta: 6.445725524186763E-4
+Iteration 106300 completed with delta: 1.5695814782404338E-5
+Iteration 106400 completed with delta: 0.0010371917771352518
+Iteration 106500 completed with delta: 1.459406744599434E-4
+Iteration 106600 completed with delta: 0.001329273105288964
+Iteration 106700 completed with delta: 5.260914625893065E-5
+Iteration 106800 completed with delta: 1.0446894792881523E-4
+Iteration 106900 completed with delta: 1.543287730332299E-5
+Iteration 107000 completed with delta: 3.918951120515657E-4
+Iteration 107100 completed with delta: 1.544047185135511E-5
+Iteration 107200 completed with delta: 3.820727904457755E-5
+Iteration 107300 completed with delta: 1.5426999391540686E-5
+Iteration 107400 completed with delta: 1.3492565003080104E-4
+Iteration 107500 completed with delta: 4.550099620459491E-5
+Iteration 107600 completed with delta: 1.5517001016041032E-5
+Iteration 107700 completed with delta: 1.536388410079692E-5
+Iteration 107800 completed with delta: 1.5351325340542954E-5
+Iteration 107900 completed with delta: 0.0018926203661365076
+Iteration 108000 completed with delta: 3.4183887329675144E-5
+Iteration 108100 completed with delta: 1.5381823457602528E-5
+Iteration 108200 completed with delta: 1.5471758688739845E-5
+Iteration 108300 completed with delta: 1.5444874030559608E-5
+Iteration 108400 completed with delta: 2.4261679344661502E-5
+Iteration 108500 completed with delta: 1.5401739038439777E-5
+Iteration 108600 completed with delta: 1.5365767241176664E-5
+Iteration 108700 completed with delta: 2.4052277048713933E-5
+Iteration 108800 completed with delta: 1.5342457891004413E-5
+Iteration 108900 completed with delta: 2.919784570292183E-4
+Iteration 109000 completed with delta: 3.3837840074824044E-5
+Iteration 109100 completed with delta: 1.5237280748925386E-5
+Iteration 109200 completed with delta: 4.710155618425915E-5
+Iteration 109300 completed with delta: 1.5262988769970676E-5
+Iteration 109400 completed with delta: 4.770979189576696E-4
+Iteration 109500 completed with delta: 1.5334491655555338E-5
+Iteration 109600 completed with delta: 1.0144699237280008E-4
+Iteration 109700 completed with delta: 1.5269296634257135E-5
+Iteration 109800 completed with delta: 1.3973172829140346E-4
+Iteration 109900 completed with delta: 0.0036220587322218084
+Iteration 110000 completed with delta: 1.0104674781019618E-4
+Iteration 110100 completed with delta: 2.886003852096142E-4
+Iteration 110200 completed with delta: 1.0085302609619262E-4
+Iteration 110300 completed with delta: 4.657996332113612E-5
+Iteration 110400 completed with delta: 1.5382371092095837E-5
+Iteration 110500 completed with delta: 4.263842016261066E-5
+Iteration 110600 completed with delta: 2.755807527945464E-4
+Iteration 110700 completed with delta: 1.540182802017842E-5
+Iteration 110800 completed with delta: 1.5365045807749778E-5
+Iteration 110900 completed with delta: 7.206100469914212E-5
+Iteration 111000 completed with delta: 1.5300248560057295E-5
+Iteration 111100 completed with delta: 2.4309859555593505E-5
+Iteration 111200 completed with delta: 1.5289841500912282E-5
+Iteration 111300 completed with delta: 3.965448643105385E-4
+Iteration 111400 completed with delta: 1.2918201182890443E-4
+Iteration 111500 completed with delta: 9.94998404839631E-5
+Iteration 111600 completed with delta: 1.2883257689666472E-4
+Iteration 111700 completed with delta: 1.2875158178406176E-4
+Iteration 111800 completed with delta: 1.5124841930197475E-5
+Iteration 111900 completed with delta: 1.510369615914664E-5
+Iteration 112000 completed with delta: 2.569659047986228E-4
+Iteration 112100 completed with delta: 9.889113341876588E-5
+Iteration 112200 completed with delta: 2.419923097907173E-5
+Iteration 112300 completed with delta: 0.001305373407510732
+Iteration 112400 completed with delta: 1.4875198115840704E-5
+Iteration 112500 completed with delta: 1.2777679497616434E-4
+Iteration 112600 completed with delta: 0.0014094744658943448
+Iteration 112700 completed with delta: 7.623811942156777E-4
+Iteration 112800 completed with delta: 4.096229014799724E-4
+Iteration 112900 completed with delta: 1.272175221113253E-4
+Iteration 113000 completed with delta: 7.061466653723869E-5
+Iteration 113100 completed with delta: 1.5001535160527601E-5
+Iteration 113200 completed with delta: 1.9345815508486908E-4
+Iteration 113300 completed with delta: 1.4987764476781518E-5
+Iteration 113400 completed with delta: 9.768313648539362E-5
+Iteration 113500 completed with delta: 0.001269258005783147
+Iteration 113600 completed with delta: 1.529197769358781E-4
+Iteration 113700 completed with delta: 2.4212548152213742E-4
+Iteration 113800 completed with delta: 1.5021710840154578E-5
+Iteration 113900 completed with delta: 1.2580188868360764E-4
+Iteration 114000 completed with delta: 2.8463824877318633E-4
+Iteration 114100 completed with delta: 7.125831265053506E-5
+Iteration 114200 completed with delta: 0.005410377112812004
+Iteration 114300 completed with delta: 4.463093141904295E-5
+Iteration 114400 completed with delta: 1.2811347270003104E-4
+Iteration 114500 completed with delta: 1.4970097824903994E-5
+Iteration 114600 completed with delta: 1.249504707981769E-4
+Iteration 114700 completed with delta: 1.5009184906170092E-5
+Iteration 114800 completed with delta: 4.41120321234445E-4
+Iteration 114900 completed with delta: 0.0012203096147657133
+Iteration 115000 completed with delta: 3.2038935560763093E-4
+Iteration 115100 completed with delta: 1.4880426017646609E-5
+Iteration 115200 completed with delta: 1.242553032271554E-4
+Iteration 115300 completed with delta: 2.5971022536808164E-4
+Iteration 115400 completed with delta: 3.876276372061227E-5
+Iteration 115500 completed with delta: 3.6929692529412417E-4
+Iteration 115600 completed with delta: 4.733655242801227E-4
+Iteration 115700 completed with delta: 2.2932109736473194E-5
+Iteration 115800 completed with delta: 1.4712665260235847E-5
+Iteration 115900 completed with delta: 1.234717555444187E-4
+Iteration 116000 completed with delta: 1.4746758942182914E-5
+Iteration 116100 completed with delta: 4.1630496958156016E-5
+Iteration 116200 completed with delta: 1.4643878930298282E-5
+Iteration 116300 completed with delta: 1.4604872394990975E-5
+Iteration 116400 completed with delta: 1.4625802393378184E-5
+Iteration 116500 completed with delta: 9.471249530301762E-5
+Iteration 116600 completed with delta: 4.12771676474577E-5
+Iteration 116700 completed with delta: 1.4546105482932115E-5
+Iteration 116800 completed with delta: 3.7994853672174145E-5
+Iteration 116900 completed with delta: 1.4497388038395287E-5
+Iteration 117000 completed with delta: 1.4473573458573252E-5
+Iteration 117100 completed with delta: 1.4431425975861E-5
+Iteration 117200 completed with delta: 1.4424721220276937E-5
+Iteration 117300 completed with delta: 9.39357869056412E-5
+Iteration 117400 completed with delta: 1.4343790733145623E-5
+Iteration 117500 completed with delta: 9.374856531629838E-5
+Iteration 117600 completed with delta: 9.36577723982257E-5
+Iteration 117700 completed with delta: 6.359516018665801E-4
+Iteration 117800 completed with delta: 1.3734906137541358E-4
+Iteration 117900 completed with delta: 1.212504022904265E-4
+Iteration 118000 completed with delta: 1.4799615384841758E-4
+Iteration 118100 completed with delta: 2.762081727291643E-4
+Iteration 118200 completed with delta: 3.346480637667071E-5
+Iteration 118300 completed with delta: 1.4236369556261397E-5
+Iteration 118400 completed with delta: 3.685101578732031E-5
+Iteration 118500 completed with delta: 0.00909847984037393
+Iteration 118600 completed with delta: 1.4150419841679751E-5
+Iteration 118700 completed with delta: 0.005613401064952228
+Iteration 118800 completed with delta: 2.673604821409048E-4
+Iteration 118900 completed with delta: 0.0014263269107823717
+Iteration 119000 completed with delta: 1.1994054499671336E-4
+Iteration 119100 completed with delta: 3.0647894915247775E-5
+Iteration 119200 completed with delta: 5.734894317686035E-4
+Iteration 119300 completed with delta: 1.4185812143005516E-5
+Iteration 119400 completed with delta: 3.9296526493259876E-5
+Iteration 119500 completed with delta: 1.3659121400744212E-4
+Iteration 119600 completed with delta: 8.416234395189903E-4
+Iteration 119700 completed with delta: 4.0205266564741216E-4
+Iteration 119800 completed with delta: 3.0439925985170646E-5
+Iteration 119900 completed with delta: 1.401773787147731E-5
+Iteration 120000 completed with delta: 0.0010170302907783757
+Iteration 120100 completed with delta: 1.403352739538788E-5
+Iteration 120200 completed with delta: 1.4043237123298469E-5
+Iteration 120300 completed with delta: 1.4097168341775657E-5
+Iteration 120400 completed with delta: 1.4039569795232243E-5
+Iteration 120500 completed with delta: 2.079589630779033E-4
+Iteration 120600 completed with delta: 2.5339547892101744E-4
+Iteration 120700 completed with delta: 1.4770266169916724E-4
+Iteration 120800 completed with delta: 0.0012028397648542466
+Iteration 120900 completed with delta: 5.750162156659133E-4
+Iteration 121000 completed with delta: 1.3924421098043815E-5
+Iteration 121100 completed with delta: 1.656227887760764E-4
+Iteration 121200 completed with delta: 0.001619304023431578
+Iteration 121300 completed with delta: 2.2036462464125606E-5
+Iteration 121400 completed with delta: 0.002043855209646228
+Iteration 121500 completed with delta: 1.388821895763337E-5
+Iteration 121600 completed with delta: 3.4087245721205195E-4
+Iteration 121700 completed with delta: 1.3460229410089397E-4
+Iteration 121800 completed with delta: 1.393091045770456E-5
+Iteration 121900 completed with delta: 1.3910399833463871E-5
+Iteration 122000 completed with delta: 3.375034287137202E-4
+Iteration 122100 completed with delta: 1.1649986982209537E-4
+Iteration 122200 completed with delta: 0.00509630483996748
+Iteration 122300 completed with delta: 1.394883055408358E-5
+Iteration 122400 completed with delta: 1.396328658186119E-5
+Iteration 122500 completed with delta: 6.381642242003771E-5
+Iteration 122600 completed with delta: 1.3893242880966272E-5
+Iteration 122700 completed with delta: 1.391266828039417E-5
+Iteration 122800 completed with delta: 6.371772259061714E-5
+Iteration 122900 completed with delta: 1.3396312449009962E-4
+Iteration 123000 completed with delta: 3.448924656979102E-5
+Iteration 123100 completed with delta: 1.3757369798708674E-5
+Iteration 123200 completed with delta: 1.3794843260403478E-5
+Iteration 123300 completed with delta: 2.4259361222904452E-4
+Iteration 123400 completed with delta: 1.3701838106894293E-5
+Iteration 123500 completed with delta: 1.3664625891210425E-5
+Iteration 123600 completed with delta: 8.864174804590341E-5
+Iteration 123700 completed with delta: 1.3537393275059317E-5
+Iteration 123800 completed with delta: 9.266656748119217E-5
+Iteration 123900 completed with delta: 1.365432947160461E-5
+Iteration 124000 completed with delta: 1.3594504191333234E-5
+Iteration 124100 completed with delta: 1.3582895621741531E-5
+Iteration 124200 completed with delta: 8.817014081730079E-5
+Iteration 124300 completed with delta: 4.899268015352565E-4
+Iteration 124400 completed with delta: 8.802691621201397E-5
+Iteration 124500 completed with delta: 1.3512158352657622E-5
+Iteration 124600 completed with delta: 1.345912228410684E-5
+Iteration 124700 completed with delta: 6.412501659505132E-4
+Iteration 124800 completed with delta: 2.17575900620659E-5
+Iteration 124900 completed with delta: 0.002835398413052914
+Iteration 125000 completed with delta: 8.7543191105377E-5
+Iteration 125100 completed with delta: 3.381671522412616E-4
+Iteration 125200 completed with delta: 1.3239265043291093E-5
+Iteration 125300 completed with delta: 7.446109074096263E-4
+Iteration 125400 completed with delta: 3.548606581826874E-5
+Iteration 125500 completed with delta: 6.172970457019034E-5
+Iteration 125600 completed with delta: 2.1827975969190838E-4
+Iteration 125700 completed with delta: 1.1301590337826906E-4
+Iteration 125800 completed with delta: 0.0011833195372212002
+Iteration 125900 completed with delta: 1.3288499899205553E-5
+Iteration 126000 completed with delta: 1.3260383775595685E-5
+Iteration 126100 completed with delta: 0.007118694762315858
+Iteration 126200 completed with delta: 2.2601448547991676E-4
+Iteration 126300 completed with delta: 1.3163183349873542E-5
+Iteration 126400 completed with delta: 1.3116775544178005E-5
+Iteration 126500 completed with delta: 1.3070240500900887E-5
+Iteration 126600 completed with delta: 1.3009024285609572E-5
+Iteration 126700 completed with delta: 1.2996818595414905E-5
+Iteration 126800 completed with delta: 1.3066341627274158E-5
+Iteration 126900 completed with delta: 8.687400609201923E-4
+Iteration 127000 completed with delta: 1.2962933522500664E-5
+Iteration 127100 completed with delta: 1.3002848969795311E-5
+Iteration 127200 completed with delta: 1.2963533250864856E-5
+Iteration 127300 completed with delta: 8.587041249930039E-5
+Iteration 127400 completed with delta: 5.112200073611461E-4
+Iteration 127500 completed with delta: 3.025110926913044E-5
+Iteration 127600 completed with delta: 2.2508360168416175E-4
+Iteration 127700 completed with delta: 1.2883240532918228E-5
+Iteration 127800 completed with delta: 1.554102597504131
+Iteration 127900 completed with delta: 1.1108300949087824E-4
+Iteration 128000 completed with delta: 0.0015419219538681528
+Iteration 128100 completed with delta: 1.2756949962847153E-5
+Iteration 128200 completed with delta: 3.18890671557881E-5
+Iteration 128300 completed with delta: 1.3047963719770017E-4
+Iteration 128400 completed with delta: 1.2562139920346826E-5
+Iteration 128500 completed with delta: 0.001169498891341103
+Iteration 128600 completed with delta: 3.954901946481293E-4
+Iteration 128700 completed with delta: 3.16634462116383E-5
+Iteration 128800 completed with delta: 1.248213846249957E-5
+Iteration 128900 completed with delta: 1.2473336005056068E-5
+Iteration 129000 completed with delta: 1.2484336240625726E-5
+Iteration 129100 completed with delta: 2.186236860213242E-5
+Iteration 129200 completed with delta: 1.2434517805678946E-5
+Iteration 129300 completed with delta: 1.2403032973695716E-4
+Iteration 129400 completed with delta: 2.0013209959079958E-4
+Iteration 129500 completed with delta: 1.2422086357335993E-5
+Iteration 129600 completed with delta: 1.2442829118761156E-5
+Iteration 129700 completed with delta: 8.410279934878417E-5
+Iteration 129800 completed with delta: 2.789189658347624E-5
+Iteration 129900 completed with delta: 1.242990395186605E-5
+Iteration 130000 completed with delta: 0.001867171624977404
+Iteration 130100 completed with delta: 0.07332051625210667
+Iteration 130200 completed with delta: 1.2383645405941723E-5
+Iteration 130300 completed with delta: 1.2366214721851176E-5
+Iteration 130400 completed with delta: 8.363283825230106E-5
+Iteration 130500 completed with delta: 2.146275360188632E-4
+Iteration 130600 completed with delta: 1.2303730377458133E-5
+Iteration 130700 completed with delta: 0.0018350922329282149
+Iteration 130800 completed with delta: 3.266670225876567E-5
+Iteration 130900 completed with delta: 3.261011595867558E-5
+Iteration 131000 completed with delta: 1.2266924199588747E-5
+Iteration 131100 completed with delta: 1.2280950557871928E-5
+Iteration 131200 completed with delta: 7.463888648562289E-5
+Iteration 131300 completed with delta: 2.145208028370149E-5
+Iteration 131400 completed with delta: 0.0021680013752285454
+Iteration 131500 completed with delta: 1.2277430810211931E-5
+Iteration 131600 completed with delta: 8.283450020862837E-5
+Iteration 131700 completed with delta: 1.0774047387229757E-4
+Iteration 131800 completed with delta: 0.00284678542238119
+Iteration 131900 completed with delta: 0.001832766477058767
+Iteration 132000 completed with delta: 0.0011083182519602275
+Iteration 132100 completed with delta: 1.216430078983255E-5
+Iteration 132200 completed with delta: 2.122513264157383E-4
+Iteration 132300 completed with delta: 1.213864807379783E-5
+Iteration 132400 completed with delta: 2.7332042416894353E-5
+Iteration 132500 completed with delta: 8.218667600701224E-5
+Iteration 132600 completed with delta: 0.0019261026715593488
+Iteration 132700 completed with delta: 2.1976877865981237E-5
+Iteration 132800 completed with delta: 2.868873907502234E-5
+Iteration 132900 completed with delta: 1.203715809312833E-5
+Iteration 133000 completed with delta: 8.186261203269041E-5
+Iteration 133100 completed with delta: 1.2042069607171024E-5
+Iteration 133200 completed with delta: 1.4889142378660125E-4
+Iteration 133300 completed with delta: 2.9759421612318704E-5
+Iteration 133400 completed with delta: 1.991918458834896E-4
+Iteration 133500 completed with delta: 0.0019659762114450086
+Iteration 133600 completed with delta: 2.9703485560084175E-5
+Iteration 133700 completed with delta: 0.0011109777281979039
+Iteration 133800 completed with delta: 2.210757473619651E-5
+Iteration 133900 completed with delta: 2.3666190566387635E-4
+Iteration 134000 completed with delta: 1.1890712994164221E-5
+Iteration 134100 completed with delta: 3.1040243073654494E-5
+Iteration 134200 completed with delta: 1.1835786343644683E-5
+Iteration 134300 completed with delta: 2.3084602317720304E-4
+Iteration 134400 completed with delta: 1.1791245731015976E-5
+Iteration 134500 completed with delta: 1.177498758950235E-5
+Iteration 134600 completed with delta: 2.2333394777944438E-4
+Iteration 134700 completed with delta: 0.0016245015803022511
+Iteration 134800 completed with delta: 3.6993866427526E-4
+Iteration 134900 completed with delta: 0.0010733370172890666
+Iteration 135000 completed with delta: 1.5175648770915373E-4
+Iteration 135100 completed with delta: 1.1748768445687952E-5
+Iteration 135200 completed with delta: 2.4129099773917417E-4
+Iteration 135300 completed with delta: 1.1717998445193167E-4
+Iteration 135400 completed with delta: 1.0469557852844924E-4
+Iteration 135500 completed with delta: 1.046508140371688E-4
+Iteration 135600 completed with delta: 1.1606018352081082E-5
+Iteration 135700 completed with delta: 0.0011869720846049425
+Iteration 135800 completed with delta: 1.1585722912405005E-5
+Iteration 135900 completed with delta: 3.424388677767676E-4
+Iteration 136000 completed with delta: 1.160003075864613E-5
+Iteration 136100 completed with delta: 1.1037309152772679E-4
+Iteration 136200 completed with delta: 0.0017799992013027843
+Iteration 136300 completed with delta: 5.6426672133680356E-5
+Iteration 136400 completed with delta: 0.006507446972495501
+Iteration 136500 completed with delta: 1.0384602967368484E-4
+Iteration 136600 completed with delta: 1.0374918431371727E-4
+Iteration 136700 completed with delta: 1.1486770577065486E-5
+Iteration 136800 completed with delta: 1.1455943853530548E-5
+Iteration 136900 completed with delta: 3.268072398434768E-4
+Iteration 137000 completed with delta: 0.0014264157739237449
+Iteration 137100 completed with delta: 1.1392356549705385E-5
+Iteration 137200 completed with delta: 2.7519854127078247E-5
+Iteration 137300 completed with delta: 1.1436750964530229E-5
+Iteration 137400 completed with delta: 2.0307716886652782E-4
+Iteration 137500 completed with delta: 0.0016752044818360012
+Iteration 137600 completed with delta: 2.622311441324854E-5
+Iteration 137700 completed with delta: 2.8181654641912246E-5
+Iteration 137800 completed with delta: 1.1420781960300164E-5
+Iteration 137900 completed with delta: 2.808194540637743E-5
+Iteration 138000 completed with delta: 2.1400070305022112E-4
+Iteration 138100 completed with delta: 7.013303390124292E-5
+Iteration 138200 completed with delta: 7.845172143294832E-5
+Iteration 138300 completed with delta: 7.689238837382817E-5
+Iteration 138400 completed with delta: 5.5417239041899435E-5
+Iteration 138500 completed with delta: 1.1691598712992857E-4
+Iteration 138600 completed with delta: 1.1402618031425282E-5
+Iteration 138700 completed with delta: 2.9181437170677782E-5
+Iteration 138800 completed with delta: 1.1452719182014626E-5
+Iteration 138900 completed with delta: 1.1385958526524687E-5
+Iteration 139000 completed with delta: 5.5052879666117605E-5
+Iteration 139100 completed with delta: 4.162151715743079E-4
+Iteration 139200 completed with delta: 5.366136026108137E-5
+Iteration 139300 completed with delta: 6.567250880440412E-5
+Iteration 139400 completed with delta: 1.0133657590219447E-4
+Iteration 139500 completed with delta: 3.0501285722060734E-4
+Iteration 139600 completed with delta: 8.453866838280533E-4
+Iteration 139700 completed with delta: 1.1341928206995422E-5
+Iteration 139800 completed with delta: 0.0010725001444615856
+Iteration 139900 completed with delta: 7.547145432340585E-5
+Iteration 140000 completed with delta: 1.1321130736124951E-5
+Iteration 140100 completed with delta: 1.1465130096710574E-4
+Iteration 140200 completed with delta: 7.722970047141509E-5
+Iteration 140300 completed with delta: 3.60272846195997E-5
+Iteration 140400 completed with delta: 1.1179952075765498E-5
+Iteration 140500 completed with delta: 1.579333712520281E-4
+Iteration 140600 completed with delta: 1.8002921921222992E-4
+Iteration 140700 completed with delta: 7.696110155053226E-5
+Iteration 140800 completed with delta: 2.0396900706071142E-4
+Iteration 140900 completed with delta: 3.337163493575268E-4
+Iteration 141000 completed with delta: 1.1052063150759905E-5
+Iteration 141100 completed with delta: 6.85356126330916E-5
+Iteration 141200 completed with delta: 1.0002151885595001E-4
+Iteration 141300 completed with delta: 1.11391635067154E-5
+Iteration 141400 completed with delta: 1.1150680572821758E-5
+Iteration 141500 completed with delta: 1.9112366492590738E-4
+Iteration 141600 completed with delta: 1.1171878943144753E-5
+Iteration 141700 completed with delta: 9.949058455938076E-5
+Iteration 141800 completed with delta: 9.940152639625888E-5
+Iteration 141900 completed with delta: 1.121900266717879E-5
+Iteration 142000 completed with delta: 1.1249488821626907E-5
+Iteration 142100 completed with delta: 2.2006153010734053E-4
+Iteration 142200 completed with delta: 2.5264455592477475E-5
+Iteration 142300 completed with delta: 0.0010624715555627162
+Iteration 142400 completed with delta: 0.0017287459066643862
+Iteration 142500 completed with delta: 2.624937429729357E-5
+Iteration 142600 completed with delta: 9.866985966215658E-5
+Iteration 142700 completed with delta: 2.645252371724638E-5
+Iteration 142800 completed with delta: 0.001153101951019142
+Iteration 142900 completed with delta: 6.699383372055223E-5
+Iteration 143000 completed with delta: 1.1258252693463477E-5
+Iteration 143100 completed with delta: 2.827420890390009E-4
+Iteration 143200 completed with delta: 0.001057768158691852
+Iteration 143300 completed with delta: 1.1249053486150906E-5
+Iteration 143400 completed with delta: 0.0010540691368401411
+Iteration 143500 completed with delta: 1.1195333137967167E-5
+Iteration 143600 completed with delta: 7.520896823232093E-5
+Iteration 143700 completed with delta: 0.0010528964356191217
+Iteration 143800 completed with delta: 9.697233089878132E-4
+Iteration 143900 completed with delta: 2.2004422937271784E-4
+Iteration 144000 completed with delta: 0.0010480605453027092
+Iteration 144100 completed with delta: 1.9855938243643068E-4
+Iteration 144200 completed with delta: 1.1212388507875204E-5
+Iteration 144300 completed with delta: 1.977351843219649E-4
+Iteration 144400 completed with delta: 1.1135522685126742E-5
+Iteration 144500 completed with delta: 1.1195154511631222E-5
+Iteration 144600 completed with delta: 1.1133515110520187E-5
+Iteration 144700 completed with delta: 0.0010468524030764481
+Iteration 144800 completed with delta: 5.257927746082913E-5
+Iteration 144900 completed with delta: 5.301871250029677E-5
+Iteration 145000 completed with delta: 7.440607219533213E-5
+Iteration 145100 completed with delta: 1.5868078613490155E-4
+Iteration 145200 completed with delta: 7.092306300959805E-5
+Iteration 145300 completed with delta: 1.0906790970058311E-5
+Iteration 145400 completed with delta: 7.064825674518715E-5
+Iteration 145500 completed with delta: 1.0879453589462962E-5
+Iteration 145600 completed with delta: 2.682410011480424E-4
+Iteration 145700 completed with delta: 1.0793923830534902E-5
+Iteration 145800 completed with delta: 2.2423268963844833E-5
+Iteration 145900 completed with delta: 1.0750488564012506E-5
+Iteration 146000 completed with delta: 1.0726842606403886E-5
+Iteration 146100 completed with delta: 1.0756709922260521E-5
+Iteration 146200 completed with delta: 1.8595079543941295E-4
+Iteration 146300 completed with delta: 7.371193828076272E-5
+Iteration 146400 completed with delta: 2.2600293621888312E-5
+Iteration 146500 completed with delta: 9.602246587853136E-5
+Iteration 146600 completed with delta: 1.0713418038654776E-5
+Iteration 146700 completed with delta: 1.0295703446394633E-4
+Iteration 146800 completed with delta: 1.07755256880393E-5
+Iteration 146900 completed with delta: 6.097339654509426E-5
+Iteration 147000 completed with delta: 2.628869703968917E-5
+Iteration 147100 completed with delta: 1.0708992286362351E-5
+Iteration 147200 completed with delta: 1.0178517008285759E-4
+Iteration 147300 completed with delta: 1.0643488813938395E-5
+Iteration 147400 completed with delta: 3.5649776101598363E-4
+Iteration 147500 completed with delta: 0.010238797339631844
+Iteration 147600 completed with delta: 1.0612891671563096E-5
+Iteration 147700 completed with delta: 1.0598732222102947E-5
+Iteration 147800 completed with delta: 1.722458956479045E-4
+Iteration 147900 completed with delta: 4.3852147923795215E-4
+Iteration 148000 completed with delta: 1.0538356687753159E-5
+Iteration 148100 completed with delta: 8.855159449281391E-4
+Iteration 148200 completed with delta: 8.615057344273785E-4
+Iteration 148300 completed with delta: 8.997185690369225E-4
+Iteration 148400 completed with delta: 1.045706002374136E-5
+Iteration 148500 completed with delta: 1.0462085918011566E-5
+Iteration 148600 completed with delta: 7.250608859155072E-5
+Iteration 148700 completed with delta: 2.5766088390888342E-5
+Iteration 148800 completed with delta: 3.10963992113944E-4
+Iteration 148900 completed with delta: 2.487367082970593E-5
+Iteration 149000 completed with delta: 1.0434088179758771E-5
+Iteration 149100 completed with delta: 1.8039268646977136E-4
+Iteration 149200 completed with delta: 7.219636268307461E-5
+Iteration 149300 completed with delta: 9.076121013005256E-4
+Iteration 149400 completed with delta: 1.8598493879085076E-4
+Iteration 149500 completed with delta: 4.634553121452001E-5
+Iteration 149600 completed with delta: 1.0360147792376484E-5
+Iteration 149700 completed with delta: 1.0389305276609084E-5
+Iteration 149800 completed with delta: 0.00814180285352907
+Iteration 149900 completed with delta: 1.0432143631416979E-5
+Iteration 150000 completed with delta: 1.0435319301324575E-5
+Iteration 150100 completed with delta: 6.384804460157767E-5
+Iteration 150200 completed with delta: 1.042338160618661E-5
+Iteration 150300 completed with delta: 8.515790980758026E-4
+Iteration 150400 completed with delta: 1.88374832721383E-4
+Iteration 150500 completed with delta: 1.752750636780931E-4
+Iteration 150600 completed with delta: 0.04808137582323335
+Iteration 150700 completed with delta: 2.1388976483294186E-5
+Iteration 150800 completed with delta: 1.0271284020951787E-5
+Iteration 150900 completed with delta: 2.1318937814207573E-5
+Iteration 151000 completed with delta: 1.8247159413747882E-4
+Iteration 151100 completed with delta: 1.0262656591417119E-5
+Iteration 151200 completed with delta: 9.29526822117388E-5
+Iteration 151300 completed with delta: 6.318002708116666E-5
+Iteration 151400 completed with delta: 1.0284652867509347E-5
+Iteration 151500 completed with delta: 5.0685549361828564E-5
+Iteration 151600 completed with delta: 1.0257374956371135E-5
+Iteration 151700 completed with delta: 2.1184182466438273E-5
+Iteration 151800 completed with delta: 1.0224323925750456E-5
+Iteration 151900 completed with delta: 1.0227955723543514E-5
+Iteration 152000 completed with delta: 1.0189431316989794E-5
+Iteration 152100 completed with delta: 1.0161674138087218E-5
+Iteration 152200 completed with delta: 1.0133037731840933E-5
+Iteration 152300 completed with delta: 1.812089291790553E-4
+Iteration 152400 completed with delta: 5.314834784275746E-4
+Iteration 152500 completed with delta: 2.3700976458762568E-5
+Iteration 152600 completed with delta: 1.0104699721097399E-5
+Iteration 152700 completed with delta: 0.0014508752451902751
+Iteration 152800 completed with delta: 0.0013512315133570318
+Iteration 152900 completed with delta: 3.415358174008176E-4
+Iteration 153000 completed with delta: 6.47589975955043E-5
+Iteration 153100 completed with delta: 1.0086488704347252E-5
+Iteration 153200 completed with delta: 2.337375690597554E-5
+Iteration 153300 completed with delta: 7.017032275102864E-5
+Iteration 153400 completed with delta: 7.011180174543163E-5
+Iteration 153500 completed with delta: 1.0133408061316351E-5
+Iteration 153600 completed with delta: 0.0017087186374300511
+Iteration 153700 completed with delta: 4.997841439213779E-5
+Iteration 153800 completed with delta: 2.7782992816872965E-4
+Iteration 153900 completed with delta: 1.0029131028044258E-5
+Iteration 154000 completed with delta: 6.982576624547931E-5
+Iteration 154100 completed with delta: 6.736290651296883E-4
+Iteration 154200 completed with delta: 1.846734750290402E-4
+Iteration 154300 completed with delta: 9.094960144793995E-5
+Iteration 154400 completed with delta: 1.0042334092325023E-5
+Iteration 154500 completed with delta: 1.0020902262430909E-5
+Detected convergence at agent iteration 154526.
+RLASH:> minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@4674d22e
+Size of map: 407 size of state space: 19360
+initialized legal actions: 9
+Simulation scores: -10.00 -10.00 -10.00 -11.00 -10.00 -10.00 -11.00 -10.00
+-11.00 -10.00 -11.00 -10.00 -12.00 -13.00 -12.00 -11.00 -11.00 -12.00 -11.00
+-10.00 -10.00 -11.00 -11.00 -10.00 -10.00 -14.00 -10.00 -10.00 -12.00 -11.00
+-10.00 -10.00 -11.00 -10.00 -11.00 -10.00 -10.00 -10.00 -10.00 -10.00 -10.00
+-11.00 -11.00 -11.00 -11.00 -10.00 -11.00 -11.00 -10.00 -12.00
+Average simulation score: -10.7
+RLASH:> 

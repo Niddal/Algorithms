@@ -1,0 +1,245 @@
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Checkpoint: after 5 iterations, delta is 0.6561000000000008 convergence tolerance is: 1.0E-10
+Checkpoint: after 10 iterations, delta is 0.38742048900000103 convergence tolerance is: 1.0E-10
+Checkpoint: after 15 iterations, delta is 0.22876792454961414 convergence tolerance is: 1.0E-10
+Checkpoint: after 20 iterations, delta is 0.13508517176730095 convergence tolerance is: 1.0E-10
+Checkpoint: after 25 iterations, delta is 0.07976644307687586 convergence tolerance is: 1.0E-10
+Checkpoint: after 30 iterations, delta is 0.04419841491780119 convergence tolerance is: 1.0E-10
+Checkpoint: after 35 iterations, delta is 0.01933318127733763 convergence tolerance is: 1.0E-10
+Checkpoint: after 40 iterations, delta is 0.007466423279268497 convergence tolerance is: 1.0E-10
+Checkpoint: after 45 iterations, delta is 0.0037805286998793264 convergence tolerance is: 1.0E-10
+Checkpoint: after 50 iterations, delta is 0.001989838198305449 convergence tolerance is: 1.0E-10
+Checkpoint: after 55 iterations, delta is 0.001132669122458907 convergence tolerance is: 1.0E-10
+Checkpoint: after 60 iterations, delta is 5.861494853149907E-4 convergence tolerance is: 1.0E-10
+Checkpoint: after 65 iterations, delta is 2.5724017464234805E-4 convergence tolerance is: 1.0E-10
+Checkpoint: after 70 iterations, delta is 1.103025887765341E-4 convergence tolerance is: 1.0E-10
+Checkpoint: after 75 iterations, delta is 5.492805070339557E-5 convergence tolerance is: 1.0E-10
+Checkpoint: after 80 iterations, delta is 2.8979946053553363E-5 convergence tolerance is: 1.0E-10
+Checkpoint: after 85 iterations, delta is 1.5912544725438238E-5 convergence tolerance is: 1.0E-10
+Checkpoint: after 90 iterations, delta is 7.957171627381854E-6 convergence tolerance is: 1.0E-10
+Checkpoint: after 95 iterations, delta is 3.52839430917129E-6 convergence tolerance is: 1.0E-10
+Checkpoint: after 100 iterations, delta is 1.5983143768494301E-6 convergence tolerance is: 1.0E-10
+Checkpoint: after 105 iterations, delta is 7.940128483596709E-7 convergence tolerance is: 1.0E-10
+Checkpoint: after 110 iterations, delta is 4.1742949186129863E-7 convergence tolerance is: 1.0E-10
+Checkpoint: after 115 iterations, delta is 2.2208699412828992E-7 convergence tolerance is: 1.0E-10
+Checkpoint: after 120 iterations, delta is 1.0860933485901114E-7 convergence tolerance is: 1.0E-10
+Checkpoint: after 125 iterations, delta is 4.9116092526446664E-8 convergence tolerance is: 1.0E-10
+Checkpoint: after 130 iterations, delta is 2.295709222721598E-8 convergence tolerance is: 1.0E-10
+Checkpoint: after 135 iterations, delta is 1.1427889745618813E-8 convergence tolerance is: 1.0E-10
+Checkpoint: after 140 iterations, delta is 5.963357807559078E-9 convergence tolerance is: 1.0E-10
+Checkpoint: after 145 iterations, delta is 3.0917384208350995E-9 convergence tolerance is: 1.0E-10
+Checkpoint: after 150 iterations, delta is 1.493580370492964E-9 convergence tolerance is: 1.0E-10
+Checkpoint: after 155 iterations, delta is 6.89079016069627E-10 convergence tolerance is: 1.0E-10
+Checkpoint: after 160 iterations, delta is 3.2815528072660527E-10 convergence tolerance is: 1.0E-10
+Checkpoint: after 165 iterations, delta is 1.638156277294911E-10 convergence tolerance is: 1.0E-10
+Detected convergence at agent iteration 169.
+RLASH:> discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+discout factor set: 0.9
+reward function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.StepCostRewardFunction@7c75c2be
+transition function set: edu.jhu.zpalmer2.spring2009.ai.hw6.algorithm.TerrainBasedTransitionFunction@174487c8
+Size of map: 900 size of state space: 37026
+Simulation scores: -30.00 -28.00 -29.00 -27.00 -62.00 -27.00 -27.00 -38.00
+-28.00 -27.00 -28.00 -28.00 -28.00 -28.00 -27.00 -27.00 -27.00 -59.00 -27.00
+-26.00 -55.00 -27.00 -84.00 -27.00 -53.00 -55.00 -28.00 -32.00 -82.00 -28.00
+-30.00 -27.00 -32.00 -30.00 -56.00 -30.00 -27.00 -28.00 -28.00 -28.00 -27.00
+-27.00 -55.00 -27.00 -27.00 -27.00 -56.00 -29.00 -27.00 -84.00
+Average simulation score: -36.02
+RLASH:> 

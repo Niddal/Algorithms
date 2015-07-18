@@ -1,0 +1,13 @@
+after 20 iterations, delta is 0.04416991017426497 convergence tolerance is: 1.0E-12
+after 40 iterations, delta is 5.403056663446648E-4 convergence tolerance is: 1.0E-12
+after 60 iterations, delta is 5.834055359699164E-6 convergence tolerance is: 1.0E-12
+after 80 iterations, delta is 6.350141212863036E-8 convergence tolerance is: 1.0E-12
+after 100 iterations, delta is 7.223990294846772E-10 convergence tolerance is: 1.0E-12
+after 120 iterations, delta is 7.724487716131989E-12 convergence tolerance is: 1.0E-12
+Detected convergence at agent iteration 130.
+Simulation scores: -25.00 -38.00 -12.00 -12.00 -13.00 -22.00 -25.00 -12.00
+-12.00 -12.00 -12.00 -12.00 -12.00 -14.00 -24.00 -12.00 -12.00 -12.00 -12.00
+-12.00 -13.00 -24.00 -12.00 -12.00 -25.00 -12.00 -12.00 -14.00 -13.00 -12.00
+-12.00 -13.00 -24.00 -12.00 -13.00 -12.00 -12.00 -24.00 -12.00 -13.00 -13.00
+-12.00 -12.00 -13.00 -12.00 -25.00 -11.00 -13.00 -13.00 -13.00
+Average simulation score: -15.0

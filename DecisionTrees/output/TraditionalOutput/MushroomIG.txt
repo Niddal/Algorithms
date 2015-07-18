@@ -1,0 +1,153 @@
+java -ea -cp ../bin code.DecisionTreeLearnerTraditionalDriver 0 2
+
+
+Running data set: agaricus-lepiota.data
+File opened successfully...
+Successfully read 8124 examples from file...
+ - importance 0.35300483188446746 found for attribute 19
+ - importance 0.003042682101333072 found for attribute 17
+ - importance 0.21681614328269583 found for attribute 18
+ - importance 0.0 found for attribute 15
+ - importance 4.3340228478605525E-4 found for attribute 16
+ - importance 0.19245940185448318 found for attribute 13
+ - importance 0.17753629680902683 found for attribute 14
+ - importance 0.269929282601085 found for attribute 11
+ - importance 0.2643253713672067 found for attribute 12
+ - importance 0.11266583308442246 found for attribute 21
+ - importance 0.13507319198444034 found for attribute 3
+ - importance 0.10494153734713041 found for attribute 20
+ - importance 0.035777209726068016 found for attribute 2
+ - importance 0.008365160206692868 found for attribute 1
+ - importance 0.1064609822533007 found for attribute 10
+ - importance 0.012740087238400588 found for attribute 0
+ - importance 0.08000372938156064 found for attribute 7
+ - importance 0.04849199056728093 found for attribute 6
+ - importance 4.3340228478605525E-4 found for attribute 5
+ - importance 0.6098182845291757 found for attribute 4
+ - importance 0.06671872742159235 found for attribute 9
+ - importance 0.2231478905770694 found for attribute 8
+ 
+ ** attribute to split on is 4 ** 
+
+ - importance 0.11994419334542239 found for attribute 19
+ - importance 0.036617181979016866 found for attribute 17
+ - importance 9.78722169746149E-4 found for attribute 18
+ - importance 0.0 found for attribute 15
+ - importance 6.291540852743083E-5 found for attribute 16
+ - importance 0.020493698831840823 found for attribute 13
+ - importance 0.04016002062190015 found for attribute 14
+ - importance 0.033493935045329326 found for attribute 11
+ - importance 0.04116537976955667 found for attribute 12
+ - importance 0.0485971577370561 found for attribute 21
+ - importance 2.2354965282042616E-4 found for attribute 3
+ - importance 0.03369469153525875 found for attribute 20
+ - importance 0.06703588030938581 found for attribute 2
+ - importance 0.01297348345766497 found for attribute 1
+ - importance 0.015884347740589305 found for attribute 10
+ - importance 0.05745434831634334 found for attribute 0
+ - importance 0.012555020112407556 found for attribute 7
+ - importance 0.005246907779470622 found for attribute 6
+ - importance 6.291540852743083E-5 found for attribute 5
+ - importance 0.0691754459743429 found for attribute 9
+ - importance 0.07652014305058372 found for attribute 8
+ 
+ ** attribute to split on is 19 ** 
+
+ - importance 0.19119250521165687 found for attribute 17
+ - importance 0.01158169915094176 found for attribute 18
+ - importance 0.0 found for attribute 15
+ - importance 0.0 found for attribute 16
+ - importance 0.05792334398972576 found for attribute 13
+ - importance 0.17515115560012307 found for attribute 14
+ - importance 0.20569005445218871 found for attribute 11
+ - importance 0.2785883134023894 found for attribute 12
+ - importance 0.3184435158933969 found for attribute 21
+ - importance 0.07736141469935875 found for attribute 3
+ - importance 0.09895042888616967 found for attribute 20
+ - importance 0.21329806284038813 found for attribute 2
+ - importance 0.09884064152050043 found for attribute 1
+ - importance 2.7531712087913718E-5 found for attribute 10
+ - importance 0.057147567784215425 found for attribute 0
+ - importance 0.19119250521165687 found for attribute 7
+ - importance 7.05095293945579E-4 found for attribute 6
+ - importance 0.0 found for attribute 5
+ - importance 0.0 found for attribute 9
+ - importance 0.06648238659714484 found for attribute 8
+ 
+ ** attribute to split on is 21 ** 
+
+ - importance 0.0 found for attribute 17
+ - importance 0.410116318288409 found for attribute 18
+ - importance 0.0 found for attribute 15
+ - importance 0.0 found for attribute 16
+ - importance 0.0 found for attribute 13
+ - importance 0.410116318288409 found for attribute 14
+ - importance 0.08878194993480426 found for attribute 11
+ - importance 0.08878194993480426 found for attribute 12
+ - importance 0.410116318288409 found for attribute 3
+ - importance 0.410116318288409 found for attribute 20
+ - importance 0.410116318288409 found for attribute 2
+ - importance 0.2050581591442045 found for attribute 1
+ - importance 0.0 found for attribute 10
+ - importance 0.18586711381788845 found for attribute 0
+ - importance 0.0 found for attribute 7
+ - importance 0.0 found for attribute 6
+ - importance 0.0 found for attribute 5
+ - importance 0.0 found for attribute 9
+ - importance 0.0 found for attribute 8
+ 
+ ** attribute to split on is 18 ** 
+
+DONE! Decision tree has been built...
+digraph {
+    "4" -> "p" [label="f leaf depth 1 "];
+    "4" -> "p" [label="s leaf depth 1 "];
+    "4" -> "p" [label="c leaf depth 1 "];
+    "4" -> "e" [label="a leaf depth 1 "];
+    "4" -> "p" [label="p leaf depth 1 "];
+    "4" -> "19" [label="n internal depth 1 "];
+    "4" -> "e" [label="l leaf depth 1 "];
+    "4" -> "p" [label="m leaf depth 1 "];
+    "4" -> "p" [label="y leaf depth 1 "];
+    "19" -> "21" [label="w internal depth 2 "];
+    "19" -> "e" [label="u leaf depth 2 "];
+    "19" -> "e" [label="b leaf depth 2 "];
+    "19" -> "p" [label="r leaf depth 2 "];
+    "19" -> "e" [label="n leaf depth 2 "];
+    "19" -> "e" [label="o leaf depth 2 "];
+    "19" -> "e" [label="k leaf depth 2 "];
+    "19" -> "e" [label="h leaf depth 2 "];
+    "19" -> "e" [label="y leaf depth 2 "];
+    "21" -> "e" [label="w leaf depth 3 "];
+    "21" -> "e" [label="g leaf depth 3 "];
+    "21" -> "e" [label="u leaf depth 3 "];
+    "21" -> "p" [label="d leaf depth 3 "];
+    "21" -> "e" [label="p leaf depth 3 "];
+    "21" -> "18" [label="l internal depth 3 "];
+    "21" -> "e" [label="m leaf depth 3 "];
+    "18" -> "e" [label="f leaf depth 4 "];
+    "18" -> "e" [label="e leaf depth 4 "];
+    "18" -> "e" [label="s leaf depth 4 "];
+    "18" -> "e" [label="c leaf depth 4 "];
+    "18" -> "p" [label="p leaf depth 4 "];
+    "18" -> "e" [label="n leaf depth 4 "];
+    "18" -> "e" [label="l leaf depth 4 "];
+    "18" -> "e" [label="z leaf depth 4 "];
+}
+
+Testing the tree on the test examples...
+-------------Results---------------
+Number of tested examples:      1625
+Number of classified positives: 507
+Number of classified negatives: 1118
+-----------------------------------
+Number of true positives:       499
+Number of false positives:      8
+Number of true negatives:       1110
+Number of false negatives:      8
+-----------------------------------
+Recall:                         0.9842209072978304
+Precision:                      0.9842209072978304
+Accuracy:                       0.9901538461538462
+
+Successful completion of program

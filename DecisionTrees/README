@@ -1,0 +1,120 @@
+*************************************l***************************************
+* Assignment 4 Decision Trees README, Artificial Intelligence CS335 JHU.    *
+*****************************************************************************
+
+--------------------------------------------------------------------------------
+1. Introduction
+--------------------------------------------------------------------------------
+
+This README is part of a scaffold provided for students taking JHU's Artificial
+Intelligence class.  It is intended to give students an idea of the directory
+structure they are expected to use when submitting assignments for this class.
+
+
+--------------------------------------------------------------------------------
+2. Usage
+--------------------------------------------------------------------------------
+
+All code resides in the src/ subdirectory, which also contains a Makefile that
+can build and run the code.  As a convenience, the top level directory also
+contains shellscripts which call `make`.  The run_traditional.sh and 
+run_evolutionary.sh scripts also pass any command line arguments given to it 
+along to the Java program. change to the rosset.corbin directory, then to build:
+
+./compile.sh
+
+And to run the traditional learning algorithm type:
+
+./run_traditional.sh <IG or GR> <whichDataSet> <whichMonk>
+
+Where “whichDataSet” is an integer input parameter (0=Congressional, 1=MONK, 
+2=Mushroom). "IG or GR" is an integer, 0 for information gain selection strategy,
+and 1 for gain ratio selection strategy. "whichMonk" is only applicable if
+"whichDataSet" = 1, and then since there are 3 monk sets, "whichMonk" can be
+either 1, 2, or 3. 
+
+And to run the genetic algorithm, type:
+
+./run_evolutionary.sh <whichDataSet> <whichMonk> 
+
+where "whichDataSet" and "whichMonk" input arguments are the same as for the
+traditional. 
+
+Please see the outpu/ forlder for the for the sample runs. Sometimes, there is 
+more than one run for a given data set if I felt there was variablility in
+performance. I give no analysis here explaining such performance or my choices
+of parameters, but there are some comments in the code. 
+
+Examples:
+
+to run traditional Gain Ratio on Monk-2:
+
+./run_traditional 1 1 2
+
+to run traditional information gain on mushroom:
+
+./run_traditional 0 2
+
+to run genetic algorithm on congressional data set:
+
+./run_evolutionary 0
+
+To generate documentation: 
+
+cd to the src/ folder and type:
+
+make docs
+
+
+-------------------------------------------------------------------------------
+3. Structure
+--------------------------------------------------------------------------------
+
+There is also a data/ directory which holds the example data for the three data
+sets: monk, mushroom, and congressional. 
+
+typing ls -R on the code/ directory in the src/ file:
+
+Folders that represent packages: 
+
+--------------------------------------------------------------------------------
+DecisionTreeLearnerEvolutionaryDriver.java	Parser
+DecisionTreeLearnerTraditionalDriver.java	Testing
+Evolutionary					Traditional
+Examples					Trees
+
+--------------------------------------------------------------------------------
+files contained in each folder:
+
+./Evolutionary:
+EvolutionaryDecisionTreeBuilder.java	GeneticDecisionTree.java
+
+./Examples:
+CongressionalExample.class	Example.class
+CongressionalExample.java	Example.java
+
+./Parser:
+CongressionalInputParser.java	MonkInputParser.java
+InputParser.java		MushroomInputParser.java
+
+./Testing:
+DecisionTreeTester.java
+
+./Traditional:
+GreedyInformationGainDecisionTree.java	TraditionalDecisionTreeBuilder.java
+
+./Trees:
+Node.java	Tree.java
+
+
+--------------------------------------------------------------------------------
+4. Reflection
+--------------------------------------------------------------------------------
+
+This assignment was long. very long. lots of long nights without food or sleep.
+But it was very valuable and I really enjoyed working with the genetic algorithm.
+I definitely see  myself working on this as a side project over the summer or
+something, maybe using those other data sets in UCI archive, because it seems
+really useful. 
+
+Did I mention the assignment was long? and now we have to do a long paper about it?

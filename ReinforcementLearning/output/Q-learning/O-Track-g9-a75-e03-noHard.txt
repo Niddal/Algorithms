@@ -1,0 +1,614 @@
+Unrecognized variable: minimumExplorations
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1b9b7dfa
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+Iteration 0 completed with delta: 1.396875
+Iteration 100 completed with delta: 2.612856440399873
+Iteration 200 completed with delta: 2.912370905723212
+Iteration 300 completed with delta: 3.124776195345191
+Iteration 400 completed with delta: 2.9212500000000006
+Iteration 500 completed with delta: 3.618322133084141
+Iteration 600 completed with delta: 3.238672543950183
+Iteration 700 completed with delta: 3.931935264022676
+Iteration 800 completed with delta: 3.36154791644505
+Iteration 900 completed with delta: 2.031623569517412
+Iteration 1000 completed with delta: 3.275739478800411
+Iteration 1100 completed with delta: 3.633410698254828
+Iteration 1200 completed with delta: 2.6808403321688856
+Iteration 1300 completed with delta: 4.3024925262788996
+Iteration 1400 completed with delta: 3.846641496031423
+Iteration 1500 completed with delta: 1.4354005644111618
+Iteration 1600 completed with delta: 3.9941478206359555
+Iteration 1700 completed with delta: 1.6698333769837141
+Iteration 1800 completed with delta: 1.3833130532276687
+Iteration 1900 completed with delta: 1.4310312321296372
+Iteration 2000 completed with delta: 3.997741346238411
+Iteration 2100 completed with delta: 1.8212688668594041
+Iteration 2200 completed with delta: 0.9920559824018924
+Iteration 2300 completed with delta: 1.3003402275482747
+Iteration 2400 completed with delta: 0.8268476375230884
+Iteration 2500 completed with delta: 1.0588326351868123
+Iteration 2600 completed with delta: 0.9548256398923431
+Iteration 2700 completed with delta: 1.3837723492815535
+Iteration 2800 completed with delta: 0.41342264521888783
+Iteration 2900 completed with delta: 3.0173528729649823
+Iteration 3000 completed with delta: 0.4380880267393792
+Iteration 3100 completed with delta: 0.7520562502391046
+Iteration 3200 completed with delta: 0.6784362394621652
+Iteration 3300 completed with delta: 0.6264565280484744
+Iteration 3400 completed with delta: 0.5000127171325381
+Iteration 3500 completed with delta: 0.5695394172381674
+Iteration 3600 completed with delta: 0.9202941867295147
+Iteration 3700 completed with delta: 0.3277789247411933
+Iteration 3800 completed with delta: 0.6245420796667425
+Iteration 3900 completed with delta: 0.28715076424189956
+Iteration 4000 completed with delta: 1.2702731440305755
+Iteration 4100 completed with delta: 0.4356394182129444
+Iteration 4200 completed with delta: 0.4698269022674735
+Iteration 4300 completed with delta: 0.40086738994227744
+Iteration 4400 completed with delta: 0.23517351465584824
+Iteration 4500 completed with delta: 0.294827704756111
+Iteration 4600 completed with delta: 0.6248074265518495
+Iteration 4700 completed with delta: 0.49462786777415246
+Iteration 4800 completed with delta: 0.33374446516486334
+Iteration 4900 completed with delta: 0.7577233622818058
+Iteration 5000 completed with delta: 0.4177086807253261
+Iteration 5100 completed with delta: 0.24691539998949885
+Iteration 5200 completed with delta: 0.5824699334377108
+Iteration 5300 completed with delta: 0.6562952708195784
+Iteration 5400 completed with delta: 0.30888376688157493
+Iteration 5500 completed with delta: 0.29877474887290756
+Iteration 5600 completed with delta: 0.46166187784249146
+Iteration 5700 completed with delta: 0.19704505058268396
+Iteration 5800 completed with delta: 0.325375961993009
+Iteration 5900 completed with delta: 1.2505089048832234
+Iteration 6000 completed with delta: 0.11542099019934948
+Iteration 6100 completed with delta: 0.24360787340260437
+Iteration 6200 completed with delta: 0.5892900497390379
+Iteration 6300 completed with delta: 0.375567726393383
+Iteration 6400 completed with delta: 0.21978339759549925
+Iteration 6500 completed with delta: 0.1387321171688436
+Iteration 6600 completed with delta: 1.0234711076721261
+Iteration 6700 completed with delta: 0.39851846070311225
+Iteration 6800 completed with delta: 0.15120836126546688
+Iteration 6900 completed with delta: 0.3128262882478312
+Iteration 7000 completed with delta: 0.25518609420416016
+Iteration 7100 completed with delta: 0.5662044457359103
+Iteration 7200 completed with delta: 0.494611726854556
+Iteration 7300 completed with delta: 0.3176010260045814
+Iteration 7400 completed with delta: 0.24878647292820677
+Iteration 7500 completed with delta: 0.15070593864817994
+Iteration 7600 completed with delta: 0.19607679948433177
+Iteration 7700 completed with delta: 0.300618104390324
+Iteration 7800 completed with delta: 0.13515135156024982
+Iteration 7900 completed with delta: 0.3982907142549692
+Iteration 8000 completed with delta: 0.32058212171105005
+Iteration 8100 completed with delta: 0.6571944763007069
+Iteration 8200 completed with delta: 0.23243701302088127
+Iteration 8300 completed with delta: 0.5281209173952739
+Iteration 8400 completed with delta: 0.34912924207501383
+Iteration 8500 completed with delta: 0.191381551486689
+Iteration 8600 completed with delta: 0.4537841257145301
+Iteration 8700 completed with delta: 0.05240122602177433
+Iteration 8800 completed with delta: 0.16188013704467163
+Iteration 8900 completed with delta: 0.18820886731085462
+Iteration 9000 completed with delta: 0.11091907542703972
+Iteration 9100 completed with delta: 0.20006504100574585
+Iteration 9200 completed with delta: 0.09149557924351104
+Iteration 9300 completed with delta: 0.1564508711855268
+Iteration 9400 completed with delta: 0.15677200243655953
+Iteration 9500 completed with delta: 0.08306470620939699
+Iteration 9600 completed with delta: 0.06387063651508623
+Iteration 9700 completed with delta: 0.08803058386991758
+Iteration 9800 completed with delta: 0.20721538154546693
+Iteration 9900 completed with delta: 0.46562902781250326
+Iteration 10000 completed with delta: 0.21442142411820253
+Iteration 10100 completed with delta: 0.14522902119479308
+Iteration 10200 completed with delta: 0.11137116904592048
+Iteration 10300 completed with delta: 0.0802828937996436
+Iteration 10400 completed with delta: 0.3759568885604958
+Iteration 10500 completed with delta: 0.22566843265497738
+Iteration 10600 completed with delta: 0.30447864453903595
+Iteration 10700 completed with delta: 0.26067221479290126
+Iteration 10800 completed with delta: 0.09465543021509326
+Iteration 10900 completed with delta: 0.12405653376882864
+Iteration 11000 completed with delta: 0.39249270314241347
+Iteration 11100 completed with delta: 0.23227196460960542
+Iteration 11200 completed with delta: 0.17111658246643913
+Iteration 11300 completed with delta: 0.23227817041472143
+Iteration 11400 completed with delta: 0.1628362467832547
+Iteration 11500 completed with delta: 0.08636772041491536
+Iteration 11600 completed with delta: 0.11078037482526071
+Iteration 11700 completed with delta: 0.07681652922589777
+Iteration 11800 completed with delta: 0.1746827155177817
+Iteration 11900 completed with delta: 0.23971356342721073
+Iteration 12000 completed with delta: 0.4021125304603448
+Iteration 12100 completed with delta: 0.27265218476378106
+Iteration 12200 completed with delta: 0.10338152380042231
+Iteration 12300 completed with delta: 0.09977990845787232
+Iteration 12400 completed with delta: 0.2167346267777548
+Iteration 12500 completed with delta: 0.09355548255258839
+Iteration 12600 completed with delta: 0.1228944240326566
+Iteration 12700 completed with delta: 0.08481597127319773
+Iteration 12800 completed with delta: 0.05348763018637914
+Iteration 12900 completed with delta: 0.08984237846831444
+Iteration 13000 completed with delta: 0.06925974827731629
+Iteration 13100 completed with delta: 0.04666858185734313
+Iteration 13200 completed with delta: 0.09257144234615922
+Iteration 13300 completed with delta: 0.1683946823624698
+Iteration 13400 completed with delta: 0.15004594375584723
+Iteration 13500 completed with delta: 0.3250386537551204
+Iteration 13600 completed with delta: 0.13595276591479966
+Iteration 13700 completed with delta: 0.18146085465921136
+Iteration 13800 completed with delta: 0.04909331258460803
+Iteration 13900 completed with delta: 0.2294165309022711
+Iteration 14000 completed with delta: 0.3200838893067415
+Iteration 14100 completed with delta: 0.48107687633890084
+Iteration 14200 completed with delta: 0.22718998785241684
+Iteration 14300 completed with delta: 0.41462843825732953
+Iteration 14400 completed with delta: 0.16057783814416027
+Iteration 14500 completed with delta: 0.08163160974723116
+Iteration 14600 completed with delta: 0.0748888348586858
+Iteration 14700 completed with delta: 0.09480194836593903
+Iteration 14800 completed with delta: 0.06929712009699251
+Iteration 14900 completed with delta: 0.020385903854275966
+Iteration 15000 completed with delta: 0.10241733161278788
+Iteration 15100 completed with delta: 0.1896276739067666
+Iteration 15200 completed with delta: 0.09158515393847555
+Iteration 15300 completed with delta: 0.12077589991406157
+Iteration 15400 completed with delta: 0.05890118115588816
+Iteration 15500 completed with delta: 0.0812365584201622
+Iteration 15600 completed with delta: 0.03939614875725006
+Iteration 15700 completed with delta: 0.07313522506570891
+Iteration 15800 completed with delta: 0.058832433820213303
+Iteration 15900 completed with delta: 0.09247325080052438
+Iteration 16000 completed with delta: 0.06503688862243351
+Iteration 16100 completed with delta: 0.048914189062239544
+Iteration 16200 completed with delta: 0.0902572141997311
+Iteration 16300 completed with delta: 0.04656740507553714
+Iteration 16400 completed with delta: 0.230901076246397
+Iteration 16500 completed with delta: 0.030514564821306323
+Iteration 16600 completed with delta: 0.041410435791640055
+Iteration 16700 completed with delta: 0.2586151675043249
+Iteration 16800 completed with delta: 0.02327346561644994
+Iteration 16900 completed with delta: 0.11228492687010849
+Iteration 17000 completed with delta: 0.02859481545924325
+Iteration 17100 completed with delta: 0.061009661159973305
+Iteration 17200 completed with delta: 0.06241683731814618
+Iteration 17300 completed with delta: 0.26277613008871814
+Iteration 17400 completed with delta: 0.04946922756126426
+Iteration 17500 completed with delta: 0.0069593689160551975
+Iteration 17600 completed with delta: 0.007141506209872084
+Iteration 17700 completed with delta: 0.05743680935882978
+Iteration 17800 completed with delta: 0.027502507620340566
+Iteration 17900 completed with delta: 0.024938199964294583
+Iteration 18000 completed with delta: 0.07772991905157589
+Iteration 18100 completed with delta: 0.020138558597260214
+Iteration 18200 completed with delta: 0.02044445391091365
+Iteration 18300 completed with delta: 0.08416602194572853
+Iteration 18400 completed with delta: 0.05807916389166401
+Iteration 18500 completed with delta: 0.025767069134389864
+Iteration 18600 completed with delta: 0.09692070217804805
+Iteration 18700 completed with delta: 0.1357960726813019
+Iteration 18800 completed with delta: 0.03660699970161385
+Iteration 18900 completed with delta: 0.2458559596756027
+Iteration 19000 completed with delta: 0.26633115427724263
+Iteration 19100 completed with delta: 0.03926474048282991
+Iteration 19200 completed with delta: 0.13134777862269775
+Iteration 19300 completed with delta: 0.6317748203230948
+Iteration 19400 completed with delta: 0.03902419245083877
+Iteration 19500 completed with delta: 0.02250477805136164
+Iteration 19600 completed with delta: 0.018114518324594542
+Iteration 19700 completed with delta: 0.09878782474284442
+Iteration 19800 completed with delta: 0.10500870330979772
+Iteration 19900 completed with delta: 0.012145907218163998
+Iteration 20000 completed with delta: 0.029078573990777734
+Iteration 20100 completed with delta: 0.034065793450936965
+Iteration 20200 completed with delta: 0.02826855733575151
+Iteration 20300 completed with delta: 0.021432935825798083
+Iteration 20400 completed with delta: 0.03503101326186098
+Iteration 20500 completed with delta: 0.3564255877832041
+Iteration 20600 completed with delta: 0.14388757004224217
+Iteration 20700 completed with delta: 0.0359364383173606
+Iteration 20800 completed with delta: 0.03209064481191781
+Iteration 20900 completed with delta: 0.07236685863861148
+Iteration 21000 completed with delta: 0.018355009881975803
+Iteration 21100 completed with delta: 0.016985002154024542
+Iteration 21200 completed with delta: 0.010505614188651258
+Iteration 21300 completed with delta: 0.02698913962632643
+Iteration 21400 completed with delta: 0.1297829112804516
+Iteration 21500 completed with delta: 0.014228471859404124
+Iteration 21600 completed with delta: 7.550676323280214E-4
+Iteration 21700 completed with delta: 7.737345346630065E-4
+Iteration 21800 completed with delta: 0.003402443791990173
+Iteration 21900 completed with delta: 0.03861555577613274
+Iteration 22000 completed with delta: 0.20172204464967258
+Iteration 22100 completed with delta: 0.04480366300137284
+Iteration 22200 completed with delta: 0.05256252323448862
+Iteration 22300 completed with delta: 0.0958121279811035
+Iteration 22400 completed with delta: 0.020887524545086578
+Iteration 22500 completed with delta: 0.0871473663877822
+Iteration 22600 completed with delta: 0.008651703695512936
+Iteration 22700 completed with delta: 0.07192670619510277
+Iteration 22800 completed with delta: 0.0451050503609558
+Iteration 22900 completed with delta: 0.034173639581917215
+Iteration 23000 completed with delta: 0.021841165558386777
+Iteration 23100 completed with delta: 0.03035380914070629
+Iteration 23200 completed with delta: 0.00647200803669179
+Iteration 23300 completed with delta: 0.018153214734202727
+Iteration 23400 completed with delta: 0.0027171504001755054
+Iteration 23500 completed with delta: 0.02771171871934186
+Iteration 23600 completed with delta: 0.37588065130218684
+Iteration 23700 completed with delta: 0.03534021107217988
+Iteration 23800 completed with delta: 0.02108622911783442
+Iteration 23900 completed with delta: 0.021057966161258435
+Iteration 24000 completed with delta: 0.036638945366642695
+Iteration 24100 completed with delta: 0.030459319604668522
+Iteration 24200 completed with delta: 0.001147750041178952
+Iteration 24300 completed with delta: 0.036069005756052874
+Iteration 24400 completed with delta: 0.11764513629287343
+Iteration 24500 completed with delta: 0.019454309986452145
+Iteration 24600 completed with delta: 0.0075512398738837305
+Iteration 24700 completed with delta: 0.017842306580710954
+Iteration 24800 completed with delta: 0.027939013831071335
+Iteration 24900 completed with delta: 0.007885064512359374
+Iteration 25000 completed with delta: 3.635486488002826E-4
+Iteration 25100 completed with delta: 9.313705605542566E-4
+Iteration 25200 completed with delta: 0.03531232349208402
+Iteration 25300 completed with delta: 0.2115834603713438
+Iteration 25400 completed with delta: 0.0626434595294949
+Iteration 25500 completed with delta: 0.029416695836797402
+Iteration 25600 completed with delta: 0.7604143152328064
+Iteration 25700 completed with delta: 0.005478088659247149
+Iteration 25800 completed with delta: 0.015152828929480222
+Iteration 25900 completed with delta: 5.037183137392987E-4
+Iteration 26000 completed with delta: 0.0020840464742504228
+Iteration 26100 completed with delta: 0.012017632274968548
+Iteration 26200 completed with delta: 0.011383120985746231
+Iteration 26300 completed with delta: 0.019566097938067628
+Iteration 26400 completed with delta: 0.01151361139658924
+Iteration 26500 completed with delta: 0.0398285045788036
+Iteration 26600 completed with delta: 0.010498025451939341
+Iteration 26700 completed with delta: 0.05018886428049463
+Iteration 26800 completed with delta: 0.002147236299677502
+Iteration 26900 completed with delta: 0.02138641828024923
+Iteration 27000 completed with delta: 0.1255142825032749
+Iteration 27100 completed with delta: 0.0164800287691218
+Iteration 27200 completed with delta: 0.01343204218338201
+Iteration 27300 completed with delta: 0.007686496089888806
+Iteration 27400 completed with delta: 0.23638220435365653
+Iteration 27500 completed with delta: 0.0069251877686484775
+Iteration 27600 completed with delta: 0.041327646223518144
+Iteration 27700 completed with delta: 0.002464540724106179
+Iteration 27800 completed with delta: 0.0015089424650618355
+Iteration 27900 completed with delta: 0.08773324202817001
+Iteration 28000 completed with delta: 3.3805577171275303E-4
+Iteration 28100 completed with delta: 0.003055482628318007
+Iteration 28200 completed with delta: 2.852124965704306E-4
+Iteration 28300 completed with delta: 9.12820921894486E-4
+Iteration 28400 completed with delta: 0.030765113142141587
+Iteration 28500 completed with delta: 0.019695964662954424
+Iteration 28600 completed with delta: 0.3639316611466601
+Iteration 28700 completed with delta: 9.061371910830118E-4
+Iteration 28800 completed with delta: 5.108431063902685E-4
+Iteration 28900 completed with delta: 0.005541698044607912
+Iteration 29000 completed with delta: 0.0012411249549622028
+Iteration 29100 completed with delta: 0.35171749369802185
+Iteration 29200 completed with delta: 0.025807682158083267
+Iteration 29300 completed with delta: 0.18869030439639367
+Iteration 29400 completed with delta: 0.06969363157229047
+Iteration 29500 completed with delta: 0.451259910804354
+Iteration 29600 completed with delta: 0.05546839094263056
+Iteration 29700 completed with delta: 0.004388313565421242
+Iteration 29800 completed with delta: 0.001965155117138906
+Iteration 29900 completed with delta: 0.00832457387453811
+Iteration 30000 completed with delta: 0.013793904951454827
+Iteration 30100 completed with delta: 0.030392807050786175
+Iteration 30200 completed with delta: 9.15737495574831E-4
+Iteration 30300 completed with delta: 0.0017518722359435301
+Iteration 30400 completed with delta: 0.002870550887168477
+Iteration 30500 completed with delta: 0.05726717079444121
+Iteration 30600 completed with delta: 0.00518527883997244
+Iteration 30700 completed with delta: 0.010602089565031392
+Iteration 30800 completed with delta: 0.0031369609056124403
+Iteration 30900 completed with delta: 0.002819409597265121
+Iteration 31000 completed with delta: 0.1149157723435259
+Iteration 31100 completed with delta: 0.029954052234920425
+Iteration 31200 completed with delta: 0.021663395822313802
+Iteration 31300 completed with delta: 0.01989681463414783
+Iteration 31400 completed with delta: 0.018738086051511615
+Iteration 31500 completed with delta: 0.01793343520862667
+Iteration 31600 completed with delta: 2.1180996180536482E-4
+Iteration 31700 completed with delta: 0.27053336487802593
+Iteration 31800 completed with delta: 0.06494167912269155
+Iteration 31900 completed with delta: 0.03596270683476277
+Iteration 32000 completed with delta: 7.011544748145582E-4
+Iteration 32100 completed with delta: 6.985369393017749E-4
+Iteration 32200 completed with delta: 0.03635540112643021
+Iteration 32300 completed with delta: 0.04426103476463927
+Iteration 32400 completed with delta: 0.013322581043681225
+Iteration 32500 completed with delta: 0.0025863497322262674
+Iteration 32600 completed with delta: 8.327538069128337E-4
+Iteration 32700 completed with delta: 0.0013330376203164462
+Iteration 32800 completed with delta: 0.0016694015149720798
+Iteration 32900 completed with delta: 2.9121835573420185E-4
+Iteration 33000 completed with delta: 0.01541635206633174
+Iteration 33100 completed with delta: 0.023798230049058233
+Iteration 33200 completed with delta: 0.004531786854659714
+Iteration 33300 completed with delta: 0.0025389469529617514
+Iteration 33400 completed with delta: 0.010887955089970092
+Iteration 33500 completed with delta: 0.011522982325560704
+Iteration 33600 completed with delta: 0.002762519152642362
+Iteration 33700 completed with delta: 0.04474754090771782
+Iteration 33800 completed with delta: 0.002243553253490127
+Iteration 33900 completed with delta: 0.0010485484625162578
+Iteration 34000 completed with delta: 0.041335262185647786
+Iteration 34100 completed with delta: 0.06660881689963816
+Iteration 34200 completed with delta: 0.0056703608158548136
+Iteration 34300 completed with delta: 0.19458789373457286
+Iteration 34400 completed with delta: 0.005879691128944486
+Iteration 34500 completed with delta: 1.4146731475150887E-4
+Iteration 34600 completed with delta: 0.014121651843209904
+Iteration 34700 completed with delta: 8.034211468663788E-4
+Iteration 34800 completed with delta: 0.0036790313864063506
+Iteration 34900 completed with delta: 0.007427265183983955
+Iteration 35000 completed with delta: 6.079388112558703E-4
+Iteration 35100 completed with delta: 0.0021217662084040967
+Iteration 35200 completed with delta: 0.41963304436297655
+Iteration 35300 completed with delta: 0.01389768633533528
+Iteration 35400 completed with delta: 6.890388832623273E-4
+Iteration 35500 completed with delta: 0.15849172736106887
+Iteration 35600 completed with delta: 9.97305733236864E-4
+Iteration 35700 completed with delta: 2.0282566375673383E-4
+Iteration 35800 completed with delta: 7.442976911988808E-4
+Iteration 35900 completed with delta: 2.860961025934472E-4
+Iteration 36000 completed with delta: 0.009568415336826064
+Iteration 36100 completed with delta: 0.008548802556857638
+Iteration 36200 completed with delta: 0.0012195802272290945
+Iteration 36300 completed with delta: 0.004474372596082077
+Iteration 36400 completed with delta: 0.013102499791370903
+Iteration 36500 completed with delta: 5.749331182789419E-4
+Iteration 36600 completed with delta: 0.0973726787403546
+Iteration 36700 completed with delta: 9.641524908774457E-4
+Iteration 36800 completed with delta: 0.001154459164725452
+Iteration 36900 completed with delta: 1.698200451203391E-4
+Iteration 37000 completed with delta: 0.003937298242751908
+Iteration 37100 completed with delta: 0.010274339653705056
+Iteration 37200 completed with delta: 8.694020990169804E-4
+Iteration 37300 completed with delta: 0.003971679460879507
+Iteration 37400 completed with delta: 0.0029973021051841187
+Iteration 37500 completed with delta: 0.029072789761718454
+Iteration 37600 completed with delta: 0.0015720815702602309
+Iteration 37700 completed with delta: 7.753567403341322E-4
+Iteration 37800 completed with delta: 0.0016760324767250978
+Iteration 37900 completed with delta: 0.012688323524631978
+Iteration 38000 completed with delta: 1.5012971031680422E-4
+Iteration 38100 completed with delta: 0.0020161531703983826
+Iteration 38200 completed with delta: 0.0013249201161794621
+Iteration 38300 completed with delta: 1.1299847367318705E-4
+Iteration 38400 completed with delta: 0.0017926802205856518
+Iteration 38500 completed with delta: 0.002187485346366813
+Iteration 38600 completed with delta: 0.40302967638705667
+Iteration 38700 completed with delta: 0.04877246885120812
+Iteration 38800 completed with delta: 0.0011734598286627929
+Iteration 38900 completed with delta: 7.068247703099217E-4
+Iteration 39000 completed with delta: 9.670870525727848E-4
+Iteration 39100 completed with delta: 0.0019627339824666024
+Iteration 39200 completed with delta: 7.136177311402037E-4
+Iteration 39300 completed with delta: 0.0036384746217983377
+Iteration 39400 completed with delta: 6.69727805963527E-4
+Iteration 39500 completed with delta: 5.973202656299748E-4
+Iteration 39600 completed with delta: 2.511052505260736E-4
+Iteration 39700 completed with delta: 0.004021130940098594
+Iteration 39800 completed with delta: 9.186825480940186E-4
+Iteration 39900 completed with delta: 0.010396477882255617
+Iteration 40000 completed with delta: 0.01525974506413963
+Detected convergence at agent iteration 40051.
+RLASH:> minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+minimum exploration count set to : 1
+Simulator set: edu.jhu.zpalmer2.spring2009.ai.hw6.simulator.Simulator@1722fe15
+Size of map: 625 size of state space: 26620
+initialized legal actions: 9
+Simulation scores: -24.00 -20.00 -20.00 -20.00 -22.00 -25.00 -22.00 -22.00
+-26.00 -20.00 -21.00 -26.00 -20.00 -20.00 -22.00 -22.00 -32.00 -27.00 -20.00
+-22.00 -22.00 -20.00 -20.00 -22.00 -20.00 -27.00 -38.00 -20.00 -22.00 -23.00
+-21.00 -23.00 -26.00 -23.00 -24.00 -23.00 -22.00 -22.00 -23.00 -24.00 -25.00
+-21.00 -24.00 -26.00 -27.00 -20.00 -22.00 -22.00 -20.00 -20.00
+Average simulation score: -22.9
+RLASH:> 
