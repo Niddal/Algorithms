@@ -10,21 +10,12 @@ newTheta = zeros(length(theta), 1);
 
 for iter = 1:num_iters
 
-    % ====================== YOUR CODE HERE ======================
-    % Instructions: Perform a single gradient step on the parameter vector
-    %               theta. 
-    %
-    % Hint: While debugging, it can be useful to print out the values
-    %       of the cost function (computeCost) and gradient here.
-    %
     sum1 = 0;
     sum2 = 0;
     %calculate sum1
     for i = 1:m
         sum1 = sum1 + X(i, :)*theta - y(i);
         sum2 = sum2 + (X(i, :)*theta - y(i))*X(i, 2);
-        assert (sum1 ~= 0)
-        assert (sum2 ~=0)
     end
     sum1 = (1/m)*sum1;
     sum2 = (1/m)*sum2;
