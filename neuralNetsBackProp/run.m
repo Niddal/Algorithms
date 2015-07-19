@@ -1,19 +1,3 @@
-%% Machine Learning Online Class - Exercise 4 Neural Network Learning
-
-%  Instructions
-%  ------------
-% 
-%  This file contains code that helps you get started on the
-%  linear exercise. You will need to complete the following functions 
-%  in this exericse:
-%
-%     sigmoidGradient.m
-%     randInitializeWeights.m
-%     nnCostFunction.m
-%
-%  For this exercise, you will not need to change any code in this file,
-%  or any other files other than those mentioned above.
-%
 
 %% Initialization
 clear ; close all; clc
@@ -104,10 +88,7 @@ pause;
 
 
 %% ================ Part 5: Sigmoid Gradient  ================
-%  Before you start implementing the neural network, you will first
-%  implement the gradient for the sigmoid function. You should complete the
-%  code in the sigmoidGradient.m file.
-%
+
 
 fprintf('\nEvaluating sigmoid gradient...\n')
 
@@ -121,10 +102,6 @@ pause;
 
 
 %% ================ Part 6: Initializing Pameters ================
-%  In this part of the exercise, you will be starting to implment a two
-%  layer neural network that classifies digits. You will start by
-%  implementing a function to initialize the weights of the neural network
-%  (randInitializeWeights.m)
 
 fprintf('\nInitializing Neural Network Parameters ...\n')
 
@@ -173,11 +150,7 @@ pause;
 
 
 %% =================== Part 8: Training NN ===================
-%  You have now implemented all the code necessary to train a neural 
-%  network. To train your neural network, we will now use "fmincg", which
-%  is a function which works similarly to "fminunc". Recall that these
-%  advanced optimizers are able to train our cost functions efficiently as
-%  long as we provide them with the gradient computations.
+
 %
 fprintf('\nTraining Neural Network... \n')
 
@@ -222,10 +195,7 @@ fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
 
 %% ================= Part 10: Implement Predict =================
-%  After training the neural network, we would like to use it to predict
-%  the labels. You will now implement the "predict" function to use the
-%  neural network to predict the labels of the training set. This lets
-%  you compute the training set accuracy.
+
 
 pred = predict(Theta1, Theta2, X);
 

@@ -24,28 +24,13 @@ Theta2 = reshape(nn_params((1 + (hidden_layer_size * (input_layer_size + 1))):en
 
 
              
-% Setup some useful variables
 m = size(X, 1);
          
-% You need to return the following variables correctly 
 J = 0;
 Theta1_grad = zeros(size(Theta1));
 Theta2_grad = zeros(size(Theta2));
 numLayers = 3;
 
-% ====================== YOUR CODE HERE ======================
-% Instructions: You should complete the code by working through the
-%               following parts.
-%
-% Part 1: Feedforward the neural network and return the cost in the
-%         variable J. After implementing Part 1, you can verify that your
-%         cost function computation is correct by verifying the cost
-%         computed in ex4.m
-%
-
-%X(i, :)' (that's a tranpose) is the vertical x_i'th example, an n x 1 vec
-%the first row of Theta1 corresponds to the first hidden unit in the second layer
-%so theta_(0, 0) 
 % Theta1 has size 25 x 401
 % Theta2 has size 10 x 26
 %theta is always (num units in next layer) x (num units in this layer)
@@ -69,9 +54,8 @@ Y = Y(y,:); % [5000, 10], where there's a 1 in the Y(i, j) spot if example
  
 for example = 1:m 
     ex = X(example, :)';
-    currActiv = ex; %%%FIX FIX FIX FIX FIX FIX FIX
-        
-    activations{1} = [1; currActiv]; %%%FIX FIX FIX FIX FIX FIX FIX
+    currActiv = ex;    
+    activations{1} = [1; currActiv]; 
     %FORWARD propogate
     for layer = 2:numLayers
         %get the matrix that describes the weights between layer l and l+1
@@ -80,7 +64,6 @@ for example = 1:m
         %compute product of previous activations and weights to get next
         %layers z
         z = theta*activations{layer - 1};
-        %size(z)
         %take sigmoid to get next layers activation
         if (layer < numLayers)
             activations{layer} = [1; sigmoid(z)]; %store activation at that layer
@@ -97,7 +80,6 @@ for example = 1:m
     d = hypothesis - Y(example, :)';
     littleDeltas{numLayers} = num2cell(d);
     d_next = [];
-    
     
     %BACKWARD propogate and update layers
     for layer = (numLayers - 1):-1:1
@@ -130,23 +112,10 @@ Theta2Filtered = Theta2(:,2:end);
 reg = (lambda / (2*m)) * (sumsqr(Theta1Filtered(:)) + sumsqr(Theta2Filtered(:)));
 J = J + reg;
 
-%
-% Part 3: Implement regularization with the cost function and gradients.
-%
-%         Hint: You can implement this around the code for
-%               backpropagation. That is, you can compute the gradients for
-%               the regularization separately and then add them to Theta1_grad
-%               and Theta2_grad from Part 2.
-%
-
-
-% -------------------------------------------------------------
 
 Theta1_grad(:,2:end) = Theta1_grad(:,2:end) + ((lambda / m) * Theta1Filtered);
 Theta2_grad(:,2:end) = Theta2_grad(:,2:end) + ((lambda / m) * Theta2Filtered);
 
-
-% =========================================================================
 
 % Unroll gradients
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
