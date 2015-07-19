@@ -9,7 +9,7 @@ function [ theta, J ] = stochasticDescent(X, y, theta, alpha, num_iters)
 
 m = size(X, 1);
 n = size(X, 2);
-window = 1000;
+window = 100;
 J = [];
 Jtemp = zeros(window, 1);
 theta = zeros(n, 1);
@@ -33,6 +33,7 @@ for r = 1:num_iters %repeat
             Jtemp = zeros(window, 1);
         end
         tempAlpha = (alpha)/r; %gradually reduce alpha
+        count = count+1;
     end
 end
 

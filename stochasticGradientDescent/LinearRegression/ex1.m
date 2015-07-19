@@ -68,9 +68,9 @@ legend('Training data', 'Linear regression')
 hold off % don't overlay any more plots on this figure
 
 figure
-plot(log(J));
+plot(J);
 hold on
-legend('Log(J_{train}) averaged every 1000 grad calculations')
+legend('J_{train} averaged every 1000 grad calculations')
 xlabel('Number of Steps');
 ylabel('Log of the Training Cost (L2 norm of difference)');
 hold off
