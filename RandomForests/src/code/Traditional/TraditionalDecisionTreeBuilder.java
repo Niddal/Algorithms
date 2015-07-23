@@ -21,7 +21,7 @@ public abstract class TraditionalDecisionTreeBuilder {
     protected HashSet<String> outputClasses;
     protected Tree<String, String> tree;
     
-        /**
+    /**
         the constructor
         @param exs the examples
         @param ma the list of all attributes and valid values

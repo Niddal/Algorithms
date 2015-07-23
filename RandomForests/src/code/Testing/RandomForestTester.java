@@ -71,7 +71,7 @@ public class RandomForestTester {
         tests a tree with example data. records precidion, accuracy, and recall.
         @param tree the tree to test
     */
-    public void test(RandomForest forest) {
+    public void test(Forest<String, String> forest) {
         assert (forest != null);
         String predictedClass = "";
         String actualClass = "";

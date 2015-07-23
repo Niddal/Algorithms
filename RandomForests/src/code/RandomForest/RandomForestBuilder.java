@@ -44,7 +44,6 @@ public abstract class RandomForestBuilder {
         @param remainingAttributes the hashSet of remaining attributes
         @return a subtree of trained nodes
     */
-    public abstract ArrayList<Tree<String, String>> makeForest(
-        ArrayList<Example> currentExamples, HashSet<String> attributes, int numBags)
-        throws Exception;
+    public abstract Forest<String,String> trainForest(
+        ArrayList<Example> currentExamples, HashSet<String> attributes, int numBags, int bagSize);
 }

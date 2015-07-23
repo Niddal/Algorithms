@@ -8,6 +8,7 @@ import code.Examples.*;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.ArrayList;
+import java.util.Random;
 import code.Trees.*;
 
 /**
@@ -21,6 +22,7 @@ public class RandomForest extends RandomForestBuilder {
     protected HashSet<String> outputClasses;
     protected Tree<String, String> tree;
     protected int numBags;
+    private Random rand;
     
     /**
         the constructor
@@ -32,6 +34,7 @@ public class RandomForest extends RandomForestBuilder {
     public RandomForest(ArrayList<Example> exs, ArrayList<HashSet<String>> ma,
         HashSet<String> attributes, HashSet<String> outputClasses) {
         super(exs, ma, attributes, outputClasses);
+        rand =new Random();
     }
 
     /**
@@ -40,10 +43,29 @@ public class RandomForest extends RandomForestBuilder {
         @param remainingAttributes the hashSet of remaining attributes
         @return a subtree of trained nodes
     */
-    public ArrayList<Tree<String, String>> makeForest(
-        ArrayList<Example> currentExamples, HashSet<String> attributes, int numBags)
-        throws Exception {
+    @Override
+    public Forest<String,String> trainForest(
+        ArrayList<Example> currentExamples, HashSet<String> attributes, int numBags, int bagSize) {
+        //maybe bagsize can vary??
+        Forest<String,String> f = new Forest<String,String>(numBags);
         
+        for (int i =0; i < numBags; i++) {
+            //acquire bootstrap data of a certain size
+            ArrayList<Example> subset = this.getRandomSubset(bagSize, currentExamples);
+            //train a new tree with bagged data
+        }
         return null;    
+    }
+    /**
+        sample with replacement
+    */
+    private ArrayList<Example> getRandomSubset(int size, ArrayList<Example> set) {
+        int j;
+        ArrayList<Example> r = new ArrayList<Example>(size);
+        for (int i = 0; i < size; i++) {
+            j = rand.nextInt(set.size());
+            r.add(i, set.get(j));
+        }
+        return r;
     }
 }

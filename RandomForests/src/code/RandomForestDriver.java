@@ -13,15 +13,21 @@ import java.util.ArrayList;
 import java.io.IOException;
 
 /**
-    The driver class for a random forest of decision trees.*/
+    The driver class for a random forest of decision trees. Assume informatio-
+    theoretic trees are built with information gain*/
 
 public class RandomForestDriver {
     private static final double PERCENT_TRAIN = 0.8;
-/* static or class variables */
-    private static TraditionalDecisionTreeBuilder traditionalDecisionTreeBuilder[];
-    private static RandomForestTester tester;
+    /*useful things*/
+    private static RandomForestBuilder rfb; //forest
+    private static RandomForestTester tester; //tester
+    private static Forest<String, String> forest; //the forest built by the builder
+    private static int numBags = 100; //num bags for training
+    private static int bagSize = 50; //num bags for training
+
+    /*boring things*/
     private static InputParser parser;
-    private static ArrayList<HashSet<String>> masterAttributes;
+    private static ArrayList<HashSet<String>> masterAttributes; //valid atrbute-value pairs
     private static HashSet<String> attributes;
     private static HashSet<String> outputClasses;
     private static ArrayList<Example> examples = null;
@@ -82,9 +88,10 @@ public class RandomForestDriver {
                         attributes = parser.getAttributesSet();
                         examples = parser.readExamples(fileName);
                         partitionIntoTestAndTraining(examples);
-                        // traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
-//                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
-                            System.out.println("\n\nsuccess: congressional decision tree built");
+                        
+                        rfb = new RandomForest(
+                            trainingExamples, masterAttributes, attributes, outputClasses);
+                            System.out.println("\n\nsuccess: congressional decision forest built");
                         break;
                     }
             case 1: {
@@ -97,9 +104,10 @@ public class RandomForestDriver {
                         attributes = parser.getAttributesSet();
                         trainingExamples = parser.readExamples(fileName1);
                         testExamples = parser.readExamples(fileName2);
-                        // traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
-//                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
-                            System.out.println("\n\nsuccess: monk-" + whichMonk + " decision tree built");
+                        
+                        rfb = new RandomForest(
+                            trainingExamples, masterAttributes, attributes, outputClasses);
+                            System.out.println("\n\nsuccess: monk-" + whichMonk + " decision forest built");
 
                         break;
                     }
@@ -115,32 +123,32 @@ public class RandomForestDriver {
                         //testExamples = parser.readExamples(fileName2);
                         partitionIntoTestAndTraining(examples);
                         
-                       //  traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
-//                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
-                        System.out.println("\n\nsuccess: mushroom decision tree built");
+                        rfb = new RandomForest(
+                             trainingExamples, masterAttributes, attributes, outputClasses);
+                        System.out.println("\n\nsuccess: mushroom decision forest built");
 
                         break;
                     }
         
         }
         
-        /*
-        finalDecisionTree =  traditionalDecisionTreeBuilder.makeDecisionTree(trainingExamples, attributes, null);
+        
+        forest =  rfb.trainForest(trainingExamples, attributes, numBags, bagSize);
         
         
-        System.out.println("\nTesting the tree on the TRAINING examples...");
-        tester = new DecisionTreeTester(trainingExamples, masterAttributes, attributes, outputClasses);
-        tester.test(finalDecisionTree);
+        System.out.println("\nTesting the forest on the TRAINING examples...");
+        tester = new RandomForestTester(trainingExamples, masterAttributes, attributes, outputClasses);
+        tester.test(forest);
         String out = tester.printPerformanceMetrics();
         System.out.println(out);
         
-        System.out.println("\nTesting the tree on the TEST examples...");
-        tester = new DecisionTreeTester(testExamples, masterAttributes, attributes, outputClasses);
-        tester.test(finalDecisionTree);
+        System.out.println("\nTesting the forest on the TEST examples...");
+        tester = new RandomForestTester(testExamples, masterAttributes, attributes, outputClasses);
+        tester.test(forest);
         out = tester.printPerformanceMetrics();
         System.out.println(out);
         
-        System.out.println("Successful completion of program");*/
+        System.out.println("Successful completion of program");
 
     }
     private static void partitionIntoTestAndTraining(ArrayList<Example> ex) {
