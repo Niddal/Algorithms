@@ -22,8 +22,9 @@ public class RandomForestDriver {
     private static RandomForestBuilder rfb; //forest
     private static RandomForestTester tester; //tester
     private static Forest<String, String> forest; //the forest built by the builder
-    private static int numBags = 100; //num bags for training
-    private static int bagSize = 50; //num bags for training
+    private static int numBags = 100; //num bags, or trees in forest, for training
+    private static int bagSize = 100; //bag size, or num Examples, for training
+    private static int attributeSubsetSize = 5; //size of
 
     /*boring things*/
     private static InputParser parser;
@@ -34,6 +35,7 @@ public class RandomForestDriver {
     private static ArrayList<Example> trainingExamples = null;
     private static ArrayList<Example> testExamples = null;
     private static String fileName;
+    private static String out = "";
 
 
     public static void main(String[] args) throws IOException, Exception{
@@ -88,10 +90,10 @@ public class RandomForestDriver {
                         attributes = parser.getAttributesSet();
                         examples = parser.readExamples(fileName);
                         partitionIntoTestAndTraining(examples);
-                        
+                        assert(attributeSubsetSize <= attributes.size());
                         assert(outputClasses != null);
                         rfb = new RandomForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses, numBags);
+                            trainingExamples, masterAttributes, attributes, outputClasses, numBags, attributeSubsetSize);
                             System.out.println("\n\nsuccess: congressional decision forest built");
                         break;
                     }
@@ -105,9 +107,10 @@ public class RandomForestDriver {
                         attributes = parser.getAttributesSet();
                         trainingExamples = parser.readExamples(fileName1);
                         testExamples = parser.readExamples(fileName2);
+                        assert(attributeSubsetSize <= attributes.size());
                         
                         rfb = new RandomForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses, numBags);
+                            trainingExamples, masterAttributes, attributes, outputClasses, numBags, attributeSubsetSize);
                             System.out.println("\n\nsuccess: monk-" + whichMonk + " decision forest built");
 
                         break;
@@ -120,12 +123,13 @@ public class RandomForestDriver {
                         masterAttributes = parser.initializeMasterAttributesAndValues();
                         attributes = parser.getAttributesSet();
                         examples = parser.readExamples(fileName1);
+                        assert(attributeSubsetSize <= attributes.size());
                         
                         //testExamples = parser.readExamples(fileName2);
                         partitionIntoTestAndTraining(examples);
                         
                         rfb = new RandomForest(
-                             trainingExamples, masterAttributes, attributes, outputClasses, numBags);
+                             trainingExamples, masterAttributes, attributes, outputClasses, numBags, attributeSubsetSize);
                         System.out.println("\n\nsuccess: mushroom decision forest built");
 
                         break;
@@ -137,14 +141,21 @@ public class RandomForestDriver {
         forest =  rfb.trainForest(bagSize);
         assert (forest != null);
         
+        /*System.out.println("\nTesting testing EACH TREE on test examples...");
+        DecisionTreeTester tester2 = new DecisionTreeTester(testExamples, masterAttributes, attributes, outputClasses);
+        for (Tree<String, String> t : forest.getForest()) {
+            tester2.test(t);
+            out = tester2.printPerformanceMetrics();
+            System.out.println(out);
+        }*/
         
-        System.out.println("\nTesting the forest on the TRAINING examples...");
+        System.out.println("\n********************************************\nTesting the forest on the TRAINING examples...");
         tester = new RandomForestTester(trainingExamples, masterAttributes, attributes, outputClasses);
         tester.test(forest);
-        String out = tester.printPerformanceMetrics();
+        out = tester.printPerformanceMetrics();
         System.out.println(out);
         
-        System.out.println("\nTesting the forest on the TEST examples...");
+        System.out.println("\n******************************************\nTesting the forest on the TEST examples...");
         tester = new RandomForestTester(testExamples, masterAttributes, attributes, outputClasses);
         tester.test(forest);
         out = tester.printPerformanceMetrics();

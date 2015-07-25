@@ -73,8 +73,11 @@ public class RandomForestTester {
     */
     public void test(Forest<String, String> forest) {
         assert (forest != null);
-        String predictedClass = "";
+        String aggregatePredictedClass = "";
+        ArrayList<String> predictionsByForest = new ArrayList<String>();
         String actualClass = "";
+        String predictedClass = "";
+        Node<String, String> currentNode;
         this.truePositives = 0;
         this.falsePositives = 0;
         this.trueNegatives = 0;
@@ -85,40 +88,43 @@ public class RandomForestTester {
         this.precision = 0;
         this.accuracy = 0;
         
-        /*
+        
         for (Example currentExample : this.testExamples) {
-            
-            currentNode = traverseTree(tree.getRoot(), currentExample);
-            assert (currentNode.isLeaf());
-            predictedClass = currentNode.getOutputClass();
-            assert (predictedClass != null);
-            if (predictedClass.equals(currentExample.getTrueClassification())) {
-                //then a true positive, correctly labelled
-                
-                if (predictedClass.equals(this.positive)) {
-                    this.truePositives++;
-                    this.numPositives++;
-                } else {
-                    this.trueNegatives++;
-                    this.numNegatives++;
-                }
-            } else {
-                
-                if (predictedClass.equals(this.negative)) {
-                    this.falseNegatives++;
-                    this.numNegatives++;
-                } else {
-                    this.falsePositives++;
-                    this.numPositives++;
-                }
+            predictionsByForest = new ArrayList<String>(); //reset
+            for (Tree<String, String> tree : forest.getForest()) {
+                currentNode = traverseTree(tree.getRoot(), currentExample);
+                assert (currentNode.isLeaf());
+                predictedClass = currentNode.getOutputClass();
+                assert (predictedClass != null);
+                predictionsByForest.add(predictedClass);
             }
-        }
-        assert (this.numNegatives + this.numPositives == this.testExamples.size());
-        this.recall =  this.truePositives/ (double) this.numPositives;
-        this.precision = this.truePositives/((double) this.truePositives + this.falseNegatives);
-        this.accuracy = (this.truePositives + this.trueNegatives)/((double) this.testExamples.size());
-        */
-    
+            assert (predictionsByForest.size() == forest.getSize());
+            aggregatePredictedClass = majorityVote(predictionsByForest);
+            if (aggregatePredictedClass.equals(currentExample.getTrueClassification())) {
+                    //then a true positive, correctly labelled
+                    
+                    if (aggregatePredictedClass.equals(this.positive)) {
+                        this.truePositives++;
+                        this.numPositives++;
+                    } else {
+                        this.trueNegatives++;
+                        this.numNegatives++;
+                    }
+                } else {                    
+                    if (aggregatePredictedClass.equals(this.negative)) {
+                        this.falseNegatives++;
+                        this.numNegatives++;
+                    } else {
+                        this.falsePositives++;
+                        this.numPositives++;
+                    }
+                }
+            
+            }
+            assert (this.numNegatives + this.numPositives == this.testExamples.size());
+            this.recall =  this.truePositives/ (double) this.numPositives;
+            this.precision = this.truePositives/((double) this.truePositives + this.falseNegatives);
+            this.accuracy = (this.truePositives + this.trueNegatives)/((double) this.testExamples.size()); 
     }
     /**
         get some stuff
@@ -162,9 +168,6 @@ public class RandomForestTester {
         s += "Recall:                         " + recall + "\n";
         s += "Precision:                      " + precision + "\n";
         s += "Accuracy:                       " + accuracy + "\n";
-        s += recall + "\n";
-        s += precision + "\n";
-        s += accuracy + "\n";
         
         
         
@@ -200,10 +203,41 @@ public class RandomForestTester {
         int numNodes = 1;
         for (Node<String, String> child : curr.getChildren().values()) {
             numNodes += countNodes(child);
-        
         }
         return numNodes;
     
+    }
+    private String majorityVote(ArrayList<String> in) {
+        //find the plurality classifaction of these examples
+        HashMap<String, Integer> classCounter = new HashMap<String, Integer>(); //a frequency counter for each class
+        int count;
+        int highestCount = 0;
+        String pluralityClass = null;
+        //initialize counter:
+        for (String s : this.outputClasses) {
+            classCounter.put(s, 0);
+        }
+        for (String temp : in) {
+            if (!classCounter.containsKey(temp) || !outputClasses.contains(temp)) {
+                System.err.println("ERROR: bad output class");
+                System.exit(1);
+            } else {
+                classCounter.put(temp, classCounter.get(temp) + 1); //increment counter    
+            }
+        } 
+        //find highest count
+        //Iterator<Map.Entry> it = classCounter.entrySet().iterator();
+        for (String s : classCounter.keySet()) {
+            if (classCounter.get(s) > highestCount) {
+                highestCount = classCounter.get(s);
+                pluralityClass = s;
+            }
+        }
+        if (pluralityClass == null) {
+            System.err.println("ERROR: plurality");
+            System.exit(1);
+        }
+        return pluralityClass;
     }
 
 }

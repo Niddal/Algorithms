@@ -14,10 +14,13 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
 
-public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBuilder {
+public class GreedyInformationGainDecisionTreeForForest extends TraditionalDecisionTreeBuilder {
 
 /*----- instance variables */
     private boolean IG = false;
+    private ArrayList<String> attributesList;
+    private int subsetSize;
+    private Random rand = new Random();
 
     
     /**
@@ -28,11 +31,14 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
         @param outputClasses a hashset of output classes
         @param ig whether it's ig or gr
     */
-    public GreedyInformationGainDecisionTree(ArrayList<Example> exs, 
+    public GreedyInformationGainDecisionTreeForForest(ArrayList<Example> exs, 
         ArrayList<HashSet<String>> masterAttributes, HashSet<String> attributes, 
-        HashSet<String> outputClasses, boolean ig) {
+        HashSet<String> outputClasses, boolean ig, int attributeSubsetSize) {
         super(exs, masterAttributes, attributes, outputClasses);  
         this.IG = ig; //information gain or not?   
+        this.subsetSize = attributeSubsetSize;
+        assert (attributeSubsetSize > 0);
+        this.attributesList = new ArrayList<String>(super.attributes);
    
     }
     
@@ -67,7 +73,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
         assert (rmAttributes != null);
         
         assert (this.remainingAttributes == null);
-        this.remainingAttributes = rmAttributes; //a class variable essentially
+        this.remainingAttributes = rmAttributes;
         
         Node<String, String> root = recursiveTreeBuilder(currentExamples, remainingAttributes, parent);
         assert (tree.getRoot().equals(root));
@@ -76,7 +82,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
     private Node<String, String> recursiveTreeBuilder(
         ArrayList<Example> currentExamples, HashSet<String> remainingAttributes, Node<String, String> parent) 
         throws Exception {
-                
+          
         if (currentExamples.isEmpty()) { //if no more examples then get plurality of parent examples as leaf
             String classification =  getPluralityValue(parent.getExamples());
             Node<String, String> leaf = tree.makeNode(classification, (parent.getDepth() + 1), true, currentExamples, parent);
@@ -103,7 +109,20 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
             Node<String, String> subtree;
             
             
-                        String attributeToSplitOn = getMostImportantAttribute(remainingAttributes, currentExamples);
+            /******************************************************************************************
+            Modification 1: choose random subet of REMAINING attributes*/
+            HashSet<String> subsetRemaining = new HashSet<String>();
+            subsetRemaining = getRandomSubset(this.subsetSize, remainingAttributes);
+            assert (subsetRemaining.size() > 0);
+            
+            /*Modification 2: choose random subet of ALL attributes - this is what algorithm says to do*/
+            HashSet<String> subsetAttributes = new HashSet<String>();
+            subsetAttributes = getRandomSubset(this.subsetSize);
+            //System.out.println(subsetAttributes.toString());
+            assert (subsetAttributes.size() > 0);
+
+            /******************************************************************************************/
+            String attributeToSplitOn = getMostImportantAttribute(subsetAttributes/*remainingAttributes*/, currentExamples);
             // System.out.println(" \n ** attribute to split on is " + attributeToSplitOn + " ** \n");
             attributeIndex = Integer.parseInt(attributeToSplitOn);
             try {
@@ -122,7 +141,10 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
 
             for (String v : masterAttributes.get(attributeIndex)) {
                 exs = partitionExamplesByAttributeValue(currentExamples, attributeIndex, v);
-                boolean success = remainingAttributes.remove(attributeToSplitOn);
+                //***************************************************************
+                //Dont remove attributes
+                //***************************************************************
+                //boolean success = remainingAttributes.remove(attributeToSplitOn);
                 subtree = recursiveTreeBuilder(exs, remainingAttributes, internalNode);
                 //add an edge with value v from the internal node (parent) to the child (subtree).
                 tree.connectNodes(internalNode, subtree, v);
@@ -152,7 +174,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
         for (Example x : exs) {
             temp = x.getTrueClassification();
             if (!classCounter.containsKey(temp) || !outputClasses.contains(temp)) {
-                System.err.println("ERROR: bad output class");
+                System.err.println("ERROR: bad output class" + temp);
                 System.exit(1);
             } else {
                 classCounter.put(temp, classCounter.get(temp) + 1); //increment counter    
@@ -198,7 +220,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
             System.err.println("ERROR: bad attribute");
             System.exit(1);
         }
-        if (!attributes.contains(attribute)) {
+        if (!super.attributes.contains(attribute)) {
             System.err.println("ERROR: bad output class");
             System.exit(1);
         }
@@ -256,8 +278,9 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
             System.err.println("ERROR: bad attribute");
             System.exit(1);
         }
-        if (!attributes.contains(attribute)) {
-            System.err.println("ERROR: bad output class");
+        if (!super.attributes.contains(attribute)) {
+            //System.out.println(attributes);
+            System.err.println("ERROR: bad output class " + attribute);
             System.exit(1);
         }
         
@@ -278,7 +301,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
         }
         
         if ( remainder > IG || remainder < 0) {
-            System.err.println("ERROR: bad information gain; negative or too big for some reason");
+            System.err.println("ERROR: bad information gain; negative or too big for some reason; try re-running");
             System.exit(1);
         }
         //assert (IG != remainder); MAYBE ALLOW THIS TOO??
@@ -321,7 +344,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
         double count = 0;
         assert (ex.size() > 0);
         if (!outputClasses.contains(c)) {
-            System.err.println("ERROR: bad output class");
+            System.err.println("ERROR: bad output class " + c);
             System.exit(1);
         }
         for (int i = 0; i < ex.size(); i++) {
@@ -355,6 +378,27 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
         }
         //return count/ex.size();
         return subset;
+    }
+    private HashSet<String> getRandomSubset(int size) {
+        int j;
+        HashSet<String> r = new HashSet<String>(size);
+        for (int i = 0; i < size; i++) {
+            j = rand.nextInt(this.attributesList.size());
+            r.add(this.attributesList.get(j));
+        }
+        return r;
+    
+    }
+    private HashSet<String> getRandomSubset(int size, HashSet<String> in) {
+        int j;
+        HashSet<String> r = new HashSet<String>(size);
+        ArrayList<String> temp = new ArrayList<String>(in);
+        for (int i = 0; i < size; i++) {
+            j = rand.nextInt(temp.size());
+            r.add(temp.get(j));
+        }
+        return r;
+    
     }
     
     

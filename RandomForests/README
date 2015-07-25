@@ -6,10 +6,11 @@
 1. Introduction
 --------------------------------------------------------------------------------
 
-This README is part of a scaffold provided for students taking JHU's Artificial
-Intelligence class.  It is intended to give students an idea of the directory
-structure they are expected to use when submitting assignments for this class.
-
+3 parts: traditional information-theoretic decision tree, evolutionary decision
+tree derived from a forest of randomly trained trees, and lastly a random forest
+of information theoretic decision trees that classify on majority vote of all
+trees in the forest. The random forest has low variance and performs better 
+than the others on most occasions.
 
 --------------------------------------------------------------------------------
 2. Usage
@@ -44,6 +45,10 @@ Please see the outpu/ forlder for the for the sample runs. Sometimes, there is
 more than one run for a given data set if I felt there was variablility in
 performance. I give no analysis here explaining such performance or my choices
 of parameters, but there are some comments in the code. 
+
+The random forest can be run in the same manner as the traditional:
+
+./run_forest.sh <IG or GR> <whichDataSet> <whichMonk>
 
 Examples:
 
@@ -98,23 +103,11 @@ CongressionalInputParser.java	MonkInputParser.java
 InputParser.java		MushroomInputParser.java
 
 ./Testing:
-DecisionTreeTester.java
+DecisionTreeTester.java		RandomForestTester.java
 
 ./Traditional:
 GreedyInformationGainDecisionTree.java	TraditionalDecisionTreeBuilder.java
+GreedyInformationGainDecisionTreeForForest.java
 
 ./Trees:
-Node.java	Tree.java
-
-
---------------------------------------------------------------------------------
-4. Reflection
---------------------------------------------------------------------------------
-
-This assignment was long. very long. lots of long nights without food or sleep.
-But it was very valuable and I really enjoyed working with the genetic algorithm.
-I definitely see  myself working on this as a side project over the summer or
-something, maybe using those other data sets in UCI archive, because it seems
-really useful. 
-
-Did I mention the assignment was long? and now we have to do a long paper about it?
+Node.java	Tree.java	Forest.java

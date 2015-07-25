@@ -161,9 +161,6 @@ public class DecisionTreeTester {
         s += "Recall:                         " + recall + "\n";
         s += "Precision:                      " + precision + "\n";
         s += "Accuracy:                       " + accuracy + "\n";
-        s += recall + "\n";
-        s += precision + "\n";
-        s += accuracy + "\n";
         
         
         

@@ -56,4 +56,11 @@ public class Forest<V, E> {
             this.set = true;
         }
     }
+    public ArrayList<Tree<V, E>> getForest() {
+        ArrayList<Tree<V, E>> n = new ArrayList<Tree<V, E>>();
+        for(Tree<V, E> e : this.forest) {
+            n.add(e);
+        }
+        return n;
+    }
 }

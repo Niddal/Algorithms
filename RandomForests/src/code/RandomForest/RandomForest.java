@@ -23,6 +23,7 @@ public class RandomForest implements RandomForestBuilder {
     private Forest<String, String> forest; 
     private int numAttributes;   
     private int numBags;
+    private int subsetSize;
     private Random rand;
     
     /**
@@ -33,7 +34,7 @@ public class RandomForest implements RandomForestBuilder {
         @param outputClasses a hashset of output classes
     */
     public RandomForest(ArrayList<Example> exs, ArrayList<HashSet<String>> ma,
-        HashSet<String> attributes, HashSet<String> outputClasses, int numBags) {
+        HashSet<String> attributes, HashSet<String> outputClasses, int numBags, int subsetSize) {
         //super(exs, ma, attributes, outputClasses);
         this.attributes = attributes;
         this.outputClasses = outputClasses;
@@ -42,6 +43,7 @@ public class RandomForest implements RandomForestBuilder {
         this.numBags = numBags;
         this.forest = new Forest<String,String>(numBags);
         this.numAttributes = attributes.size();
+        this.subsetSize = subsetSize;
         rand = new Random();
     }
 
@@ -64,15 +66,16 @@ public class RandomForest implements RandomForestBuilder {
             return null;
         }
         for (int i =0; i < this.numBags; i++) {
-            System.out.println("training tree " +i);
             assert (this.forest.getSize() == i);
             //acquire bootstrap data of a certain size
             ArrayList<Example> subset = this.getRandomSubset(bagSize);
+            //System.out.println("training tree " +i + " on " + subset.size() + " Examples");
+
             //train a new tree with bagged data
             HashSet<String> copy = this.deepCopy(this.attributes);
             assert (copy.size() == this.numAttributes);
-            tdtb = new GreedyInformationGainDecisionTree(subset, this.masterAttributes,
-                copy, this.outputClasses, true); //true meaning use IG
+            tdtb = new GreedyInformationGainDecisionTreeForForest(subset, this.masterAttributes,
+                copy, this.outputClasses, true, subsetSize); //true meaning use IG
             
             Tree<String, String> t = tdtb.makeDecisionTree(subset, copy, null);
             assert (t != null);

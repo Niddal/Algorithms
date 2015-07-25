@@ -93,9 +93,9 @@ public class DecisionTreeLearnerTraditionalDriver {
                         attributes = parser.getAttributesSet();
                         examples = parser.readExamples(fileName);
                         partitionIntoTestAndTraining(examples);
-                        // traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
-//                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
-                            System.out.println("\n\nsuccess: congressional decision tree built");
+                        traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
+                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
+                            System.out.println("\n\nnumber of congressional Examples: " + examples.size());
                         break;
                     }
             case 1: {
@@ -108,9 +108,9 @@ public class DecisionTreeLearnerTraditionalDriver {
                         attributes = parser.getAttributesSet();
                         trainingExamples = parser.readExamples(fileName1);
                         testExamples = parser.readExamples(fileName2);
-                        // traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
-//                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
-                            System.out.println("\n\nsuccess: monk-" + whichMonk + " decision tree built");
+                        traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
+                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
+                            System.out.println("\n\nnumber of monk " + whichMonk + " Examples: " + trainingExamples.size());
 
                         break;
                     }
@@ -126,9 +126,9 @@ public class DecisionTreeLearnerTraditionalDriver {
                         //testExamples = parser.readExamples(fileName2);
                         partitionIntoTestAndTraining(examples);
                         
-                       //  traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
-//                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
-                        System.out.println("\n\nsuccess: mushroom decision tree built");
+                        traditionalDecisionTreeBuilder = new GreedyInformationGainDecisionTree(
+                             trainingExamples, masterAttributes, attributes, outputClasses, IG);
+                        System.out.println("\n\nnumber of mushroom Examples: " + examples.size());
 
                         break;
                     }
@@ -147,7 +147,7 @@ public class DecisionTreeLearnerTraditionalDriver {
         String out = tester.printPerformanceMetrics();
         System.out.println(out);
         
-        System.out.println("\nTesting the tree on the TEST examples...");
+        System.out.println("\nTesting the tree on the " + testExamples.size() + " TEST examples...");
         tester = new DecisionTreeTester(testExamples, masterAttributes, attributes, outputClasses);
         tester.test(finalDecisionTree);
         out = tester.printPerformanceMetrics();
