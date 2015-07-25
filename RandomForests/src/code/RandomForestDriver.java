@@ -89,8 +89,9 @@ public class RandomForestDriver {
                         examples = parser.readExamples(fileName);
                         partitionIntoTestAndTraining(examples);
                         
+                        assert(outputClasses != null);
                         rfb = new RandomForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses);
+                            trainingExamples, masterAttributes, attributes, outputClasses, numBags);
                             System.out.println("\n\nsuccess: congressional decision forest built");
                         break;
                     }
@@ -106,7 +107,7 @@ public class RandomForestDriver {
                         testExamples = parser.readExamples(fileName2);
                         
                         rfb = new RandomForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses);
+                            trainingExamples, masterAttributes, attributes, outputClasses, numBags);
                             System.out.println("\n\nsuccess: monk-" + whichMonk + " decision forest built");
 
                         break;
@@ -124,7 +125,7 @@ public class RandomForestDriver {
                         partitionIntoTestAndTraining(examples);
                         
                         rfb = new RandomForest(
-                             trainingExamples, masterAttributes, attributes, outputClasses);
+                             trainingExamples, masterAttributes, attributes, outputClasses, numBags);
                         System.out.println("\n\nsuccess: mushroom decision forest built");
 
                         break;
@@ -132,8 +133,9 @@ public class RandomForestDriver {
         
         }
         
-        
-        forest =  rfb.trainForest(trainingExamples, attributes, numBags, bagSize);
+        System.out.println("\nTraining the forest on the TRAINING examples...");
+        forest =  rfb.trainForest(bagSize);
+        assert (forest != null);
         
         
         System.out.println("\nTesting the forest on the TRAINING examples...");

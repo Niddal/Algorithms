@@ -13,30 +13,7 @@ import code.Trees.*;
 /**
     the abstract class/interface for a random forest
 */  
-public abstract class RandomForestBuilder {
-    protected ArrayList<HashSet<String>> masterAttributes;
-    protected HashSet<String> remainingAttributes;
-    protected ArrayList<Example> examples;
-    protected HashSet<String> attributes;
-    protected HashSet<String> outputClasses;
-    protected Tree<String, String> tree;
-    protected int numBags;
-    
-    /**
-        the constructor
-        @param exs the examples
-        @param ma the list of all attributes and valid values
-        @param attributes a hashset of attributes
-        @param outputClasses a hashset of output classes
-    */
-    public RandomForestBuilder(ArrayList<Example> exs, ArrayList<HashSet<String>> ma,
-        HashSet<String> attributes, HashSet<String> outputClasses) {
-        this.attributes = attributes;
-        this.outputClasses = outputClasses;
-        this.examples = exs;
-        this.masterAttributes = ma;
-        this.tree = new Tree<String, String>();
-    }
+public interface RandomForestBuilder {
 
     /**
         making the tree is naturally done recursively, but it is more memory efficient to do it iteratively...
@@ -44,6 +21,5 @@ public abstract class RandomForestBuilder {
         @param remainingAttributes the hashSet of remaining attributes
         @return a subtree of trained nodes
     */
-    public abstract Forest<String,String> trainForest(
-        ArrayList<Example> currentExamples, HashSet<String> attributes, int numBags, int bagSize);
+    public Forest<String,String> trainForest (int bagSize) throws Exception;
 }

@@ -87,6 +87,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
         } else if (remainingAttributes.isEmpty()) { //no more attributes to split on, but we still have examples
             //return plurality of examples
             String classification =  getPluralityValue(currentExamples);
+            assert(parent!=null);
             Node<String, String> leaf = tree.makeNode(classification, (parent.getDepth() + 1), true, currentExamples, parent);
             return leaf;
         

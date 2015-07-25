@@ -1,3 +1,3 @@
 #!/bin/bash
 
-JAVA_ARGS="$@" make run_Forest -C src
+JAVA_ARGS="$@" make run_forest -C src
