@@ -1,0 +1,86 @@
+java -ea -cp ../bin code.DecisionTreeLearnerTraditionalDriver 0 1 1
+
+
+Running data set: monks-1.train
+File opened successfully...
+124
+Successfully read 124 examples from file...
+File opened successfully...
+432
+Successfully read 432 examples from file...
+ - importance 0.018237878250048856 found for attribute 3
+ - importance 0.0032630365280776896 found for attribute 2
+ - importance 0.004046891267687203 found for attribute 1
+ - importance 0.05217495969344832 found for attribute 0
+ - importance 5.253055527223438E-4 found for attribute 5
+ - importance 0.1989545548995032 found for attribute 4
+ 
+ ** attribute to split on is 4 ** 
+
+ - importance 0.013254883835801756 found for attribute 3
+ - importance 0.012464376276776101 found for attribute 2
+ - importance 0.001522971575300458 found for attribute 1
+ - importance 0.02291204946139125 found for attribute 0
+ - importance 0.03126685581246713 found for attribute 5
+ 
+ ** attribute to split on is 5 ** 
+
+ - importance 0.0241792289009517 found for attribute 3
+ - importance 0.08573783404972213 found for attribute 2
+ - importance 0.0024849871169562165 found for attribute 1
+ - importance 0.0241792289009517 found for attribute 0
+ 
+ ** attribute to split on is 2 ** 
+
+ - importance 0.14265117934247157 found for attribute 3
+ - importance 0.04942441070274195 found for attribute 1
+ - importance 0.14265117934247157 found for attribute 0
+ 
+ ** attribute to split on is 3 ** 
+
+ - importance 0.17441604792151594 found for attribute 1
+ - importance 0.6365141682948128 found for attribute 0
+ 
+ ** attribute to split on is 0 ** 
+
+ - importance 0.0 found for attribute 1
+ 
+ ** attribute to split on is 1 ** 
+
+DONE! Decision tree has been built...
+digraph {
+    "4" -> "5" [label="3 internal depth 1 "];
+    "4" -> "0" [label="2 leaf depth 1 "];
+    "4" -> "1" [label="1 leaf depth 1 "];
+    "4" -> "0" [label="4 leaf depth 1 "];
+    "5" -> "2" [label="2 internal depth 2 "];
+    "5" -> "0" [label="1 leaf depth 2 "];
+    "2" -> "3" [label="2 internal depth 3 "];
+    "2" -> "1" [label="1 leaf depth 3 "];
+    "3" -> "0" [label="3 internal depth 4 "];
+    "3" -> "0" [label="2 leaf depth 4 "];
+    "3" -> "1" [label="1 internal depth 4 "];
+    "0" -> "1" [label="3 leaf depth 5 "];
+    "0" -> "0" [label="2 leaf depth 5 "];
+    "0" -> "0" [label="1 leaf depth 5 "];
+    "1" -> "1" [label="3 leaf depth 5 "];
+    "1" -> "1" [label="2 leaf depth 5 "];
+    "1" -> "1" [label="1 leaf depth 5 "];
+}
+
+Testing the tree on the test examples...
+-------------Results---------------
+Number of tested examples:      432
+Number of classified positives: 147
+Number of classified negatives: 285
+-----------------------------------
+Number of true positives:       121
+Number of false positives:      26
+Number of true negatives:       190
+Number of false negatives:      95
+-----------------------------------
+Recall:                         0.8231292517006803
+Precision:                      0.5601851851851852
+Accuracy:                       0.7199074074074074
+
+Successful completion of program

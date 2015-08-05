@@ -1,0 +1,299 @@
+java -ea -cp ../bin code.DecisionTreeLearnerTraditionalDriver 1 2
+
+
+Running data set: agaricus-lepiota.data
+File opened successfully...
+Successfully read 8124 examples from file...
+sum: -1.4368686534651518
+ - importance 0.24567647921969846 found for attribute 19
+sum: -0.1791209366611652
+ - importance 0.016986747378888337 found for attribute 17
+sum: -1.0450955140698928
+ - importance 0.20746060083862902 found for attribute 18
+ - importance 0.0 found for attribute 15
+sum: -0.00667024414197995
+ - importance 0.064975475493976 found for attribute 16
+sum: -1.2961649660717312
+ - importance 0.14848372459700648 found for attribute 13
+sum: -1.333546036391001
+ - importance 0.13313098458115208 found for attribute 14
+sum: -0.8342438034830186
+ - importance 0.32356162727743837 found for attribute 11
+sum: -0.9802891357176741
+ - importance 0.26964021301092245 found for attribute 12
+sum: -1.5165982977662076
+ - importance 0.0742885134780697 found for attribute 21
+sum: -0.6927152576899358
+ - importance 0.19499092951248384 found for attribute 3
+sum: -1.4180740984798161
+ - importance 0.07400285884893347 found for attribute 20
+sum: -1.7669251706387126
+ - importance 0.020248287998033996 found for attribute 2
+sum: -1.0812077982847221
+ - importance 0.007736866326679981 found for attribute 1
+sum: -1.2066092773566992
+ - importance 0.08823152966843018 found for attribute 10
+sum: -0.9625998299721508
+ - importance 0.013235081538264115 found for attribute 0
+sum: -0.5267560161204005
+ - importance 0.15188004870033456 found for attribute 7
+sum: -0.4374074432810847
+ - importance 0.11086228941037758 found for attribute 6
+sum: -0.006285259972462956
+ - importance 0.06895534738179195 found for attribute 5
+sum: -1.5140386990755563
+ - importance 0.4027758900096275 found for attribute 4
+sum: -0.6893365633595336
+ - importance 0.09678686866170802 found for attribute 9
+sum: -2.076049724979021
+ - importance 0.10748677543324467 found for attribute 8
+ 
+ ** attribute to split on is 4 ** 
+
+sum: -1.1163111551074896
+ - importance 0.10744691817925349 found for attribute 19
+sum: -0.3092663111087945
+ - importance 0.1184001640777989 found for attribute 17
+sum: -0.7193426907120996
+ - importance 0.0013605784591726117 found for attribute 18
+ - importance 0.0 found for attribute 15
+sum: -0.013111227768127707
+ - importance 0.0047985901579997645 found for attribute 16
+sum: -1.0670930538991639
+ - importance 0.019205165619771147 found for attribute 13
+sum: -1.1883905037558982
+ - importance 0.03379362296734511 found for attribute 14
+sum: -0.4665429392803934
+ - importance 0.07179175210965821 found for attribute 11
+sum: -0.5019341061199691
+ - importance 0.08201351386095604 found for attribute 12
+sum: -1.0803015703197012
+ - importance 0.04498480708740838 found for attribute 21
+sum: -0.6382633520915921
+ - importance 3.5024673136543536E-4 found for attribute 3
+sum: -1.452807942045455
+ - importance 0.023192805160342746 found for attribute 20
+sum: -1.588281289988502
+ - importance 0.042206554173959396 found for attribute 2
+sum: -1.0388075120971243
+ - importance 0.01248882329650693 found for attribute 1
+sum: -0.8826711295912979
+ - importance 0.01799577125394847 found for attribute 10
+sum: -0.9447435021591885
+ - importance 0.0608147589107867 found for attribute 0
+sum: -0.27137965368349076
+ - importance 0.046263675047100015 found for attribute 7
+sum: -0.5914929643328182
+ - importance 0.008870617396757943 found for attribute 6
+sum: -0.012280822153228623
+ - importance 0.005123061611220418 found for attribute 5
+sum: -0.4583980738378365
+ - importance 0.15090692985506413 found for attribute 9
+sum: -1.879406546633996
+ - importance 0.04071505613707197 found for attribute 8
+ 
+ ** attribute to split on is 9 ** 
+
+sum: -1.2946790433115962
+ - importance 0.2285298415102097 found for attribute 19
+sum: -0.6896843786933111
+ - importance 0.008399216344436931 found for attribute 17
+sum: -0.9262112591941665
+ - importance 0.08064322216776414 found for attribute 18
+ - importance 0.0 found for attribute 15
+sum: -0.059324527381335215
+ - importance 0.04002228633943088 found for attribute 16
+sum: -0.5323955162651636
+ - importance 0.10127306319067055 found for attribute 13
+sum: -1.0037413221262725
+ - importance 0.09592889005936434 found for attribute 14
+sum: -0.4609749984012806
+ - importance 0.1578541535018 found for attribute 11
+sum: -0.7099961794386461
+ - importance 0.1883668554223576 found for attribute 12
+sum: -1.647517220055645
+ - importance 0.18990314954929216 found for attribute 21
+sum: -0.6915731509938541
+ - importance 0.028691235736399798 found for attribute 3
+sum: -1.125013054668572
+ - importance 0.13644842293930523 found for attribute 20
+sum: -2.0721820727204565
+ - importance 0.08285853095073085 found for attribute 2
+sum: -1.112581751007586
+ - importance 0.022138802087400433 found for attribute 1
+sum: -0.9816882578625756
+ - importance 0.16473066063622546 found for attribute 10
+sum: -1.468157474139315
+ - importance 0.10953443896676927 found for attribute 0
+sum: -0.6878833259530146
+ - importance 0.006914450251446582 found for attribute 7
+sum: -0.40008828288196496
+ - importance 0.014380057209043054 found for attribute 6
+sum: -0.054485045528934954
+ - importance 0.04357715403846552 found for attribute 5
+sum: -1.7540781480898155
+ - importance 0.10762562911714979 found for attribute 8
+ 
+ ** attribute to split on is 19 ** 
+
+sum: -0.608556885905289
+ - importance 0.31417359599380584 found for attribute 17
+sum: -0.28140183959141857
+ - importance 0.041157155076732295 found for attribute 18
+ - importance 0.0 found for attribute 15
+ - importance 0.0 found for attribute 16
+sum: -0.6300861445587914
+ - importance 0.09192924569113599 found for attribute 13
+sum: -1.2200676556564478
+ - importance 0.14355855987829164 found for attribute 14
+sum: -0.6710072996154063
+ - importance 0.3065392203185893 found for attribute 11
+sum: -0.7439055585656069
+ - importance 0.3744941951227804 found for attribute 12
+sum: -1.0066327380516724
+ - importance 0.3163452805138656 found for attribute 21
+sum: -0.6275804299256631
+ - importance 0.12326932295916591 found for attribute 3
+sum: -0.8047532622650428
+ - importance 0.12295747470183063 found for attribute 20
+sum: -1.8512858677475015
+ - importance 0.11521616761430388 found for attribute 2
+sum: -1.0747870940400615
+ - importance 0.09196299627023272 found for attribute 1
+sum: -0.48992461926257247
+ - importance 5.6195812591239156E-5 found for attribute 10
+sum: -1.2756924553013687
+ - importance 0.044797292283675794 found for attribute 0
+sum: -0.608556885905289
+ - importance 0.31417359599380584 found for attribute 7
+sum: -0.5509241105202498
+ - importance 0.0012798410533888995 found for attribute 6
+ - importance 0.0 found for attribute 5
+sum: -0.7957683008557235
+ - importance 0.08354490437185486 found for attribute 8
+ 
+ ** attribute to split on is 12 ** 
+
+sum: -0.40228260658341586
+ - importance 0.18045216378860884 found for attribute 17
+sum: -0.2403359396286646
+ - importance 0.43949672210178853 found for attribute 18
+ - importance 0.0 found for attribute 15
+ - importance 0.0 found for attribute 16
+sum: -0.6788267084867275
+ - importance 0.028052291877859768 found for attribute 13
+sum: -0.9523373180762003
+ - importance 0.0273577058617042 found for attribute 14
+sum: -0.3074179850919116
+ - importance 0.008770292584243835 found for attribute 11
+sum: -0.5459102770400028
+ - importance 0.1329756369601733 found for attribute 21
+sum: -0.38613975394283734
+ - importance 0.012714437918632172 found for attribute 3
+sum: -0.4767603913143831
+ - importance 0.010667453093235229 found for attribute 20
+sum: -1.6863002425147018
+ - importance 0.06963548577217284 found for attribute 2
+sum: -0.9612280021024324
+ - importance 0.0788454373400174 found for attribute 1
+sum: -0.410116318288409
+ - importance 0.1740223449536101 found for attribute 10
+sum: -1.2068933681730911
+ - importance 0.04849985155870184 found for attribute 0
+sum: -0.40228260658341586
+ - importance 0.18045216378860884 found for attribute 7
+sum: -0.4470606519579599
+ - importance 0.14725171552502278 found for attribute 6
+ - importance 0.0 found for attribute 5
+sum: -0.7967882035705448
+ - importance 0.025937693572176377 found for attribute 8
+ 
+ ** attribute to split on is 18 ** 
+
+sum: -0.6909233093138181
+ - importance 1.0 found for attribute 17
+ - importance 0.0 found for attribute 15
+ - importance 0.0 found for attribute 16
+ - importance 0.0 found for attribute 13
+ - importance 0.0 found for attribute 14
+sum: -0.6365141682948128
+ - importance 0.561372725730424 found for attribute 11
+sum: -0.8823109245150755
+ - importance 0.7830837067936731 found for attribute 21
+sum: -0.6730116670092565
+ - importance 0.7156251153092934 found for attribute 3
+sum: -1.1369165918330009
+ - importance 0.6077167967087829 found for attribute 20
+sum: -0.6277052571971504
+ - importance 0.28948614432409564 found for attribute 2
+sum: -1.3792922544726758
+ - importance 0.5009259691507283 found for attribute 1
+sum: -0.6730116670092565
+ - importance 0.7156251153092934 found for attribute 10
+sum: -1.5246335284348944
+ - importance 0.18479643374844734 found for attribute 0
+sum: -0.6909233093138181
+ - importance 1.0 found for attribute 7
+sum: -0.24493002679463532
+ - importance 0.21860288954392315 found for attribute 6
+ - importance 0.0 found for attribute 5
+sum: -0.8532361505557784
+ - importance 0.5644674706929378 found for attribute 8
+ 
+ ** attribute to split on is 17 ** 
+
+DONE! Decision tree has been built...
+digraph {
+    "4" -> "p" [label="f leaf depth 1 "];
+    "4" -> "p" [label="s leaf depth 1 "];
+    "4" -> "p" [label="c leaf depth 1 "];
+    "4" -> "e" [label="a leaf depth 1 "];
+    "4" -> "p" [label="p leaf depth 1 "];
+    "4" -> "9" [label="n internal depth 1 "];
+    "4" -> "e" [label="l leaf depth 1 "];
+    "4" -> "p" [label="m leaf depth 1 "];
+    "4" -> "p" [label="y leaf depth 1 "];
+    "9" -> "19" [label="e internal depth 2 "];
+    "9" -> "e" [label="t leaf depth 2 "];
+    "19" -> "12" [label="w internal depth 3 "];
+    "19" -> "e" [label="u leaf depth 3 "];
+    "19" -> "e" [label="b leaf depth 3 "];
+    "19" -> "p" [label="r leaf depth 3 "];
+    "19" -> "e" [label="n leaf depth 3 "];
+    "19" -> "e" [label="o leaf depth 3 "];
+    "19" -> "e" [label="k leaf depth 3 "];
+    "19" -> "e" [label="h leaf depth 3 "];
+    "19" -> "e" [label="y leaf depth 3 "];
+    "12" -> "e" [label="f leaf depth 4 "];
+    "12" -> "18" [label="s internal depth 4 "];
+    "12" -> "e" [label="k leaf depth 4 "];
+    "12" -> "p" [label="y leaf depth 4 "];
+    "18" -> "e" [label="f leaf depth 5 "];
+    "18" -> "e" [label="e leaf depth 5 "];
+    "18" -> "e" [label="s leaf depth 5 "];
+    "18" -> "e" [label="c leaf depth 5 "];
+    "18" -> "17" [label="p internal depth 5 "];
+    "18" -> "e" [label="n leaf depth 5 "];
+    "18" -> "e" [label="l leaf depth 5 "];
+    "18" -> "e" [label="z leaf depth 5 "];
+    "17" -> "e" [label="t leaf depth 6 "];
+    "17" -> "p" [label="n leaf depth 6 "];
+    "17" -> "p" [label="o leaf depth 6 "];
+}
+
+Testing the tree on the test examples...
+-------------Results---------------
+Number of tested examples:      1625
+Number of classified positives: 491
+Number of classified negatives: 1134
+-----------------------------------
+Number of true positives:       491
+Number of false positives:      0
+Number of true negatives:       1118
+Number of false negatives:      16
+-----------------------------------
+Recall:                         1.0
+Precision:                      0.9684418145956607
+Accuracy:                       0.9901538461538462
+
+Successful completion of program

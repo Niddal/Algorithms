@@ -1,33 +1,14 @@
 *************************************l***************************************
-* Assignment 4 Decision Trees README, Artificial Intelligence CS335 JHU.    *
+* Adaboost    *
 *****************************************************************************
-TODO:
 
-- choose m = sqrt(p) features at random to split bc reducing m reduces correlation
-- implement out of bag error OOR: For each observation zi = (xi,yi), construct its random
-forest predictor by averaging only those trees corresponding to boot- strap samples in 
-which zi did not appear. An oob error estimate is almost identical to that obtained by N-
-fold cross- validation
 
 
 --------------------------------------------------------------------------------
 1. Introduction
 --------------------------------------------------------------------------------
 
-3 parts: traditional information-theoretic decision tree, evolutionary decision
-tree derived from a forest of randomly trained trees, and lastly a random forest
-of information theoretic decision trees that classify on majority vote of all
-trees in the forest. The random forest has low variance and performs better 
-than the others on most occasions.
-
-About Random Forests:
-
-From “Elements of Statistical Learning” by Hastie, Tibshirani, Friedman: “Bagging or 
-bootstrap aggregation (section 8.7) is a technique for reducing the variance of an 
-estimated prediction function. Bagging seems to work especially well for high-variance, 
-low-bias procedures, such as trees. For regression, we simply fit the same regression tree 
-many times to bootstrap- sampled versions of the training data, and average the result. 
-For classification, a committee of trees each cast a vote for the predicted class”
+Uses the same framework as random forests project
 
 --------------------------------------------------------------------------------
 2. Usage
@@ -35,15 +16,15 @@ For classification, a committee of trees each cast a vote for the predicted clas
 
 All code resides in the src/ subdirectory, which also contains a Makefile that
 can build and run the code.  As a convenience, the top level directory also
-contains shellscripts which call `make`.  The run_traditional.sh and 
-run_evolutionary.sh scripts also pass any command line arguments given to it 
+contains shellscripts which call `make`.  The run_adaboost script 
+also pass any command line arguments given to it 
 along to the Java program. change to the rosset.corbin directory, then to build:
 
 ./compile.sh
 
 And to run the traditional learning algorithm type:
 
-./run_traditional.sh <IG or GR> <whichDataSet> <whichMonk>
+./run_adaboost <IG or GR> <whichDataSet> <whichMonk>
 
 Where “whichDataSet” is an integer input parameter (0=Congressional, 1=MONK, 
 2=Mushroom). "IG or GR" is an integer, 0 for information gain selection strategy,
@@ -53,33 +34,26 @@ either 1, 2, or 3.
 
 And to run the genetic algorithm, type:
 
-./run_evolutionary.sh <whichDataSet> <whichMonk> 
+./run_adaboost.sh <whichDataSet> <whichMonk> 
 
 where "whichDataSet" and "whichMonk" input arguments are the same as for the
 traditional. 
 
-Please see the outpu/ forlder for the for the sample runs. Sometimes, there is 
-more than one run for a given data set if I felt there was variablility in
+Please see the output/ folder for the for the sample runs. Sometimes, there is 
+more than one run for a given data set if I felt there was variability in
 performance. I give no analysis here explaining such performance or my choices
 of parameters, but there are some comments in the code. 
 
-The random forest can be run in the same manner as the traditional:
-
-./run_forest.sh <IG or GR> <whichDataSet> <whichMonk>
 
 Examples:
 
 to run traditional Gain Ratio on Monk-2:
 
-./run_traditional 1 1 2
+./run_adaboost 1 1 2
 
-to run traditional information gain on mushroom:
+to run adaboost with information gain on mushroom:
 
-./run_traditional 0 2
-
-to run genetic algorithm on congressional data set:
-
-./run_evolutionary 0
+./run_adaboost 0 2
 
 To generate documentation: 
 
@@ -120,7 +94,7 @@ CongressionalInputParser.java	MonkInputParser.java
 InputParser.java		MushroomInputParser.java
 
 ./Testing:
-DecisionTreeTester.java		RandomForestTester.java
+DecisionTreeTester.java		AdaboostTester.java
 
 ./Traditional:
 GreedyInformationGainDecisionTree.java	TraditionalDecisionTreeBuilder.java
