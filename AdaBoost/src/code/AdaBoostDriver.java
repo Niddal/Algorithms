@@ -6,7 +6,7 @@ import code.Examples.*;
 import code.Parser.*;
 import code.Testing.*;
 import code.Traditional.*;
-import code.RandomForest.*;
+import code.AdaBoostForest.*;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.ArrayList;
@@ -17,12 +17,10 @@ public class AdaBoostDriver {
 
     private static final double PERCENT_TRAIN = 0.8;
     /*useful things*/
-    private static RandomForestBuilder rfb; //forest
-    private static RandomForestTester tester; //tester
+    private static AdaBoostForestBuilder rfb; //forest
+    private static AdaBoostForestTester tester; //tester
     private static Forest<String, String> forest; //the forest built by the builder
-    private static int numBags = 100; //num bags, or trees in forest, for training
-    private static int bagSize = 100; //bag size, or num Examples, for training
-    private static int attributeSubsetSize = 5; //size of
+    private static int ensambleSize = 30;
 
     /*boring things*/
     private static InputParser parser;
@@ -55,7 +53,7 @@ public class AdaBoostDriver {
             if (args.length < 2 || whichDataSet < 0 || whichDataSet > 2 || tempIG < 0 || tempIG > 1) {
                 throw new NumberFormatException();
             }
-            //System.out.println(tempIG + " " + whichDataSet);
+            //AdaBoostForestSystem.out.println(tempIG + " " + whichDataSet);
             if (args.length < 3 && whichDataSet == 1) {
                 throw new NumberFormatException();
             }
@@ -88,10 +86,9 @@ public class AdaBoostDriver {
                         attributes = parser.getAttributesSet();
                         examples = parser.readExamples(fileName);
                         partitionIntoTestAndTraining(examples);
-                        assert(attributeSubsetSize <= attributes.size());
                         assert(outputClasses != null);
-                        rfb = new RandomForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses, numBags, attributeSubsetSize);
+                        rfb = new AdaBoostForest(
+                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize);
                             System.out.println("\n\nsuccess: congressional decision forest built");
                         break;
                     }
@@ -105,10 +102,9 @@ public class AdaBoostDriver {
                         attributes = parser.getAttributesSet();
                         trainingExamples = parser.readExamples(fileName1);
                         testExamples = parser.readExamples(fileName2);
-                        assert(attributeSubsetSize <= attributes.size());
                         
-                        rfb = new RandomForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses, numBags, attributeSubsetSize);
+                        rfb = new AdaBoostForest(
+                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize);
                             System.out.println("\n\nsuccess: monk-" + whichMonk + " decision forest built");
 
                         break;
@@ -121,13 +117,12 @@ public class AdaBoostDriver {
                         masterAttributes = parser.initializeMasterAttributesAndValues();
                         attributes = parser.getAttributesSet();
                         examples = parser.readExamples(fileName1);
-                        assert(attributeSubsetSize <= attributes.size());
                         
                         //testExamples = parser.readExamples(fileName2);
                         partitionIntoTestAndTraining(examples);
                         
-                        rfb = new RandomForest(
-                             trainingExamples, masterAttributes, attributes, outputClasses, numBags, attributeSubsetSize);
+                        rfb = new AdaBoostForest(
+                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize);
                         System.out.println("\n\nsuccess: mushroom decision forest built");
 
                         break;
@@ -136,7 +131,7 @@ public class AdaBoostDriver {
         }
         
         System.out.println("\nTraining the forest on the TRAINING examples...");
-        forest =  rfb.trainForest(bagSize);
+        forest =  rfb.trainForest();
         assert (forest != null);
         
         /*System.out.println("\nTesting testing EACH TREE on test examples...");
@@ -148,13 +143,13 @@ public class AdaBoostDriver {
         }*/
         
         System.out.println("\n********************************************\nTesting the forest on the TRAINING examples...");
-        tester = new RandomForestTester(trainingExamples, masterAttributes, attributes, outputClasses);
+        tester = new AdaBoostForestTester(trainingExamples, masterAttributes, attributes, outputClasses);
         tester.test(forest);
         out = tester.printPerformanceMetrics();
         System.out.println(out);
         
         System.out.println("\n******************************************\nTesting the forest on the TEST examples...");
-        tester = new RandomForestTester(testExamples, masterAttributes, attributes, outputClasses);
+        tester = new AdaBoostForestTester(testExamples, masterAttributes, attributes, outputClasses);
         tester.test(forest);
         out = tester.printPerformanceMetrics();
         System.out.println(out);

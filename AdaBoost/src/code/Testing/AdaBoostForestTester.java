@@ -7,7 +7,7 @@ package code.Testing;
 import code.Trees.*;
 import code.Examples.*;
 import code.Traditional.*;
-import code.RandomForest.*;
+import code.AdaBoostForest.*;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import java.io.IOException;
     class that tests a decision tree on test data. This is used to test the output traditional decision tree, 
     the output genetic tree, and the fitness of intermediate genetic trees using training data
 */
-public class RandomForestTester {
+public class AdaBoostForestTester {
     private ArrayList<Example> testExamples;
     private int truePositives;
     private int falsePositives;
@@ -34,7 +34,7 @@ public class RandomForestTester {
     private double precision;
     private double accuracy;
     
-    public RandomForestTester(ArrayList<Example> testExamples, ArrayList<HashSet<String>> ma,
+    public AdaBoostForestTester(ArrayList<Example> testExamples, ArrayList<HashSet<String>> ma,
         HashSet<String> attributes, HashSet<String> outputClasses) {
         this.attributes = attributes;
         this.outputClasses = outputClasses;
