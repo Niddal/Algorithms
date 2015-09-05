@@ -20,8 +20,8 @@ public class AdaBoostDriver {
     private static AdaBoostForestBuilder rfb; //forest
     private static AdaBoostForestTester tester; //tester
     private static Forest<String, String> forest; //the forest built by the builder
-    private static int ensambleSize = 500;
-    private static int treeDepth = 3;
+    private static int ensambleSize = 3000;
+    private static int treeDepth = 10;
 
     /*boring things*/
     private static InputParser parser;

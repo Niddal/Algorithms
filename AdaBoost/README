@@ -2,7 +2,11 @@
 * Adaboost    *
 *****************************************************************************
 
-
+NOTE: for the mushroom dataset, change the tree depth to 1 and the ensemble
+size to 500 in the AdaBoostDriver.java file, or else it will exceed the 
+numerical limits of computation. All other tests can be run with tree depth
+of up to 10 and around 3000 trees in the ensemble, but I havne't found
+any upper bounds for these numbers.
 
 --------------------------------------------------------------------------------
 1. Introduction

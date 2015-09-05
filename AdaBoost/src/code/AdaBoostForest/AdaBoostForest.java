@@ -169,7 +169,8 @@ public class AdaBoostForest implements AdaBoostForestBuilder {
             temp = (e.getWeight() * Math.exp(-1*learnerWeight*correct))/den;
             e.setWeight(temp);
             if (!(temp >= 0 && temp <= 1)) {
-                System.out.println("ERROR: distributions getting too small to handle, try reducing the depth of the trees");
+                System.out.println("ERROR: probabilities getting too small to handle, try reducing the depth of the trees");
+                System.exit(1);
             }
         }
 
