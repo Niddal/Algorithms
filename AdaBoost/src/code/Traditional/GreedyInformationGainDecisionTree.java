@@ -18,6 +18,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
 
 /*----- instance variables */
     private boolean IG = false;
+    private int depth = 0;
 
     
     /**
@@ -30,9 +31,10 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
     */
     public GreedyInformationGainDecisionTree(ArrayList<Example> exs, 
         ArrayList<HashSet<String>> masterAttributes, HashSet<String> attributes, 
-        HashSet<String> outputClasses, boolean ig) {
+        HashSet<String> outputClasses, boolean ig, int depth) {
         super(exs, masterAttributes, attributes, outputClasses);  
         this.IG = ig; //information gain or not?   
+        this.depth = depth;
    
     }
     
@@ -76,8 +78,11 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
     private Node<String, String> recursiveTreeBuilder(
         ArrayList<Example> currentExamples, HashSet<String> remainingAttributes, Node<String, String> parent) 
         throws Exception {
-                
-        if (currentExamples.isEmpty()) { //if no more examples then get plurality of parent examples as leaf
+             
+        /*
+            WARNING: ADDED THE DEPTH LIMIT HERE
+        */
+        if (currentExamples.isEmpty() || (parent != null && parent.getDepth() + 1 > this.depth)) { //if no more examples then get plurality of parent examples as leaf
             String classification =  getPluralityValue(parent.getExamples());
             Node<String, String> leaf = tree.makeNode(classification, (parent.getDepth() + 1), true, currentExamples, parent);
             //tree.connectNodes(parent, leaf, classification); //FIX FIX FIX
@@ -103,7 +108,7 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
             Node<String, String> subtree;
             
             
-                        String attributeToSplitOn = getMostImportantAttribute(remainingAttributes, currentExamples);
+            String attributeToSplitOn = getMostImportantAttribute(remainingAttributes, currentExamples);
             // System.out.println(" \n ** attribute to split on is " + attributeToSplitOn + " ** \n");
             attributeIndex = Integer.parseInt(attributeToSplitOn);
             try {
@@ -277,12 +282,19 @@ public class GreedyInformationGainDecisionTree extends TraditionalDecisionTreeBu
             }
         }
         
-        if ( remainder > IG || remainder < 0) {
-            System.err.println("ERROR: bad information gain; negative or too big for some reason");
+        //System.out.println("IG: " + IG);
+        //System.out.println("remainder: " + remainder);
+
+        if ( remainder > IG + 0.0001|| remainder < -0.00001) {
+            System.err.println("ERROR: bad information gain; negative or too big for some reason, run again because this can happen by chance");
             System.exit(1);
         }
+        
         //assert (IG != remainder); MAYBE ALLOW THIS TOO??
         IG = IG - remainder;
+        if (IG < 0.0) {
+            IG = 0.00000000001;
+        }
         assert (!Double.isNaN(IG));
         return IG;
     }

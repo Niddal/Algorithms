@@ -94,7 +94,7 @@ public class DecisionTreeTester {
             assert (predictedClass != null);
             if (predictedClass.equals(currentExample.getTrueClassification())) {
                 //then a true positive, correctly labelled
-                
+                currentExample.setCorrect();
                 if (predictedClass.equals(this.positive)) {
                     this.truePositives++;
                     this.numPositives++;
@@ -103,7 +103,7 @@ public class DecisionTreeTester {
                     this.numNegatives++;
                 }
             } else {
-                
+                currentExample.setWrong();
                 if (predictedClass.equals(this.negative)) {
                     this.falseNegatives++;
                     this.numNegatives++;

@@ -20,7 +20,8 @@ public class AdaBoostDriver {
     private static AdaBoostForestBuilder rfb; //forest
     private static AdaBoostForestTester tester; //tester
     private static Forest<String, String> forest; //the forest built by the builder
-    private static int ensambleSize = 30;
+    private static int ensambleSize = 500;
+    private static int treeDepth = 3;
 
     /*boring things*/
     private static InputParser parser;
@@ -88,7 +89,7 @@ public class AdaBoostDriver {
                         partitionIntoTestAndTraining(examples);
                         assert(outputClasses != null);
                         rfb = new AdaBoostForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize);
+                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize, treeDepth);
                             System.out.println("\n\nsuccess: congressional decision forest built");
                         break;
                     }
@@ -104,7 +105,7 @@ public class AdaBoostDriver {
                         testExamples = parser.readExamples(fileName2);
                         
                         rfb = new AdaBoostForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize);
+                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize, treeDepth);
                             System.out.println("\n\nsuccess: monk-" + whichMonk + " decision forest built");
 
                         break;
@@ -122,7 +123,7 @@ public class AdaBoostDriver {
                         partitionIntoTestAndTraining(examples);
                         
                         rfb = new AdaBoostForest(
-                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize);
+                            trainingExamples, masterAttributes, attributes, outputClasses, ensambleSize, treeDepth);
                         System.out.println("\n\nsuccess: mushroom decision forest built");
 
                         break;
@@ -144,13 +145,13 @@ public class AdaBoostDriver {
         
         System.out.println("\n********************************************\nTesting the forest on the TRAINING examples...");
         tester = new AdaBoostForestTester(trainingExamples, masterAttributes, attributes, outputClasses);
-        tester.test(forest);
+        tester.test(rfb.getAdaBoostForest());
         out = tester.printPerformanceMetrics();
         System.out.println(out);
         
         System.out.println("\n******************************************\nTesting the forest on the TEST examples...");
         tester = new AdaBoostForestTester(testExamples, masterAttributes, attributes, outputClasses);
-        tester.test(forest);
+        tester.test(rfb.getAdaBoostForest());
         out = tester.printPerformanceMetrics();
         System.out.println(out);
         

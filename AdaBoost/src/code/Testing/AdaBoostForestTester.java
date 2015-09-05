@@ -9,6 +9,7 @@ import code.Examples.*;
 import code.Traditional.*;
 import code.AdaBoostForest.*;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.HashSet;
 import java.util.ArrayList;
 import java.io.IOException;
@@ -71,10 +72,11 @@ public class AdaBoostForestTester {
         tests a tree with example data. records precidion, accuracy, and recall.
         @param tree the tree to test
     */
-    public void test(Forest<String, String> forest) {
+    public void test(AdaBoostForest forest) {
         assert (forest != null);
         String aggregatePredictedClass = "";
-        ArrayList<String> predictionsByForest = new ArrayList<String>();
+        //store the output class of the tree and how many votes that tree has
+        Map<String, Double> predictionsByForest = new HashMap<String, Double>();
         String actualClass = "";
         String predictedClass = "";
         Node<String, String> currentNode;
@@ -88,17 +90,27 @@ public class AdaBoostForestTester {
         this.precision = 0;
         this.accuracy = 0;
         
+        //values from the forest
+        Map<Tree<String, String>, Double> hypothesisWeights = forest.getHypothesisWeights();
+        
         
         for (Example currentExample : this.testExamples) {
-            predictionsByForest = new ArrayList<String>(); //reset
+            predictionsByForest = new HashMap<String, Double>(); //reset
+            //System.out.println("example");
             for (Tree<String, String> tree : forest.getForest()) {
                 currentNode = traverseTree(tree.getRoot(), currentExample);
                 assert (currentNode.isLeaf());
                 predictedClass = currentNode.getOutputClass();
                 assert (predictedClass != null);
-                predictionsByForest.add(predictedClass);
+                assert (hypothesisWeights.get(tree) >= 0.0);
+                //if the class has already been put:
+                if (predictionsByForest.get(predictedClass) != null) {
+                    predictionsByForest.put(predictedClass, predictionsByForest.get(predictedClass) + hypothesisWeights.get(tree));
+                } else {
+                    predictionsByForest.put(predictedClass, hypothesisWeights.get(tree));
+                }
+                //System.out.println("weight: " + hypothesisWeights.get(tree));
             }
-            assert (predictionsByForest.size() == forest.getSize());
             aggregatePredictedClass = majorityVote(predictionsByForest);
             if (aggregatePredictedClass.equals(currentExample.getTrueClassification())) {
                     //then a true positive, correctly labelled
@@ -207,37 +219,37 @@ public class AdaBoostForestTester {
         return numNodes;
     
     }
-    private String majorityVote(ArrayList<String> in) {
-        //find the plurality classifaction of these examples
-        HashMap<String, Integer> classCounter = new HashMap<String, Integer>(); //a frequency counter for each class
-        int count;
-        int highestCount = 0;
+    private String majorityVote(Map<String, Double> in) {
+        //find the plurality classifaction of these examples by weighted majority vote
+        //HashMap<String, Double> classCounter = new HashMap<String, Double>(); //a frequency counter for each class
+        Double count = 0.0;
+        Double highestCount = 0.0;
         String pluralityClass = null;
-        //initialize counter:
-        for (String s : this.outputClasses) {
-            classCounter.put(s, 0);
-        }
-        for (String temp : in) {
-            if (!classCounter.containsKey(temp) || !outputClasses.contains(temp)) {
-                System.err.println("ERROR: bad output class");
-                System.exit(1);
-            } else {
-                classCounter.put(temp, classCounter.get(temp) + 1); //increment counter    
-            }
-        } 
-        //find highest count
-        //Iterator<Map.Entry> it = classCounter.entrySet().iterator();
-        for (String s : classCounter.keySet()) {
-            if (classCounter.get(s) > highestCount) {
-                highestCount = classCounter.get(s);
+        for (String s : in.keySet()) {
+            if (in.get(s) > highestCount) {
+                highestCount = in.get(s);
                 pluralityClass = s;
             }
         }
+        //System.out.println("highest count: " + highestCount);
         if (pluralityClass == null) {
+
             System.err.println("ERROR: plurality");
             System.exit(1);
         }
         return pluralityClass;
+    }
+    public boolean correct(Tree<String, String> t, Example e) {
+        assert (t != null);
+        assert (e != null);
+        String predictedClass = "";
+        String actualClass = "";
+        Node<String, String> currentNode;
+     
+        currentNode = traverseTree(t.getRoot(), e);
+        assert (currentNode.isLeaf());
+        predictedClass = currentNode.getOutputClass();
+        return predictedClass.equals(e.getTrueClassification());
     }
 
 }

@@ -22,4 +22,5 @@ public interface AdaBoostForestBuilder {
         @return a subtree of trained nodes
     */
     public Forest<String,String> trainForest() throws Exception;
+    public AdaBoostForest getAdaBoostForest();
 } 

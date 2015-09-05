@@ -22,6 +22,8 @@ public abstract class Example {
     protected int Id;
     protected HashMap<String, String> AttributeList; 
     protected String trueClassification;
+    protected double weight = 0;
+    protected boolean correct = false;
     
     public Example(int exampleID) {
         this.Id = exampleID;
@@ -31,7 +33,15 @@ public abstract class Example {
         this.AttributeList = attributes;
         
     }
-    
+    public void setCorrect() {
+        this.correct = true;
+    }
+    public void setWrong() {
+        this.correct = false;
+    }
+    public boolean isCorrect() {
+        return this.correct;
+    }
     public String getAttributeValue(String attribute) {
        return AttributeList.get(attribute); 
     }
@@ -40,5 +50,11 @@ public abstract class Example {
     }
     public HashMap<String, String> getAttributeList() {
         return this.AttributeList; //probably should return a deep copy to avoid malicious attackers...
+    }
+    public void setWeight(double w) {
+        this.weight = w;
+    }
+    public double getWeight() {
+        return this.weight;
     }
 }
