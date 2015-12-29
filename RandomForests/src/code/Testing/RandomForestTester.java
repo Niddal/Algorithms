@@ -110,7 +110,7 @@ public class RandomForestTester {
                         this.trueNegatives++;
                         this.numNegatives++;
                     }
-                } else {                    
+            } else {
                     if (aggregatePredictedClass.equals(this.negative)) {
                         this.falseNegatives++;
                         this.numNegatives++;
