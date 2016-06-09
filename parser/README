@@ -1,0 +1,169 @@
+Corbin Rosset
+Neil Mallinar 
+
+
+###############################################################################
+
+To run the code:
+
+	./parse grammar sentences | ./prettyprint
+
+Or if you don’t have pypy, just replace it with python. If you’d like to profile the 
+code to produce the profile.txt file I generated, download https://github.com/rkern/line_profiler, 
+add the @profile annotations on functions, and run
+
+	kernprof -l parse.py grammar sentences
+	python -m line_profiler parse.py.lprof 
+
+
+###############################################################################
+
+An Earley parser for any corpus and associated grammar file. The pseudocode for the 
+algorithm is roughly as follows:
+
+	function EARLEY-PARSE(words, grammar)
+		Queue = []
+	    for i ← from 0 to LENGTH(words) do
+	    	Queue.clear()
+	    	column = {}
+	    	if i == 0:
+	    		Queue.enqueue([all ROOT rules])
+	    		add all Root -> . S rule entries to column 0
+	        while Queue not Empty
+	        	state = Queue.pop()
+	            if INCOMPLETE?(state) then
+	                if NEXT-CAT(state) is a nonterminal then
+	                    PREDICT(state, i, grammar)         // non-terminal
+	                else do
+	                    SCAN(state, i)                    // terminal
+	            else do
+	                ATTACH(state, i)
+	        end
+	    end
+	    return chart
+
+	function INCOMPLETE(state):
+		if state's dot is not at the end
+
+	function NEXT-CAT(state):
+		the thing after the dot in the dotted rule, could
+		be terminal, or non-terminal
+
+	function PREDICT((A -> A . B, i), j, grammar)
+		nextCat is nonterminal, add all rules that begin with
+		nextCat on the left side of the rule to the queue
+
+	function SCAN(hypothesisWord, currColumn)
+		If the currColumn-th word in the sentence
+		matches the hypothesisWord:
+
+			add to the next column this entry with the
+			dot advanced (with same startCol)
+
+	procedure ATTACH(completedEntry):
+		for all entries in completedEntry.startCol:
+			if entry has completedEntry.leftSide after the dot:
+				advance its dot and add that entry to current column
+
+
+###############################################################################
+
+Analysis of complexity
+
+	Let G be the number of grammar rules, N the length of the sentence without 
+	punctuation.  
+
+	Space:
+
+	G possible dotted rules, N possible start positions in column
+	yields space complexity of GN for one column and since there are N columns, 
+	O(Gn^2) space total. 
+
+	Runtime:
+
+	It takes O(Gn^2 * E) where E = the time to process an entry. How long does it
+	take to process an entry? There are three ways to process entry: if it's 
+	terminal then it's constant time because moving the dot over is constant time 
+	for a (scan). The second way is a predict, which is bounded above by G. 
+	Finally, an attach takes O(GN) time. 
+
+	Hence, runtime is upper bounded by
+
+	((1 + G + Gn)*Gn^2) = (G^2N^3) This is a problem for a naive implementation
+	if the grammar is particularly large, like in the WSJ data set...
+
+
+###############################################################################
+
+
+Optimizations: (running on an abridged version of the sentences file). 
+The runtimes below are that obtained after cumulatively applying the optimizations
+from top to bottom. 
+
+				Abridged	Full		Description
+baseline (no optimizations): 	49.723s		~3hrs
+Optimization A:			22.726s		  - 		(avoid duplicate predictions)
+Optimization B:			7.04s		11 min		(filter out rules for terminals that aren’t in the sentence)
+Optimization C:			1.4s		2m 21s		(customer table: which columns want to attach which entries)
+Optimization D:			1.32s		2m 10s  	(left corner speedup: prefix table, left ancestor pair table)
+
+
+Although not as fast as the Stanford or Berkeley parsers, (http://nlp.stanford.edu:8080/parser/), 
+(http://tomato.banatao.berkeley.edu:8080/parser/parser.html), it’s still pretty good. 
+
+Some design decisions we made:
+
+1) We add a new entry in predict, scan, and attach to both the queue and the 
+column's set in O(1) time using append or insert operations for lists and 
+sets respectively. We could have mutated existing entries. 
+
+2) Each entry object keeps a weight field and two backpointers corresponding to
+the parent entries that generated this entry. The invariant we maintain is that
+the weight and parent pointers always correspond to the best parse of this 
+entry.
+
+###############################################################################
+
+Some example outputs 
+
+# John is happy .
+(ROOT (S (NP (NPR (NNP John)))
+         (VP (VBZ is)
+             (ADJP-PRD (JJ happy)))
+         (PUNC. .)))
+34.2300982912
+# The very biggest companies are not likely to go under .
+(ROOT (S (NP (DT The)
+             (ADJP (RB very)
+                   (JJS biggest))
+             (NNS companies))
+         (VP (VBP are)
+             (RB not)
+             (ADVP (RB likely))
+             (VP (TO to)
+                 (VP (VB go)
+                     (PP (IN under)))))
+         (PUNC. .)))
+104.912706345
+
+# `` It 's very real , otherwise we would n't be doing it , '' this official said .
+(ROOT (S (PUNC`` ``)
+         (S-TPC (S (NP (PRP It))
+                   (VP (VBZ 's)
+                       (ADJP-PRD (RB very)
+                                 (JJ real))))
+                ,
+                (S (ADVP (RB otherwise)
+                         (NP (PRP we)))
+                   (VP (MD would)
+                       (RB n't)
+                       (VP (VB be)
+                           (VP (VBG doing)
+                               (NP (PRP it)))))))
+         ,
+         (PUNC'' '')
+         (NP (DT this)
+             (NN official))
+         (VP (VBD said))
+         (PUNC. .)))
+151.091688361

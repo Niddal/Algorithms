@@ -1,0 +1,392 @@
+Timer unit: 1e-06 s
+
+Total time: 0.000273 s
+File: parse2.py
+Function: __init__ at line 62
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    62                                           	@profile
+    63                                           	def __init__(self, index):
+    64        88           68      0.8     24.9  		self.col = {} #maps tuples to Entry objects
+    65        88           38      0.4     13.9  		self.index = index
+    66                                           
+    67                                           		# optimization A
+    68        88           65      0.7     23.8  		self.predictedLefts = set()
+    69                                           		# optimization C : keep a customer table in each column:
+    70        88           50      0.6     18.3  		self.customer = {} 	# maps terminal/nonterminal after the dot in an
+    71                                           						 	#entry's rule to that entire entry itself
+    72                                           						 	# maps entry's rule[dotIndex + 1] to the entry
+    73                                           		# optimization D
+    74        88           52      0.6     19.0  		self.leftAncestorPairTable = {}
+
+Total time: 0 s
+File: parse2.py
+Function: __str__ at line 76
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    76                                           	@profile
+    77                                           	def __str__(self):
+    78                                           		s =  'COLUMN: ' + str(self.index) + ' {\n'
+    79                                           		for item in self.col:
+    80                                           			s += str(item) + '\n'
+    81                                           		s += '}\n'
+    82                                           		return s
+
+Total time: 1.94457 s
+File: parse2.py
+Function: __init__ at line 88
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    88                                           	@profile
+    89                                           	def __init__(self, start, rule, dotIndex, weight):
+    90                                           		# column is implicit bc entry resides in a column table
+    91    731148       371464      0.5     19.1  		self.startCol = start #column of where this possible rule started
+    92    731148       341754      0.5     17.6  		self.rule = rule 	#index of rule in the rules list
+    93    731148       334406      0.5     17.2  		self.dotIndex = dotIndex
+    94    731148       339204      0.5     17.4  		self.weight = weight
+    95                                           
+    96                                           		# list of packpointer pairs [(p1, p2), (p1, p2)...]
+    97                                           		# backpointer invariant: the left backpointer is the
+    98                                           		# customer and must come from a previous column, while
+    99                                           		# the right backpointer comes from a completed constituent
+   100                                           		# at the top of the current column, which answer the question
+   101                                           		# of how the left parent was able to advance its pointer
+   102    731148       557739      0.8     28.7  		self.backpointer  = [None, None]
+
+Total time: 0.455196 s
+File: parse2.py
+Function: isComplete at line 104
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   104                                           	@profile
+   105                                           	def isComplete(self):
+   106    732437       455196      0.6    100.0  		return len(self.rule) == self.dotIndex + 1
+
+Total time: 0 s
+File: parse2.py
+Function: __cmp__ at line 108
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   108                                           	@profile
+   109                                           	def __cmp__(self, other):
+   110                                           		return self.startCol == other.startCol and \
+   111                                           		self.dotIndex == other.dotIndex and \
+   112                                           		self.rule == other.rule
+
+Total time: 0 s
+File: parse2.py
+Function: __eq__ at line 114
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   114                                           	@profile
+   115                                           	def __eq__(self, other):
+   116                                           		return self.startCol == other.startCol and \
+   117                                           		self.dotIndex == other.dotIndex and \
+   118                                           		self.rule == other.rule
+
+Total time: 2.0368 s
+File: parse2.py
+Function: __hash__ at line 120
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   120                                           	@profile
+   121                                           	def __hash__(self):
+   122   1183267      2036803      1.7    100.0  		return hash((self.startCol, self.dotIndex, self.rule))
+
+Total time: 0 s
+File: parse2.py
+Function: __str__ at line 125
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   125                                           	@profile
+   126                                           	def __str__(self):
+   127                                           		return str(self.startCol) + ' ' + str(self.rule) + ' ' + str(self.dotIndex)
+
+Total time: 2.1235 s
+File: parse2.py
+Function: nextCategory at line 129
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   129                                           	@profile
+   130                                           	def nextCategory(self):
+   131   1792194      1087193      0.6     51.2  		if self.dotIndex == len(self.rule) - 1:
+   132                                           			raise RuntimeException("already completed")
+   133                                           		else:
+   134   1792194      1036312      0.6     48.8  			return self.rule[self.dotIndex + 1]
+
+Total time: 278.707 s
+File: parse2.py
+Function: earleyParse at line 138
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   138                                           @profile
+   139                                           def earleyParse(sentence):
+   140                                           	global chart
+   141                                           	global initialRootRules
+   142         6            8      1.3      0.0  	queue = [] 
+   143         6            6      1.0      0.0  	queueIndex = 0
+   144                                           
+   145                                           	# initially add all root entries
+   146        12           24      2.0      0.0  	for root in rulesTable['ROOT']:
+   147         6           15      2.5      0.0  		rule = ('ROOT',) + tuple(root)
+   148         6            9      1.5      0.0  		assert rule in probTable
+   149         6            6      1.0      0.0  		rootKey = (0, rule, 0)
+   150         6            7      1.2      0.0  		rootEntry = Entry(start=0, rule=rule, \
+   151         6          126     21.0      0.0  			dotIndex=0, weight= -1*math.log(probTable[rule], 2))
+   152         6           16      2.7      0.0  		chart[0].predictedLefts.add(rule[0]) # optimization A
+   153                                           		# Optimization D:
+   154         6           40      6.7      0.0  		addOrAppend(leftParentTable, rule[1], 'ROOT')
+   155                                           		# Optimization C:
+   156         6          127     21.2      0.0  		insertOrUpdate(chart[0].customer, rootEntry.nextCategory(), rootEntry)
+   157                                           
+   158         6            7      1.2      0.0  		chart[0].col[rootKey] = rootEntry
+   159                                           	# process sentence
+   160                                           
+   161        94          122      1.3      0.0  	for i in range(len(sentence) + 1):
+   162        88          102      1.2      0.0  		assert len(queue) == queueIndex
+   163        88           81      0.9      0.0  		queueIndex = 0
+   164        88         6392     72.6      0.0  		queue = []
+   165        88          147      1.7      0.0  		column = chart[i]
+   166      1205         1417      1.2      0.0  		for entryKey in column.col: # initialize the queue with what scan added
+   167      1117         1816      1.6      0.0  			queue.append(column.col[entryKey])
+   168                                           
+   169                                           		# Optimization D:
+   170        88          101      1.1      0.0  		if i < len(sentence):
+   171        82        83594   1019.4      0.0  			createLeftAncestorPairTable(column, sentence[i], set())
+   172                                           		# end Optimization D
+   173    730125       753236      1.0      0.3  		for state in queue:
+   174    730037       719944      1.0      0.3  			queueIndex += 1
+   175    730037      4904207      6.7      1.8  			if complete(state) == False:
+   176    594432      3017105      5.1      1.1  				if state.nextCategory() in rulesTable:
+   177                                           					# optimization A
+   178    405465      2063291      5.1      0.7  					if state.nextCategory() not in column.predictedLefts:
+   179      4449      2791561    627.5      1.0  						predict(state, queue, column)         # non-terminal
+   180                                           				else:
+   181    188967      2199077     11.6      0.8  					scan(state.nextCategory(), state, column, sentence) 
+   182                                           					# terminal
+   183                                           			else:
+   184    135605    262157940   1933.2     94.1  				attach(state, column, queue)
+   185                                           		# print len(column.col)
+   186                                           
+   187                                           	# check if any root rule exists in the final column for recognizer
+   188         6            6      1.0      0.0  	found = False
+   189        12           19      1.6      0.0  	for root in rulesTable['ROOT']:
+   190         6           23      3.8      0.0  		rule = ('ROOT',) + tuple(root)
+   191         6           11      1.8      0.0  		assert rule in probTable
+   192         6            9      1.5      0.0  		rootKey = (0, rule, len(rule)-1)
+   193         6            9      1.5      0.0  		if rootKey in chart[-1].col:
+   194                                           			# print '\n***************\n* PARSE FOUND *\n***************\n'
+   195         6         6520   1086.7      0.0  			print (print_entry(chart[-1].col[rootKey]))
+   196         6           82     13.7      0.0  			print chart[-1].col[rootKey].weight
+   197         6            9      1.5      0.0  			found = True
+   198         6            6      1.0      0.0  	if not found:
+   199                                           		print 'NONE'
+   200                                           	# 	print'\n\n@@@@@@@@@@@@@@@@@@\n@ NO parse found @\n@@@@@@@@@@@@@@@@@@\n'
+   201         6            6      1.0      0.0  	return
+
+Total time: 2.50569 s
+File: parse2.py
+Function: complete at line 204
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   204                                           @profile
+   205                                           def complete(entry):
+   206                                           	'''if state's dot is not at the end'''
+   207                                           
+   208    730037      2505686      3.4    100.0  	return entry.isComplete()
+
+Total time: 2.26469 s
+File: parse2.py
+Function: predict at line 210
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   210                                           @profile
+   211                                           def predict(entry, queue, column):
+   212                                           	'''nextCat is nonterminal, add all rules that begin with
+   213                                           	nextCat on the left side of the rule to the queue'''
+   214      4449        22139      5.0      1.0  	column.predictedLefts.add(entry.nextCategory()) # optimization A
+   215                                           
+   216                                           	# Optimization D
+   217      4449        20459      4.6      0.9  	left = entry.nextCategory()
+   218                                           	# for left in column.leftAncestorPairTable:
+   219      4449         4339      1.0      0.2  	if left not in column.leftAncestorPairTable:
+   220      1532         1018      0.7      0.0  		return 
+   221     14956        12554      0.8      0.6  	for firstChild in column.leftAncestorPairTable[left]:
+   222     74570        64495      0.9      2.8  		for fullRule in prefixTable[(left, firstChild)]:
+   223                                           		# end Optimization D
+   224     62531        50981      0.8      2.3  			key = (column.index, fullRule, 0)
+   225     62531        59797      1.0      2.6  			if key not in column.col: #check duplicates here
+   226                                           				# print '# predicting: ' + str(left) + ' with rule: ' + str(fullRule)
+   227                                           				# print 'predict; enqueueing ' + str(newEntry)
+   228     62531       104512      1.7      4.6  				rulesWeight = -1*math.log(probTable[fullRule], 2)
+   229     62531        54436      0.9      2.4  				newEntry = Entry(start=column.index, rule=fullRule, \
+   230     62531       657758     10.5     29.0  				dotIndex=0, weight=rulesWeight)
+   231     62531        56516      0.9      2.5  				queue.append(newEntry)
+   232     62531        58515      0.9      2.6  				column.col[key] = newEntry #check for duplicates!
+   233                                           
+   234                                           				# Optimization C ##############################################
+   235     62531      1092975     17.5     48.3  				insertOrUpdate(column.customer, newEntry.nextCategory(), newEntry)
+   236                                           				###############################################
+   237      2917         4197      1.4      0.2  	column.leftAncestorPairTable.pop(left, None) #Optimization D
+
+Total time: 0.40127 s
+File: parse2.py
+Function: scan at line 240
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   240                                           @profile
+   241                                           def scan(hypothesisWord, entry, column, sentence):
+   242                                           	'''If the currColumn-th word in the sentence
+   243                                           		matches the hypothesisWord:
+   244                                           		add to the next column this entry with the
+   245                                           		dot advanced (with same startCol)
+   246                                           	'''
+   247                                           	global chart
+   248    188967       182087      1.0     45.4  	if column.index >= len(sentence):
+   249                                           		# print 'scan FAILURE'
+   250     20555        13851      0.7      3.5  		return
+   251    168412       156416      0.9     39.0  	if sentence[column.index] == hypothesisWord:
+   252      1111          856      0.8      0.2  		weight = entry.weight
+   253      1111          960      0.9      0.2  		key = (entry.startCol, entry.rule, (entry.dotIndex + 1))
+   254      1111          905      0.8      0.2  		newEntry = Entry(start=entry.startCol, rule=entry.rule, \
+   255      1111         9657      8.7      2.4  			dotIndex=(entry.dotIndex + 1), weight=weight)
+   256                                           		# make fake entry for right parent for parse tree backpointers
+   257      1111        10854      9.8      2.7  		newEntry.backpointer[1] = Entry(0, [str(hypothesisWord)], 0, weight)
+   258      1111          923      0.8      0.2  		newEntry.backpointer[0] = entry
+   259      1111         1075      1.0      0.3  		nextColumn = chart[column.index + 1].col
+   260                                           
+   261                                           		# Optimization C:
+   262      1111         4093      3.7      1.0  		if not newEntry.isComplete():
+   263       984        16828     17.1      4.2  			insertOrUpdate(chart[column.index + 1].customer, newEntry.nextCategory(), newEntry)
+   264                                           		# end optimization C
+   265      1111         1042      0.9      0.3  		if key not in nextColumn: #check duplicates
+   266      1111          981      0.9      0.2  			nextColumn[key] = newEntry
+   267                                           		else:
+   268                                           			raise RuntimeError("duplicate scan found? not possible")
+   269      1111          742      0.7      0.2  		return
+
+Total time: 148.315 s
+File: parse2.py
+Function: attach at line 271
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   271                                           @profile
+   272                                           def attach(completedEntry, currColumn, queue):
+   273                                           	'''for all entries in completedEntry.startCol:
+   274                                           		if entry has completedEntry.leftSide after the dot:
+   275                                           			advance its dot and add that entry to current column
+   276                                           	'''
+   277                                           	# Optimization C ##########################################################
+   278    135605       187032      1.4      0.1  	if completedEntry.rule[0] not in chart[completedEntry.startCol].customer:
+   279        82           60      0.7      0.0  		return
+   280    135523       139693      1.0      0.1  	customers = chart[completedEntry.startCol].customer[completedEntry.rule[0]]
+   281  27479125     20231644      0.7     13.6  	for entry in customers: #chart[completedEntry.startCol].col:
+   282                                           		# if an entry in some previous column has a category after its
+   283                                           		# dot that matches the left hand category of our completedEntry:
+   284                                           		
+   285  27343602     27597240      1.0     18.6  		key = (entry.startCol, entry.rule, (entry.dotIndex + 1))
+   286                                           
+   287  27343602     25241102      0.9     17.0  		if key not in currColumn.col:
+   288                                           			# print 'attaching new entry ' + str(newEntry)
+   289    666389       602462      0.9      0.4  			newWeight = entry.weight + completedEntry.weight
+   290    666389       523089      0.8      0.4  			newEntry = Entry(start=entry.startCol, rule=entry.rule, \
+   291    666389      6782577     10.2      4.6  				dotIndex=(entry.dotIndex + 1), weight=newWeight)
+   292    666389      1189484      1.8      0.8  			newEntry.backpointer = [entry, completedEntry]
+   293                                           
+   294    666389       621327      0.9      0.4  			currColumn.col[key] = newEntry
+   295    666389       536238      0.8      0.4  			queue.append(newEntry)
+   296                                           			######### optimization C:
+   297    666389       639133      1.0      0.4  			if (entry.dotIndex + 1) != len(entry.rule) - 1: 
+   298    530911     10408468     19.6      7.0  				insertOrUpdate(currColumn.customer, newEntry.nextCategory(), newEntry)
+   299                                           			########
+   300                                           		else:
+   301                                           			# print '# got a duplicate attach'
+   302  26677213     22784981      0.9     15.4  			newWeight = entry.weight + completedEntry.weight
+   303  26677213     28027296      1.1     18.9  			if newWeight < currColumn.col[key].weight:
+   304   1265166      1186873      0.9      0.8  				currColumn.col[key].weight = newWeight
+   305   1265166      1616348      1.3      1.1  				currColumn.col[key].backpointer = [entry, completedEntry]
+
+Total time: 0.063769 s
+File: parse2.py
+Function: addOrAppend at line 353
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   353                                           @profile	
+   354                                           def addOrAppend(table, key, value):
+   355                                           	# returns whether this was the first addition of value to table[key]
+   356                                           	# values are a list
+   357     42723        22157      0.5     34.7  	if key not in table:
+   358     16625        11859      0.7     18.6  		table[key] = [value]
+   359     16625         5990      0.4      9.4  		return True
+   360                                           	else:
+   361     26098        14559      0.6     22.8  		table[key].append(value)
+   362     26098         9204      0.4     14.4  		return False
+
+Total time: 6.31268 s
+File: parse2.py
+Function: insertOrUpdate at line 364
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   364                                           @profile
+   365                                           def insertOrUpdate(table, key, value):
+   366                                           	# returns whether this was the first addition of value to table[key]
+   367                                           	# values are in a set on right hand side
+   368    594432       316015      0.5      5.0  	if key in table:
+   369    588835      3478871      5.9     55.1  		if value in table[key]:
+   370                                           			table[key].remove(value)
+   371    588835      2241428      3.8     35.5  		table[key].add(value)
+   372    588835       245394      0.4      3.9  		return False
+   373                                           	else:
+   374      5597         5526      1.0      0.1  		table[key] = set()
+   375      5597        22996      4.1      0.4  		table[key].add(value)
+   376      5597         2454      0.4      0.0  		return True
+
+Total time: 0.023271 s
+File: parse2.py
+Function: insertOrAdd at line 378
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   378                                           @profile
+   379                                           def insertOrAdd(table, key, value):
+   380                                           	# returns whether this was the first addition of value to table[key]
+   381                                           	# values are in a set on right hand side
+   382     13405         6422      0.5     27.6  	if key in table:
+   383      9628         5601      0.6     24.1  		table[key].add(value)
+   384      9628         3396      0.4     14.6  		return False
+   385                                           	else:
+   386      3777         4321      1.1     18.6  		table[key] = set()
+   387      3777         2172      0.6      9.3  		table[key].add(value)
+   388      3777         1359      0.4      5.8  		return True
+
+Total time: 0 s
+File: parse2.py
+Function: checkCustomers at line 390
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   390                                           @profile
+   391                                           def checkCustomers(customers, category):
+   392                                           	for customer in customers:
+   393                                           		if customer.nextCategory() != category:
+   394                                           			print category
+   395                                           			print customer
+   396                                           			return False
+   397                                           	return True
+
